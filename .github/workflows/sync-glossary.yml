@@ -1,0 +1,99 @@
+name: Sync glossary
+
+# Regenerates databook/glossary.md from the Allen Glossary repository, which is
+# the source of truth for the definitions. This repository only ever reads that
+# one; the renderer (scripts/build-glossary-page.mjs) lives here, so the
+# databook owns how it presents the data and the glossary stays a pure source.
+#
+# Why polling rather than being pushed to: the glossary is a personal repo
+# outside this org, so a push-based hook would need a token minted here and
+# stored there. Polling a public repo needs no secret anywhere, and a daily
+# check is enough to keep the page from drifting.
+#
+# If someone later wants the page to update within seconds of a merge rather
+# than within a day, add a workflow over in the glossary repo that fires a
+# repository_dispatch with type `glossary-updated` at this repo. The trigger is
+# already wired up below; it needs a fine-grained PAT with "contents: write" on
+# this repository, stored as a secret there. Nothing here changes.
+#
+# This never pushes to main. It opens a PR, which is also where you preview the
+# rendered page before it goes live in the next databook build.
+
+on:
+  schedule:
+    - cron: "17 13 * * *" # ~06:17 Pacific, daily
+  workflow_dispatch: {}
+  repository_dispatch:
+    types: [glossary-updated]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-glossary
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout databook
+        uses: actions/checkout@v4
+        with:
+          path: databook-repo
+
+      - name: Checkout glossary source (read-only)
+        uses: actions/checkout@v4
+        with:
+          repository: AllenInstitute/allen-connectomics-glossary
+          path: glossary-src
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Regenerate the glossary page
+        id: gen
+        run: |
+          sha="$(git -C glossary-src rev-parse HEAD)"
+          echo "sha=$sha" >> "$GITHUB_OUTPUT"
+          node databook-repo/scripts/build-glossary-page.mjs \
+            --source glossary-src \
+            --out databook-repo/databook/glossary.md \
+            --commit "$sha"
+
+      # The generator is deterministic, so an unchanged glossary leaves the
+      # working tree clean and no PR is opened.
+      - name: Check for changes
+        id: diff
+        working-directory: databook-repo
+        run: |
+          if git diff --quiet -- databook/glossary.md; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Glossary is already up to date."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git diff --stat -- databook/glossary.md
+          fi
+
+      - name: Open pull request
+        if: steps.diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          path: databook-repo
+          branch: bot/sync-glossary
+          delete-branch: true
+          title: "Sync glossary from allen-connectomics-glossary@${{ steps.gen.outputs.sha }}"
+          commit-message: |
+            Regenerate databook/glossary.md from AllenInstitute/allen-connectomics-glossary@${{ steps.gen.outputs.sha }}
+          body: |
+            Regenerated `databook/glossary.md` from
+            [allen-connectomics-glossary](https://github.com/AllenInstitute/allen-connectomics-glossary)
+            at commit `${{ steps.gen.outputs.sha }}`.
+
+            This file is generated — review the change upstream rather than editing it here.
+            Note that this PR does not build the databook, so give the rendered page a look
+            before merging if the diff touches anything structural.
+          labels: automated,glossary
