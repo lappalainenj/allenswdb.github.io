@@ -20,6 +20,14 @@ name: Sync glossary
 # rendered page before it goes live in the next databook build.
 
 on:
+  # GitHub switches scheduled workflows off after 60 days without a commit, and
+  # this book is worked on in a burst once a year, so the schedule alone would
+  # be dormant for most of it. Syncing on push as well covers that: during the
+  # quiet months nothing needs syncing anyway, and the first push of the next
+  # season pulls the glossary current before anyone looks at it. The run is
+  # cheap and opens nothing when the glossary has not moved.
+  push:
+    branches: [main]
   schedule:
     - cron: "17 13 * * *" # ~06:17 Pacific, daily
   workflow_dispatch: {}
