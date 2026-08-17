@@ -43,10 +43,13 @@ jobs:
         with:
           path: databook-repo
 
+      # Defaults to the canonical glossary. A fork can point this at its own
+      # copy by setting a GLOSSARY_REPO repository variable, so the file stays
+      # correct as-is when a fork's branch is opened as a PR upstream.
       - name: Checkout glossary source (read-only)
         uses: actions/checkout@v4
         with:
-          repository: AllenInstitute/allen-connectomics-glossary
+          repository: ${{ vars.GLOSSARY_REPO || 'AllenInstitute/allen-connectomics-glossary' }}
           path: glossary-src
 
       - name: Set up Node
@@ -90,7 +93,7 @@ jobs:
             Regenerate databook/glossary.md from AllenInstitute/allen-connectomics-glossary@${{ steps.gen.outputs.sha }}
           body: |
             Regenerated `databook/glossary.md` from
-            [allen-connectomics-glossary](https://github.com/AllenInstitute/allen-connectomics-glossary)
+            `${{ vars.GLOSSARY_REPO || 'AllenInstitute/allen-connectomics-glossary' }}`
             at commit `${{ steps.gen.outputs.sha }}`.
 
             This file is generated — review the change upstream rather than editing it here.
