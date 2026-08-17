@@ -142,8 +142,26 @@ function cardHTML(t) {
     if (!url) continue;
     chips.push(`<a class="acg-chip acg-ng" href="${esc(url)}" target="_blank" rel="noopener">${esc(DS[k] ? DS[k].label : k)} &#8599;</a>`);
   }
-  if (t.source && t.source.url) {
-    chips.push(`<a class="acg-chip acg-src" href="${esc(t.source.url)}" target="_blank" rel="noopener">${esc(t.source.label)} &#8599;</a>`);
+  // A term's source chip cites where the definition came from. Most of them
+  // cite the databook — which is where this page now lives, so citing it as an
+  // external source is circular. Three cases:
+  //
+  //   * the databook's own glossary: that is this page. Dropped.
+  //   * another databook page: kept, but as an internal link that stays in the
+  //     book rather than bouncing the reader to the published copy of it.
+  //   * anywhere else: left alone.
+  const src = t.source && t.source.url ? String(t.source.url) : null;
+  if (src) {
+    const inBook = src.match(/^https?:\/\/allenswdb\.github\.io\/(.*)$/i);
+    if (!inBook) {
+      chips.push(`<a class="acg-chip acg-src" href="${esc(src)}" target="_blank" rel="noopener">${esc(t.source.label)} &#8599;</a>`);
+    } else {
+      const rel = inBook[1].replace(/^\/+/, "");
+      // glossary.html, or the site root, is this page
+      if (rel && !/^glossary\.html(#.*)?$/i.test(rel)) {
+        chips.push(`<a class="acg-chip acg-src" href="${esc(rel)}">in this book</a>`);
+      }
+    }
   }
 
   return [
@@ -430,12 +448,12 @@ html[data-theme="light"] .acg-root{
   font-size:.72rem; line-height:1.5; color:var(--faint)}
 .acg-foot a{color:var(--accent-ink)}
 
-/* The term index below is a MyST {glossary} directive, so it renders outside
-   .acg-root as the theme's own <dl>. Deliberately no sphinx-design dropdown
-   around it: that would pull in sphinx-design's stylesheet, and a page
-   published ahead of a full rebuild can only rely on assets the deployed site
-   already has. Compacted here instead, since this <style> only loads on this
-   page. */
+/* The term index is a MyST {glossary} directive, so it renders outside
+   .acg-root as the theme's own <dl>, inside a sphinx-design dropdown. Both are
+   styled by stylesheets the deployed site already carries — jupyter-book ships
+   sphinx-design's CSS on every page regardless of whether a page uses it, and
+   the pinned toolchain guarantees the same bundle. Compacted here, since this
+   <style> only loads on this page. */
 dl.glossary{font-size:.82rem; columns:2; column-gap:2rem; margin-top:.6rem}
 dl.glossary dt{font-weight:600; break-inside:avoid; margin-top:.5rem}
 dl.glossary dd{margin:.1rem 0 0; padding:0; color:#55606d; break-inside:avoid}
@@ -679,11 +697,14 @@ ${bodyHTML()}
 ## Term index
 
 The same ${idx.count} terms as a plain list, A to Z. This is what the databook's own
-search box and any \`{term}\` cross-reference elsewhere in the book resolve against.
+search box and any \`{term}\` cross-reference elsewhere in the book resolve against,
+so it is folded away rather than left out.
 
+::::::{dropdown} Every term, A to Z
 :::::{glossary}
 ${idx.body}
 :::::
+::::::
 
 :::{note}
 This page is generated from ${provenance} of the
