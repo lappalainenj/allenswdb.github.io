@@ -43,7 +43,7 @@ const flag = name => {
   return i === -1 ? null : argv[i + 1];
 };
 
-const USAGE = "usage: node scripts/build-glossary-page.mjs --source <glossary-checkout> --out <path/to/glossary.md> [--commit <sha>] [--preview <path.html>] [--stamp]";
+const USAGE = "usage: node scripts/build-glossary-page.mjs --source <glossary-checkout> --out <path/to/glossary.md> [--repo <owner/name>] [--commit <sha>] [--aliases <path.json>] [--preview <path.html>] [--stamp]";
 
 const SOURCE = flag("--source");
 const OUT = flag("--out");
@@ -59,6 +59,19 @@ if (!fs.existsSync(path.join(ROOT, "data", "terms.js"))) {
 }
 
 const STAMP = argv.includes("--stamp");
+
+// Where the glossary lives, as owner/name. Everything the page links back to is
+// derived from this, so a fork building its own copy points at its own glossary
+// rather than at the canonical one.
+const REPO = (flag("--repo") || "AllenInstitute/allen-connectomics-glossary").replace(/^\/+|\/+$/g, "");
+if (!/^[\w.-]+\/[\w.-]+$/.test(REPO)) {
+  console.error(`error: --repo must look like owner/name, got "${REPO}"`);
+  process.exit(2);
+}
+const [REPO_OWNER, REPO_NAME] = REPO.split("/");
+const REPO_URL = `https://github.com/${REPO}`;
+// GitHub Pages serves a project site from the lower-cased owner
+const SITE_URL = `https://${REPO_OWNER.toLowerCase()}.github.io/${REPO_NAME}/`;
 
 // Alias map, read from beside the output page unless told otherwise. Optional:
 // without it the page still builds, just with fewer cross-references resolving.
@@ -651,7 +664,7 @@ ${CSS}
   <p class="acg-empty" hidden>Nothing matches that search.</p>
 
   <p class="acg-foot">
-    Generated from the <a href="https://github.com/AllenInstitute/allen-connectomics-glossary" target="_blank" rel="noopener">Allen Glossary</a>
+    Generated from the <a href="${SITE_URL}" target="_blank" rel="noopener">Allen Glossary</a>
     (revision ${esc(SITE.revision)}), which is the source of truth for these definitions &#8212;
     corrections and new terms belong there, not on this page.${refs ? `<br>Further reading: ${refs}` : ""}
   </p>
@@ -670,7 +683,7 @@ ${JS}
 // use backticks freely, which a ``` fence would not.
 function page() {
   const provenance = COMMIT
-    ? `[\`${COMMIT.slice(0, 7)}\`](https://github.com/AllenInstitute/allen-connectomics-glossary/commit/${COMMIT})`
+    ? `[\`${COMMIT.slice(0, 7)}\`](${REPO_URL}/commit/${COMMIT})`
     : "the source repository";
 
   const idx = termIndex();
@@ -678,17 +691,18 @@ function page() {
   return `\
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
      Produced by scripts/build-glossary-page.mjs in this repository, from
-     https://github.com/AllenInstitute/allen-connectomics-glossary
+     ${REPO_URL}
      Source commit: ${COMMIT || "unknown"}${STAMP ? `\n     Generated:     ${new Date().toISOString()}` : ""}
      Edit the definitions in that repository's data/ directory; this page is
      regenerated from it and any change made here will be overwritten. -->
 
 # Glossary
 
-${TERMS.length} terms across ${CATS.length} categories. Search matches names, definitions,
-categories and dataset names; the category legend doubles as a filter, so clicking one or
-more pills narrows the list. Every term has a permalink you can paste into an email —
-click a term name to copy the link to it.
+${TERMS.length} terms across ${CATS.length} categories, from the
+[Allen Glossary](${SITE_URL}). Search matches names, definitions, categories and dataset
+names; the category legend doubles as a filter, so clicking one or more pills narrows the
+list. Every term has a permalink you can paste into an email — click a term name to copy
+the link to it.
 
 :::::{raw} html
 ${bodyHTML()}
@@ -708,7 +722,7 @@ ${idx.body}
 
 :::{note}
 This page is generated from ${provenance} of the
-[Allen Glossary](https://github.com/AllenInstitute/allen-connectomics-glossary) repository.
+[Allen Glossary](${REPO_URL}) repository.
 Do not edit it directly &mdash; edits are overwritten the next time it is regenerated.
 To fix a definition or add a term, open a pull request against that repository.
 :::

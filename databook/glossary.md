@@ -7,10 +7,11 @@
 
 # Glossary
 
-249 terms across 19 categories. Search matches names, definitions,
-categories and dataset names; the category legend doubles as a filter, so clicking one or
-more pills narrows the list. Every term has a permalink you can paste into an email —
-click a term name to copy the link to it.
+249 terms across 19 categories, from the
+[Allen Glossary](https://alleninstitute.github.io/allen-connectomics-glossary/). Search matches names, definitions, categories and dataset
+names; the category legend doubles as a filter, so clicking one or more pills narrows the
+list. Every term has a permalink you can paste into an email — click a term name to copy
+the link to it.
 
 :::::{raw} html
 <style>
@@ -2403,7 +2404,7 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
   <p class="acg-empty" hidden>Nothing matches that search.</p>
 
   <p class="acg-foot">
-    Generated from the <a href="https://github.com/AllenInstitute/allen-connectomics-glossary" target="_blank" rel="noopener">Allen Glossary</a>
+    Generated from the <a href="https://alleninstitute.github.io/allen-connectomics-glossary/" target="_blank" rel="noopener">Allen Glossary</a>
     (revision 2026-08), which is the source of truth for these definitions &#8212;
     corrections and new terms belong there, not on this page.<br>Further reading: <a href="https://www.microns-explorer.org/" target="_blank" rel="noopener">MICrONS Explorer</a> &middot; <a href="https://caveconnectome.github.io/CAVEclient/" target="_blank" rel="noopener">CAVEclient documentation</a> &middot; <a href="https://nwb.org/" target="_blank" rel="noopener">NWB</a> &middot; <a href="https://registry.opendata.aws/allen-nd-open-data/" target="_blank" rel="noopener">AIND open data on S3</a>
   </p>

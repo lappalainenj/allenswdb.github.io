@@ -64,6 +64,7 @@ jobs:
           echo "sha=$sha" >> "$GITHUB_OUTPUT"
           node databook-repo/scripts/build-glossary-page.mjs \
             --source glossary-src \
+            --repo "${{ vars.GLOSSARY_REPO || 'AllenInstitute/allen-connectomics-glossary' }}" \
             --out databook-repo/databook/glossary.md \
             --commit "$sha"
 
