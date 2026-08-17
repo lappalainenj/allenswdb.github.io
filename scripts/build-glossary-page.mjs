@@ -26,9 +26,14 @@
 //
 //  * The renderer lives here rather than in the glossary repository, so the
 //    databook owns how it presents the data and the glossary stays a pure
-//    source. The cost is that a schema change upstream lands here unannounced,
-//    so this script fails loudly — with the offending term id — rather than
-//    quietly emitting a broken page.
+//    source. The cost is that upstream changes land here unannounced, so the
+//    script sorts them by how bad they are: something that would produce a
+//    wrong page — a term in a category that does not exist — stops the build
+//    with the offending term id, while something that merely costs a
+//    cross-reference its link — a stale entry in the alias map — warns and
+//    carries on. A hand-maintained file will rot, and one dead alias must not
+//    be able to freeze every future glossary update. --strict makes the
+//    survivable cases fatal too, for checking the alias map deliberately.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -59,6 +64,12 @@ if (!fs.existsSync(path.join(ROOT, "data", "terms.js"))) {
 }
 
 const STAMP = argv.includes("--stamp");
+const STRICT = argv.includes("--strict");
+
+// Warnings need to reach a person. On a runner that means an annotation, which
+// shows on the run summary and against the pull request the sync opens.
+const IN_ACTIONS = process.env.GITHUB_ACTIONS === "true";
+const warn = msg => console.warn(`${IN_ACTIONS ? "::warning::" : "warning: "}${msg}`);
 
 // Where the glossary lives, as owner/name. Everything the page links back to is
 // derived from this, so a fork building its own copy points at its own glossary
@@ -280,16 +291,30 @@ function loadAliases() {
     out.get(id).push(a);
   }
 
-  const problems = [];
-  if (unknown.length) problems.push(`alias target(s) not in the glossary: ${unknown.join(", ")}`);
-  if (shadowed.length) problems.push(`alias(es) already used as a term name: ${shadowed.join(", ")}`);
-  if (problems.length) {
-    throw new Error(`${ALIAS_PATH}\n  ` + problems.join("\n  ") +
-      "\n  Fix or delete these entries — the upstream glossary has moved.");
+  // A stale entry is skipped, not fatal. This file is maintained by hand and
+  // the glossary moves on its own schedule, so entries will rot; making that
+  // stop the build would mean one dead alias freezes every future glossary
+  // update, which is far worse than a handful of references losing their link.
+  // Both cases below degrade to exactly what no alias at all would give.
+  //
+  // Pass --strict to turn them back into errors when checking the file itself.
+  const notes = [];
+  if (unknown.length) {
+    notes.push(`${unknown.length} alias(es) point at a term the glossary no longer has ` +
+      `(renamed or removed upstream): ${unknown.join(", ")}. Those references will not link.`);
+  }
+  if (shadowed.length) {
+    notes.push(`${shadowed.length} alias(es) are now redundant — the glossary defines that ` +
+      `name itself: ${shadowed.join(", ")}. Safe to delete from ${path.basename(ALIAS_PATH)}.`);
+  }
+  for (const n of notes) warn(n);
+  if (notes.length && STRICT) {
+    throw new Error(`${ALIAS_PATH}: stale entries, and --strict was given.`);
   }
 
   const n = [...out.values()].reduce((s, a) => s + a.length, 0);
-  console.log(`aliases: ${n} extra name(s) across ${out.size} term(s)`);
+  console.log(`aliases: ${n} extra name(s) across ${out.size} term(s)` +
+    (notes.length ? `, ${unknown.length + shadowed.length} stale` : ""));
   return out;
 }
 
@@ -312,7 +337,7 @@ function termIndex() {
   }
 
   if (dupes.length) {
-    console.warn(`warning: ${dupes.length} duplicate term name(s) left out of the index: ${dupes.join(", ")}`);
+    warn(`${dupes.length} duplicate term name(s) left out of the index: ${dupes.join(", ")}`);
   }
 
   return { count: entries.length, body: entries.join("\n\n") };

@@ -62,11 +62,21 @@ jobs:
         run: |
           sha="$(git -C glossary-src rev-parse HEAD)"
           echo "sha=$sha" >> "$GITHUB_OUTPUT"
+          # Tee the generator's own report so the pull request can carry it.
+          # A stale alias does not stop the sync, it just quietly costs a
+          # cross-reference its link, so the report has to reach a reviewer.
           node databook-repo/scripts/build-glossary-page.mjs \
             --source glossary-src \
             --repo "${{ vars.GLOSSARY_REPO || 'AllenInstitute/allen-connectomics-glossary' }}" \
             --out databook-repo/databook/glossary.md \
-            --commit "$sha"
+            --commit "$sha" 2>&1 | tee /tmp/gen.log
+
+          {
+            echo 'report<<GENEOF'
+            grep -E '^(::warning::|warning: |aliases:)' /tmp/gen.log \
+              | sed 's/^::warning:://; s/^warning: //' || true
+            echo GENEOF
+          } >> "$GITHUB_OUTPUT"
 
       # The generator is deterministic, so an unchanged glossary leaves the
       # working tree clean and no PR is opened.
@@ -100,4 +110,15 @@ jobs:
             This file is generated — review the change upstream rather than editing it here.
             Note that this PR does not build the databook, so give the rendered page a look
             before merging if the diff touches anything structural.
+
+            <details><summary>Alias map report</summary>
+
+            ```
+            ${{ steps.gen.outputs.report }}
+            ```
+
+            Stale entries are skipped rather than failing the sync, so anything flagged
+            here means a cross-reference has quietly lost its link. Fix in
+            `databook/glossary-aliases.json`.
+            </details>
           labels: automated,glossary
