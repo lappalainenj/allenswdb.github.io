@@ -76,61 +76,74 @@ jobs:
           PY
           jb build -n --keep-going databook
 
-      - name: Check the page only needs assets the live site already has
-        id: assets
+      # gh-pages is force-pushed wholesale by the capsule's `ghp-import -f`, so
+      # it can move under us at any moment. Everything below is therefore done
+      # against a freshly fetched gh-pages and retried on rejection, rather than
+      # against the checkout taken at the start of the job.
+      #
+      # Losing a race is harmless: the capsule builds from main, and main's
+      # glossary.md is kept current by sync-glossary.yml, so a capsule deploy
+      # that lands on top of us carries the same page anyway.
+      - name: Publish onto gh-pages
+        working-directory: site
         run: |
-          page=src/databook/_build/html/glossary.html
-          test -f "$page" || { echo "::error::glossary.html was not built"; exit 1; }
+          build=../src/databook/_build/html
+          test -f "$build/glossary.html" || { echo "::error::glossary.html was not built"; exit 1; }
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           # every _static path the page links to, digests stripped
-          grep -oE '_static/[^"?'"'"' ]+' "$page" | sed 's/?.*//' | sort -u > /tmp/need.txt
+          grep -oE '_static/[^"?'"'"' ]+' "$build/glossary.html" | sed 's/?.*//' | sort -u > /tmp/need.txt
 
-          missing=0
-          : > /tmp/add.txt
-          while read -r f; do
-            if [ ! -f "site/$f" ]; then
-              # a filename the live site has never seen: safe to add, since
-              # nothing else links to it
-              if [ -f "src/databook/_build/html/$f" ]; then
+          for attempt in 1 2 3; do
+            git fetch origin gh-pages
+            git reset --hard origin/gh-pages
+
+            missing=0
+            : > /tmp/add.txt
+            while read -r f; do
+              [ -f "$f" ] && continue
+              # a filename the live site has never seen: safe to add, because
+              # nothing already deployed links to it
+              if [ -f "$build/$f" ]; then
                 echo "$f" >> /tmp/add.txt
               else
                 echo "::error::page needs $f but the build did not produce it"
                 missing=1
               fi
+            done < /tmp/need.txt
+            [ "$missing" = "1" ] && exit 1
+
+            if [ -s /tmp/add.txt ]; then
+              echo "::warning::Toolchain here differs from the one that built the live site;"
+              echo "::warning::adding $(wc -l < /tmp/add.txt) new asset(s). Shared assets are left alone, so this"
+              echo "::warning::page may drift visually until the capsule and this workflow are pinned alike."
+              cat /tmp/add.txt
             fi
-          done < /tmp/need.txt
 
-          if [ "$missing" = "1" ]; then exit 1; fi
+            cp "$build/glossary.html" glossary.html
+            mkdir -p _sources
+            cp "$build/_sources/glossary.md.txt" _sources/ 2>/dev/null || true
+            # additive only: never overwrite an asset the other pages depend on
+            while read -r f; do
+              mkdir -p "$(dirname "$f")"
+              cp "$build/$f" "$f"
+            done < /tmp/add.txt
 
-          if [ -s /tmp/add.txt ]; then
-            echo "::warning::The toolchain here differs from the one that built the live site."
-            echo "::warning::Adding $(wc -l < /tmp/add.txt) new asset(s). Existing shared assets are left alone,"
-            echo "::warning::so this page may drift visually from the rest of the book until the capsule"
-            echo "::warning::and this workflow are pinned to the same versions."
-            cat /tmp/add.txt
-          fi
+            if [ -z "$(git status --porcelain)" ]; then
+              echo "Nothing changed; the published page is already current."
+              exit 0
+            fi
 
-      - name: Copy the page onto the site
-        run: |
-          cp src/databook/_build/html/glossary.html site/glossary.html
-          # the "show source" link on the page points at this
-          mkdir -p site/_sources
-          cp src/databook/_build/html/_sources/glossary.md.txt site/_sources/ 2>/dev/null || true
-          # additive-only: never overwrite an asset the other pages already use
-          while read -r f; do
-            mkdir -p "site/$(dirname "$f")"
-            cp "src/databook/_build/html/$f" "site/$f"
-          done < /tmp/add.txt
+            git add -A
+            git commit -m "Publish glossary page from ${GITHUB_SHA::7}"
+            if git push origin gh-pages; then
+              echo "Published on attempt $attempt."
+              exit 0
+            fi
+            echo "::notice::gh-pages moved under us; refetching and retrying."
+          done
 
-      - name: Commit and push
-        working-directory: site
-        run: |
-          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
-            echo "Nothing changed; the published page is already current."
-            exit 0
-          fi
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "Publish glossary page from ${GITHUB_SHA::7}"
-          git push origin gh-pages
+          echo "::error::could not publish after 3 attempts"
+          exit 1
