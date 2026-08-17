@@ -2593,7 +2593,7 @@ search box and any `{term}` cross-reference elsewhere in the book resolve agains
   Turning EM imagery into 3D neuron objects (dense segmentation → meshes). <a href="#term-3d-reconstruction">Go to the card</a>.
 
 Action potential
-spike
+Spike
   A characteristic signal in excitable cell membranes: a potential-difference waveform that propagates along the membrane. In neurons it indicates activation. The trace is a Hodgkin-Huxley simulation: a brief current pulse opens sodium channels, which depolarise the membrane and then inactivate, while potassium conductance rises more slowly and repolarises it past rest. <a href="#term-action-potential">Go to the card</a>.
 
 AIND metadata schema
@@ -2612,7 +2612,7 @@ Baiting / coupled vs uncoupled
   Baiting: a reward an unchosen side would have given is held and delivered on the next choice of that side. Coupled or uncoupled describes whether the two sides' probabilities change together or independently. <a href="#term-baiting">Go to the card</a>.
 
 Basket cell (BC)
-basket cell
+Basket cell
   Inhibitory neuron whose synaptic output targets the cell body and proximal dendrites of excitatory neurons. Many basket cells express parvalbumin (PV), but not all — some express cholecystokinin (CCK). PV basket cells are typically fast spiking, and are thought to be important for gain control and for the temporal precision of network activity. <a href="#term-basket-cell">Go to the card</a>.
 
 BCI task / conditioned neuron
@@ -2677,7 +2677,7 @@ cloud-volume / ImageryClient
   Serverless clients to read Precomputed imagery/segmentation and download aligned cutouts. <a href="#term-cloud-volume-imageryclient">Go to the card</a>.
 
 Column (MICrONS)
-minnie column
+Minnie column
   A 100 µm-square region spanning all cortical layers, densely proofread for a cell-type census. <a href="#term-column-microns">Go to the card</a>.
 
 Column (V1DD field)
@@ -2926,7 +2926,7 @@ Level of detail (LOD)
 
 Local field potential (LFP)
 LFP
-local field potential
+Local field potential
   Transient electrical potential generated in nervous tissue by the summed activity of the cells in it, typically measured below 250 Hz. Informative about oscillations and network synchrony. <a href="#term-local-field-potential">Go to the card</a>.
 
 Locally sparse noise
@@ -3048,7 +3048,7 @@ OSI
   Orientation selectivity index (0–1). <a href="#term-osi">Go to the card</a>.
 
 Parvalbumin-positive (PV+) neuron
-parvalbumin-positive interneuron
+Parvalbumin-positive interneuron
   Fast-spiking GABAergic interneurons with strong inhibitory effects on their neighbours; action potentials can be under 400 µs. Parvalbumin is a calcium buffer, so calcium imaging of these cells should be read cautiously. <a href="#term-pv-neuron">Go to the card</a>.
 
 Passive replay block
