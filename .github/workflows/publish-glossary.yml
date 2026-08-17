@@ -55,12 +55,22 @@ jobs:
         with:
           python-version: "3.11"
 
-      # Pinned on purpose. The published page links to the _static bundle that
-      # is already on gh-pages, so it must be built by the same toolchain the
-      # capsule used. Bumping this without bumping the capsule (and vice versa)
-      # is what the asset check downstream is there to catch.
+      # Pinned to whatever the capsule uses, because the published page links to
+      # the _static bundle already on gh-pages rather than shipping its own. Get
+      # this wrong and the page still builds, but renders against the wrong
+      # stylesheet: header dropdowns collapse into bare bullet lists.
+      #
+      # To confirm the pin after a capsule upgrade, build locally and compare
+      # the theme digest against the live site — they must be equal:
+      #
+      #   curl -s https://allenswdb.github.io/background/background.html \
+      #     | grep -o 'pydata-sphinx-theme.css?digest=[a-f0-9]*'
+      #
+      # 0.15.1 gives digest dfe6caa3a7d634c4db9b, matching the deployed site
+      # (Sphinx 5.x: jquery.js and design-style.<hash>.min.css, no
+      # sphinx_highlight.js). It also needs no assets the live site lacks.
       - name: Install Jupyter Book
-        run: pip install "jupyter-book==1.0.4.post1"
+        run: pip install "jupyter-book==0.15.1"
 
       - name: Build the book with execution off
         working-directory: src
