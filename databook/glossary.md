@@ -1,7 +1,7 @@
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
      Produced by scripts/build-glossary-page.mjs in this repository, from
      https://github.com/AllenInstitute/allen-connectomics-glossary
-     Source commit: d094772fbc481439563629396543715cd7e73620
+     Source commit: 855c456f480bac600d71aa14bdfad1043cccd558
      Edit the definitions in that repository's data/ directory; this page is
      regenerated from it and any change made here will be overwritten. -->
 
@@ -2593,6 +2593,7 @@ search box and any `{term}` cross-reference elsewhere in the book resolve agains
   Turning EM imagery into 3D neuron objects (dense segmentation → meshes). <a href="#term-3d-reconstruction">Go to the card</a>.
 
 Action potential
+spike
   A characteristic signal in excitable cell membranes: a potential-difference waveform that propagates along the membrane. In neurons it indicates activation. The trace is a Hodgkin-Huxley simulation: a brief current pulse opens sodium channels, which depolarise the membrane and then inactivate, while potassium conductance rises more slowly and repolarises it past rest. <a href="#term-action-potential">Go to the card</a>.
 
 AIND metadata schema
@@ -2611,6 +2612,7 @@ Baiting / coupled vs uncoupled
   Baiting: a reward an unchosen side would have given is held and delivered on the next choice of that side. Coupled or uncoupled describes whether the two sides' probabilities change together or independently. <a href="#term-baiting">Go to the card</a>.
 
 Basket cell (BC)
+basket cell
   Inhibitory neuron whose synaptic output targets the cell body and proximal dendrites of excitatory neurons. Many basket cells express parvalbumin (PV), but not all — some express cholecystokinin (CCK). PV basket cells are typically fast spiking, and are thought to be important for gain control and for the temporal precision of network activity. <a href="#term-basket-cell">Go to the card</a>.
 
 BCI task / conditioned neuron
@@ -2620,6 +2622,7 @@ Behavior session
   One behavioural recording, whether it happened under the microscope or in the training facility. Its session_type names the training stage, which is how the full training history is reconstructed. <a href="#term-behavior-session">Go to the card</a>.
 
 Bipolar cell (BPC)
+Bipolar cell
   A subset of VIP cell with a bipolar dendritic arbor — two primary dendrites leaving opposite poles of the soma. Distinct from the retinal cell of the same name. <a href="#term-bipolar-cell">Go to the card</a>.
 
 Blank sweep
@@ -2674,12 +2677,14 @@ cloud-volume / ImageryClient
   Serverless clients to read Precomputed imagery/segmentation and download aligned cutouts. <a href="#term-cloud-volume-imageryclient">Go to the card</a>.
 
 Column (MICrONS)
+minnie column
   A 100 µm-square region spanning all cortical layers, densely proofread for a cell-type census. <a href="#term-column-microns">Go to the card</a>.
 
 Column (V1DD field)
   A column field naming one of 5 stacked scan sub-volumes tiling the V1DD block — a different concept from the MICrONS column. <a href="#term-column-v1dd-field">Go to the card</a>.
 
 Common Coordinate Framework (CCF)
+CCF
   A standard 3D reference space for the mouse brain that lets data from different modalities be placed in the same coordinates. <a href="#term-ccf">Go to the card</a>.
 
 Compartment labels
@@ -2845,6 +2850,7 @@ GCaMP
   A family of GECI fusing calmodulin's calcium-binding domain to green fluorescent protein. GCaMP6f and 6s are the fast and slow variants, differing in sensitivity and especially in decay kinetics. <a href="#term-gcamp">Go to the card</a>.
 
 Genetically-encoded calcium indicator (GECI)
+GECI
   A protein expressed by a cell that changes its fluorescence on binding Ca²⁺, used to visualise neural activity with fluorescence microscopy. <a href="#term-geci">Go to the card</a>.
 
 Golden Mouse (409828)
@@ -2866,6 +2872,7 @@ Head fixation / head bar
   A surgically implanted bar clamps the mouse's head in a repeatable position — better than 10 µm across clamp cycles, which is what makes it possible to return to the same cells on a later day. <a href="#term-head-fixation">Go to the card</a>.
 
 Higher visual area (HVA)
+HVA
   A cortical visual area receiving input from primary visual cortex, and so higher in the visual hierarchy. In the mouse: VISl, VISal, VISpm, VISam, VISrl among others. <a href="#term-higher-visual-area">Go to the card</a>.
 
 Hit / miss / false alarm / correct reject
@@ -2893,6 +2900,7 @@ Interneuron
   A neuron with short axons that synapses only with nearby neurons. In cortex the term is often used to mean an inhibitory neuron. <a href="#term-interneuron">Go to the card</a>.
 
 Intrinsic signal imaging (ISI)
+ISI
   Measuring blood-flow changes from the reflectance of red light on the brain surface. Commonly used to map retinotopy across the cortical surface and so to target later recordings. <a href="#term-intrinsic-signal-imaging">Go to the card</a>.
 
 isi_violations
@@ -2917,6 +2925,8 @@ Level of detail (LOD)
   Static meshes are smaller, multi-LOD, precomputed://; dynamic meshes are detailed, single-LOD, graphene://. <a href="#term-level-of-detail-lod">Go to the card</a>.
 
 Local field potential (LFP)
+LFP
+local field potential
   Transient electrical potential generated in nervous tissue by the summed activity of the cells in it, typically measured below 250 Hz. Informative about oscillations and network synchrony. <a href="#term-local-field-potential">Go to the card</a>.
 
 Locally sparse noise
@@ -2926,6 +2936,7 @@ Manifest
   The file a cache uses to know what data exists and where it was put. Instantiating a cache without naming one creates it in the working directory. There is no manifest when you read NWB directly; the file is the manifest. <a href="#term-manifest">Go to the card</a>.
 
 Martinotti cell (MC)
+Martinotti cell
   A subtype of SST cell that targets the apical dendrites of pyramidal cells in layer 1. Martinotti cells are found in layer 2/3 and layer 5. <a href="#term-martinotti-cell">Go to the card</a>.
 
 Materialization & Versioning
@@ -3037,6 +3048,7 @@ OSI
   Orientation selectivity index (0–1). <a href="#term-osi">Go to the card</a>.
 
 Parvalbumin-positive (PV+) neuron
+parvalbumin-positive interneuron
   Fast-spiking GABAergic interneurons with strong inhibitory effects on their neighbours; action potentials can be under 400 µs. Parvalbumin is a calcium buffer, so calcium imaging of these cells should be read cautiously. <a href="#term-pv-neuron">Go to the card</a>.
 
 Passive replay block
@@ -3118,9 +3130,11 @@ Retake
   A second attempt at a session_type after the first failed QC. Why prior_exposures_to_image_set and not session_type tells you whether a session was truly the first with novel images. <a href="#term-retake">Go to the card</a>.
 
 Retinotopy
+retinotopic map
   The mapping of visual space onto neural space: neighbouring points in the visual field are represented by neighbouring points in the brain. Measured as altitude (upper–lower) and azimuth (left–right). <a href="#term-retinotopy">Go to the card</a>.
 
 ROI mask
+ROI
   The pixel mask for one segmented cell in an imaging plane. In two-photon data an ROI is the set of pixels thought to belong to a single neuron. <a href="#term-roi-mask">Go to the card</a>.
 
 Root_id (pt_root_id)
@@ -3166,6 +3180,7 @@ snr
   Waveform amplitude relative to background noise on the peak channel. <a href="#term-snr-unit">Go to the card</a>.
 
 Somatostatin (SST) cell
+Somatostatin cell
   An inhibitory interneuron expressing somatostatin (SST, sometimes SOM). SST cells tend to target the distal dendrites of excitatory neurons, and have important roles in regulating their activity. <a href="#term-somatostatin-sst-cell">Go to the card</a>.
 
 Source
@@ -3316,6 +3331,9 @@ VIP cell
   An inhibitory interneuron expressing Vasoactive Intestinal Protein. VIP cells tend to target somatostatin cells rather than excitatory neurons; this role as a “disinhibitory specialist” is thought to matter for context-dependent modulation of cortical activity. <a href="#term-vip-cell">Go to the card</a>.
 
 VISp / VISal / VISrl
+Primary visual cortex
+V1
+VISp
   The visual cortical areas (V1 / AL / RL / LM) the volume spans and assigns. <a href="#term-visp-visal-visrl">Go to the card</a>.
 
 Volume
@@ -3338,7 +3356,7 @@ Waveform
 :::::
 
 :::{note}
-This page is generated from [`d094772`](https://github.com/AllenInstitute/allen-connectomics-glossary/commit/d094772fbc481439563629396543715cd7e73620) of the
+This page is generated from [`855c456`](https://github.com/AllenInstitute/allen-connectomics-glossary/commit/855c456f480bac600d71aa14bdfad1043cccd558) of the
 [Allen Glossary](https://github.com/AllenInstitute/allen-connectomics-glossary) repository.
 Do not edit it directly &mdash; edits are overwritten the next time it is regenerated.
 To fix a definition or add a term, open a pull request against that repository.

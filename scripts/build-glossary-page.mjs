@@ -60,6 +60,11 @@ if (!fs.existsSync(path.join(ROOT, "data", "terms.js"))) {
 
 const STAMP = argv.includes("--stamp");
 
+// Alias map, read from beside the output page unless told otherwise. Optional:
+// without it the page still builds, just with fewer cross-references resolving.
+const ALIAS_PATH = flag("--aliases") ||
+  path.join(path.dirname(path.resolve(OUT)), "glossary-aliases.json");
+
 const COMMIT = flag("--commit") || (() => {
   try {
     return execFileSync("git", ["-C", ROOT, "rev-parse", "HEAD"], { encoding: "utf8" }).trim();
@@ -213,7 +218,52 @@ function anatomyHTML() {
 // data/terms.js as an explicit field.
 const plain = s => unent(strip(String(s))).replace(/\s+/g, " ").trim();
 
+// The databook and the glossary do not always spell a term the same way, so an
+// entry can carry extra names. A glossary directive accepts several term lines
+// above one definition, and each becomes its own cross-reference target.
+//
+// Everything here is validated rather than trusted: an id that no longer exists
+// upstream, or an alias that shadows a real term name, fails the build. A wrong
+// alias is worse than a missing one — it silently sends a reader to the wrong
+// definition — so nothing is guessed at from the term text.
+function loadAliases() {
+  if (!fs.existsSync(ALIAS_PATH)) {
+    console.warn(`note: no alias map at ${ALIAS_PATH}; cross-references rely on exact name matches`);
+    return new Map();
+  }
+
+  const raw = JSON.parse(fs.readFileSync(ALIAS_PATH, "utf8"));
+  const byId = new Map(TERMS.map(t => [t.id, t]));
+  const names = new Set(TERMS.map(t => String(t.term).trim().toLowerCase()));
+
+  const out = new Map();          // term id -> [alias, ...]
+  const unknown = [], shadowed = [];
+
+  for (const [alias, id] of Object.entries(raw.aliases || {})) {
+    const a = alias.trim();
+    if (!byId.has(id)) { unknown.push(`${a} -> ${id}`); continue; }
+    // an alias equal to a real term name would define that term twice, which
+    // Sphinx reports as a duplicate description
+    if (names.has(a.toLowerCase())) { shadowed.push(a); continue; }
+    if (!out.has(id)) out.set(id, []);
+    out.get(id).push(a);
+  }
+
+  const problems = [];
+  if (unknown.length) problems.push(`alias target(s) not in the glossary: ${unknown.join(", ")}`);
+  if (shadowed.length) problems.push(`alias(es) already used as a term name: ${shadowed.join(", ")}`);
+  if (problems.length) {
+    throw new Error(`${ALIAS_PATH}\n  ` + problems.join("\n  ") +
+      "\n  Fix or delete these entries — the upstream glossary has moved.");
+  }
+
+  const n = [...out.values()].reduce((s, a) => s + a.length, 0);
+  console.log(`aliases: ${n} extra name(s) across ${out.size} term(s)`);
+  return out;
+}
+
 function termIndex() {
+  const aliases = loadAliases();
   const seen = new Map();
   const dupes = [];
   const entries = [];
@@ -226,7 +276,8 @@ function termIndex() {
     // the definition is one paragraph, so a stray newline cannot break out of
     // the indented block the glossary directive expects
     const def = plain(t.def) || "See the card above.";
-    entries.push(`${name}\n  ${def} <a href="#term-${esc(t.id)}">Go to the card</a>.`);
+    const lines = [name, ...(aliases.get(t.id) || [])].join("\n");
+    entries.push(`${lines}\n  ${def} <a href="#term-${esc(t.id)}">Go to the card</a>.`);
   }
 
   if (dupes.length) {

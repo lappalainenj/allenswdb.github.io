@@ -1,4 +1,14 @@
-jupyter-book
+# Pinned deliberately. The site's _static bundle is deployed by whichever
+# toolchain builds the book, and .github/workflows/publish-glossary.yml builds
+# the glossary page separately and links it against that same already-deployed
+# bundle. If the two sides land on different Sphinx generations, the glossary
+# page still builds but renders against the wrong stylesheet — the theme's
+# header dropdowns collapse into bare bullet lists.
+#
+# 0.15.1 is what the deployed site was built with; it produces
+# pydata-sphinx-theme digest dfe6caa3a7d634c4db9b. Change it here and in that
+# workflow together, never one alone.
+jupyter-book==0.15.1
 matplotlib
 numpy
 pandas
