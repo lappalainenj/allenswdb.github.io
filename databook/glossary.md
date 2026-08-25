@@ -1,13 +1,13 @@
 <!-- GENERATED FILE — DO NOT EDIT BY HAND.
      Produced by scripts/build-glossary-page.mjs in this repository, from
      https://github.com/lappalainenj/allen-glossary
-     Source commit: 57e1a8726cbf58819c629e22daa0d14c0a09e570
+     Source commit: 1aa0c040189adc824959263bfd31e79e4d6bed84
      Edit the definitions in that repository's data/ directory; this page is
      regenerated from it and any change made here will be overwritten. -->
 
 # Glossary
 
-256 terms across 19 categories, from the
+139 terms across 18 categories, from the
 [Allen Glossary](https://lappalainenj.github.io/allen-glossary/). Search matches names, definitions, categories and dataset
 names; the category legend doubles as a filter, so clicking one or more pills narrows the
 list. Every term has a permalink you can paste into an email — click a term name to copy
@@ -175,7 +175,7 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
       <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.4 10.4 14 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
       <input class="acg-q" type="search" placeholder="Search terms and definitions&#8230;" aria-label="Search the glossary" autocomplete="off" spellcheck="false">
     </label>
-    <span class="acg-count">256 terms</span>
+    <span class="acg-count">139 terms</span>
   </div>
 
   <div class="acg-legends">
@@ -185,30 +185,29 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
       <div class="acg-pillgroup">
         <span class="acg-glabel">Connectomics</span>
         <button type="button" class="acg-pill" data-cat="datasets" style="--cc:#0e7f8c" aria-pressed="false"><i></i>Datasets &amp; scope<span class="acg-n">8</span></button>
-        <button type="button" class="acg-pill" data-cat="imaging" style="--cc:#8a6f4a" aria-pressed="false"><i></i>Imaging &amp; ultrastructure<span class="acg-n">7</span></button>
-        <button type="button" class="acg-pill" data-cat="volume" style="--cc:#2f6fd0" aria-pressed="false"><i></i>Volume, voxels &amp; coordinates<span class="acg-n">8</span></button>
+        <button type="button" class="acg-pill" data-cat="imaging" style="--cc:#8a6f4a" aria-pressed="false"><i></i>Imaging &amp; ultrastructure<span class="acg-n">6</span></button>
+        <button type="button" class="acg-pill" data-cat="volume" style="--cc:#2f6fd0" aria-pressed="false"><i></i>Volume, voxels &amp; coordinates<span class="acg-n">7</span></button>
         <button type="button" class="acg-pill" data-cat="segmentation" style="--cc:#6d55e0" aria-pressed="false"><i></i>Segmentation &amp; reconstruction<span class="acg-n">8</span></button>
-        <button type="button" class="acg-pill" data-cat="morphology" style="--cc:#2a8f57" aria-pressed="false"><i></i>Morphology — meshes &amp; skeletons<span class="acg-n">27</span></button>
-        <button type="button" class="acg-pill" data-cat="proofreading" style="--cc:#b8791a" aria-pressed="false"><i></i>Proofreading &amp; data quality<span class="acg-n">10</span></button>
-        <button type="button" class="acg-pill" data-cat="cave" style="--cc:#0f766e" aria-pressed="false"><i></i>CAVE — access &amp; versioning<span class="acg-n">10</span></button>
-        <button type="button" class="acg-pill" data-cat="tables" style="--cc:#9333ea" aria-pressed="false"><i></i>Annotation tables, IDs &amp; queries<span class="acg-n">8</span></button>
-        <button type="button" class="acg-pill" data-cat="connectivity" style="--cc:#d1462c" aria-pressed="false"><i></i>Connectivity &amp; synapses<span class="acg-n">6</span></button>
-        <button type="button" class="acg-pill" data-cat="functional" style="--cc:#9a5b12" aria-pressed="false"><i></i>Functional data &amp; coregistration<span class="acg-n">14</span></button>
-        <button type="button" class="acg-pill" data-cat="tools" style="--cc:#526278" aria-pressed="false"><i></i>Visualisation tools<span class="acg-n">9</span></button>
+        <button type="button" class="acg-pill" data-cat="morphology" style="--cc:#2a8f57" aria-pressed="false"><i></i>Morphology — meshes &amp; skeletons<span class="acg-n">21</span></button>
+        <button type="button" class="acg-pill" data-cat="proofreading" style="--cc:#b8791a" aria-pressed="false"><i></i>Proofreading &amp; data quality<span class="acg-n">4</span></button>
+        <button type="button" class="acg-pill" data-cat="cave" style="--cc:#0f766e" aria-pressed="false"><i></i>CAVE — access &amp; versioning<span class="acg-n">5</span></button>
+        <button type="button" class="acg-pill" data-cat="tables" style="--cc:#9333ea" aria-pressed="false"><i></i>Annotation tables, IDs &amp; queries<span class="acg-n">2</span></button>
+        <button type="button" class="acg-pill" data-cat="connectivity" style="--cc:#d1462c" aria-pressed="false"><i></i>Connectivity &amp; synapses<span class="acg-n">3</span></button>
+        <button type="button" class="acg-pill" data-cat="functional" style="--cc:#9a5b12" aria-pressed="false"><i></i>Functional data &amp; coregistration<span class="acg-n">8</span></button>
+        <button type="button" class="acg-pill" data-cat="tools" style="--cc:#526278" aria-pressed="false"><i></i>Visualisation tools<span class="acg-n">3</span></button>
       </div>
       <div class="acg-pillgroup">
         <span class="acg-glabel">Physiology</span>
-        <button type="button" class="acg-pill" data-cat="modalities" style="--cc:#c2410c" aria-pressed="false"><i></i>Recording modalities &amp; instruments<span class="acg-n">14</span></button>
-        <button type="button" class="acg-pill" data-cat="signals" style="--cc:#0369a1" aria-pressed="false"><i></i>Signals &amp; preprocessing<span class="acg-n">12</span></button>
-        <button type="button" class="acg-pill" data-cat="quality" style="--cc:#4338ca" aria-pressed="false"><i></i>Quality metrics<span class="acg-n">15</span></button>
-        <button type="button" class="acg-pill" data-cat="genetics" style="--cc:#15803d" aria-pressed="false"><i></i>Genetic &amp; optical tools<span class="acg-n">16</span></button>
-        <button type="button" class="acg-pill" data-cat="stimuli" style="--cc:#a16207" aria-pressed="false"><i></i>Stimuli &amp; behavioural tasks<span class="acg-n">25</span></button>
-        <button type="button" class="acg-pill" data-cat="responses" style="--cc:#9f1239" aria-pressed="false"><i></i>Response properties &amp; analysis<span class="acg-n">15</span></button>
-        <button type="button" class="acg-pill" data-cat="dataorg" style="--cc:#3f3f46" aria-pressed="false"><i></i>Datasets, sessions &amp; files<span class="acg-n">14</span></button>
+        <button type="button" class="acg-pill" data-cat="modalities" style="--cc:#c2410c" aria-pressed="false"><i></i>Recording modalities &amp; instruments<span class="acg-n">5</span></button>
+        <button type="button" class="acg-pill" data-cat="signals" style="--cc:#0369a1" aria-pressed="false"><i></i>Signals &amp; preprocessing<span class="acg-n">3</span></button>
+        <button type="button" class="acg-pill" data-cat="genetics" style="--cc:#15803d" aria-pressed="false"><i></i>Genetic &amp; optical tools<span class="acg-n">12</span></button>
+        <button type="button" class="acg-pill" data-cat="stimuli" style="--cc:#a16207" aria-pressed="false"><i></i>Stimuli &amp; behavioural tasks<span class="acg-n">1</span></button>
+        <button type="button" class="acg-pill" data-cat="responses" style="--cc:#9f1239" aria-pressed="false"><i></i>Response properties &amp; analysis<span class="acg-n">6</span></button>
+        <button type="button" class="acg-pill" data-cat="dataorg" style="--cc:#3f3f46" aria-pressed="false"><i></i>Datasets, sessions &amp; files<span class="acg-n">8</span></button>
       </div>
       <div class="acg-pillgroup">
         <span class="acg-glabel">Both</span>
-        <button type="button" class="acg-pill" data-cat="celltypes" style="--cc:#c9357f" aria-pressed="false"><i></i>Cell types &amp; cortical anatomy<span class="acg-n">30</span></button>
+        <button type="button" class="acg-pill" data-cat="celltypes" style="--cc:#c9357f" aria-pressed="false"><i></i>Cell types &amp; cortical anatomy<span class="acg-n">29</span></button>
       </div>
         <button type="button" class="acg-clear" hidden>show all</button>
       </div>
@@ -224,7 +223,7 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
       <p class="acg-caveat">The illustrations are generated rather than hand-drawn. They are being
       checked by the people who know the data, but errors cannot be ruled out at this stage &#8212;
       read them as sketches of the idea, and trust the definition over the picture.
-      140 of 256 terms have one.</p>
+      80 of 139 terms have one.</p>
     </details>
   </div>
 
@@ -240,19 +239,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <div class="acg-eb" style="color:#c9357f">CELLTYPE</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-action-potential" title="Link to this term">Action potential</a></h3>
     <p class="acg-def">A characteristic signal that appears in excitable cell membranes, which takes the form of an electric potential difference waveform that propagates down the length of the cell membrane. In neurons, these indicate neuron activation. See Spike.</p>
-    </article>
-    <article class="acg-card" id="term-aind-metadata" data-cat="dataorg" data-hay="aind metadata schema six json classes describing a newer data asset: data description, subject, procedures, rig or instrument, session or acquisition, and processing. where you look up which virus was injected, or what a capsule actually ran. datasets, sessions &amp; files ">
-    <div class="acg-eb" style="color:#3f3f46">DATA</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-aind-metadata" title="Link to this term">AIND metadata schema</a></h3>
-    <p class="acg-def">Six JSON classes describing a newer data asset: data description, subject, procedures, rig or instrument, session or acquisition, and processing. Where you look up which virus was injected, or what a capsule actually ran.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="background/metadata.html">in this book</a></div>
-    </article>
-    <article class="acg-card" id="term-amplitude-cutoff" data-cat="quality" data-hay="amplitude_cutoff estimated fraction of the unit's spikes that fell below the detection threshold and were never recorded — a false-negative rate. default threshold 0.1. quality metrics ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="amc-t"><title id="amc-t">amplitude_cutoff: spikes lost below the detection threshold</title><path d="M115,150v-20h7v20zM124,150v-28h7v28zM133,150v-38h7v38zM142,150v-49h7v49zM151,150v-59h7v59zM160,150v-69h7v69zM169,150v-77h7v77zM178,150v-82h7v82zM187,150v-84h7v84zM196,150v-82h7v82zM205,150v-76h7v76zM214,150v-67h7v67zM223,150v-57h7v57zM232,150v-46h7v46zM241,150v-36h7v36zM250,150v-26h7v26zM259,150v-19h7v19zM268,150v-12h7v12zM277,150v-8h7v8z" fill="currentColor" fill-opacity=".32"/><path d="M88,150v-6h7v6zM97,150v-9h7v9zM106,150v-14h7v14z" fill="var(--accent)" fill-opacity=".22"/><path d="M80,147L92,143L104,138L116,129L128,118L140,104L152,89L164,77L176,68L188,66L200,71L212,81L224,94L236,109L248,122L260,132L272,140L284,144" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="1.8" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M74,150 H292" stroke="currentColor" stroke-opacity=".45" stroke-width="1.6"/><path d="M108,44 V158" stroke="var(--accent)" stroke-width="2.4" stroke-linecap="round"/><text x="108" y="36" text-anchor="middle" font-size="10" fill="var(--accent-ink)" font-weight="600">detection threshold</text><text x="86" y="176" font-size="10" fill="var(--muted)">missed spikes</text><text x="292" y="176" text-anchor="end" font-size="10" fill="var(--muted)">spike amplitude</text><text x="64" y="100" text-anchor="end" font-size="9.5" class="mono" fill="var(--faint)">count</text></svg></div>
-    <div class="acg-eb" style="color:#4338ca">QUALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-amplitude-cutoff" title="Link to this term">amplitude_cutoff</a></h3>
-    <p class="acg-def">Estimated fraction of the unit's spikes that fell below the detection threshold and were never recorded — a false-negative rate. Default threshold 0.1.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/ephys/visual-coding/vcnp-quality-metrics.html">in this book</a></div>
     </article>
     <article class="acg-card" id="term-annotation" data-cat="tables" data-hay="annotation labeled data (points/tables) bound to locations or cells in the volume. annotation tables, ids &amp; queries ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="anno-t">
@@ -284,11 +270,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-astrocyte" title="Link to this term">Astrocyte</a></h3>
     <p class="acg-def">A glial cell whose fine processes tile the neuropil and wrap capillaries with endfeet, supporting synapses metabolically and regulating the extracellular environment. Its arbor is a dense thicket rather than a branching tree, which is why it is proofread to a different standard from a neuron.</p>
     </article>
-    <article class="acg-card" id="term-baiting" data-cat="stimuli" data-hay="baiting / coupled vs uncoupled baiting: a reward an unchosen side would have given is held and delivered on the next choice of that side. coupled or uncoupled describes whether the two sides' probabilities change together or independently. stimuli &amp; behavioural tasks ">
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-baiting" title="Link to this term">Baiting / coupled vs uncoupled</a></h3>
-    <p class="acg-def">Baiting: a reward an unchosen side would have given is held and delivered on the next choice of that side. Coupled or uncoupled describes whether the two sides' probabilities change together or independently.</p>
-    </article>
     <article class="acg-card" id="term-basket-cell" data-cat="celltypes" data-hay="basket cell (bc) a type of inhibitory neuron whose synaptic output targets the cell body and proximal dendrites of excitatory neurons. many basket cells express the molecular marker parvalbumin (pv), but not all basket cells are pv+: some express molecules such as cholecystokinin (cck). pv basket cells are typically fast spiking compared to other neurons and are thought to be important for gain control of network activity and setting the temporal precision of network activity. cell types &amp; cortical anatomy ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="d-basket-cell"><title id="d-basket-cell">Basket cell</title><defs><clipPath id="d-basket-cell-c" clipPathUnits="userSpaceOnUse"><rect x="12" y="26" width="76" height="118"/></clipPath></defs><g transform="translate(160,100) scale(1.55) translate(-50,-88)"><g clip-path="url(#d-basket-cell-c)"><g stroke="var(--dendrite)" stroke-width="2" fill="none" stroke-linecap="round">
 <path d="M50,73 V54 M50,73 l-9,-12 M50,73 l9,-12"/>
@@ -305,13 +286,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <div class="acg-eb" style="color:#c9357f">CELLTYPE</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-basket-cell" title="Link to this term">Basket cell (BC)</a></h3>
     <p class="acg-def">A type of inhibitory neuron whose synaptic output targets the cell body and proximal dendrites of excitatory neurons. Many basket cells express the molecular marker parvalbumin (PV), but not all basket cells are PV+: some express molecules such as cholecystokinin (CCK). PV basket cells are typically fast spiking compared to other neurons and are thought to be important for gain control of network activity and setting the temporal precision of network activity.</p>
-    </article>
-    <article class="acg-card" id="term-bci-task" data-cat="stimuli" data-hay="bci task / conditioned neuron a lickport moves toward the mouse at a speed set by the fluorescence of one chosen neuron. reaching the near position within 10 s earns water. mice usually learn to drive that neuron within about 30 trials. stimuli &amp; behavioural tasks ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="bci-t"><title id="bci-t">BCI task driven by one conditioned neuron</title> <circle cx="42" cy="56" r="12" fill="var(--neuron)" fill-opacity=".25" stroke="var(--neuron)" stroke-width="2.4"/> <path d="M42,44 C38,32 34,26 30,18 M42,44 C46,32 50,28 56,20" fill="none" stroke="var(--dendrite)" stroke-width="2" stroke-linecap="round"/> <path d="M74,56 C94,56 98,30 108,32 C120,34 124,54 138,56" fill="none" stroke="var(--neuron)" stroke-width="2.2" stroke-linecap="round"/> <path d="M148,56 H176 M168,51 L176,56 L168,61" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M186,142 H304" stroke="currentColor" stroke-opacity=".3" stroke-width="1.6" stroke-linecap="round"/> <rect x="264" y="108" width="14" height="30" rx="3" fill="var(--surface-2)" stroke="var(--accent)" stroke-width="2.2"/> <path d="M262,123 H234 M242,118 L234,123 L242,128" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M194,108 C204,100 218,102 222,112 C224,122 212,128 203,125 C194,122 189,115 194,108 Z" fill="none" stroke="currentColor" stroke-opacity=".55" stroke-width="1.8"/> <g text-anchor="middle" font-size="9.5" fill="var(--muted)"> <text x="42" y="88">conditioned</text><text x="42" y="100">neuron</text><text x="206" y="160">mouse</text><text x="271" y="160">lickport</text></g> <g text-anchor="middle" font-size="9" fill="var(--faint)"> <text x="106" y="84" class="mono">ΔF/F</text><text x="246" y="96">near within 10 s</text><text x="160" y="184">learned in ~30 trials</text></g> <text x="162" y="44" text-anchor="middle" font-size="9.5" fill="var(--accent-ink)">speed</text> </svg></div>
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-bci-task" title="Link to this term">BCI task / conditioned neuron</a></h3>
-    <p class="acg-def">A lickport moves toward the mouse at a speed set by the fluorescence of one chosen neuron. Reaching the near position within 10 s earns water. Mice usually learn to drive that neuron within about 30 trials.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/ophys/BCI/BCI-overview.html">in this book</a></div>
     </article>
     <article class="acg-card" id="term-bipolar-cell" data-cat="celltypes" data-hay="bipolar cell (bpc) a subset of vip cell with a bipolar dendritic arbor. see vip cell. cell types &amp; cortical anatomy ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="d-bipolar-cell"><title id="d-bipolar-cell">Bipolar cell</title><defs><clipPath id="d-bipolar-cell-c" clipPathUnits="userSpaceOnUse"><rect x="164" y="26" width="76" height="118"/></clipPath></defs><g transform="translate(160,100) scale(1.55) translate(-202,-88)"><g clip-path="url(#d-bipolar-cell-c)"><g stroke="var(--dendrite)" stroke-width="2" fill="none" stroke-linecap="round">
@@ -330,12 +304,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-bipolar-cell" title="Link to this term">Bipolar cell (BPC)</a></h3>
     <p class="acg-def">A subset of VIP cell with a bipolar dendritic arbor. See VIP cell.</p>
     <div class="acg-meta"><span class="acg-chip acg-warn" title="This word means different things in different places">&#9888; ambiguous</span></div>
-    </article>
-    <article class="acg-card" id="term-blank-sweep" data-cat="stimuli" data-hay="blank sweep a trial in which the stimulus is replaced by mean-luminance grey, interleaved among real trials so each stimulus has its own baseline. stimuli &amp; behavioural tasks ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="bsw-t"><title id="bsw-t">Blank sweep: mean-luminance trials interleaved with stimuli</title><text x="160" y="34" text-anchor="middle" font-size="10.5" fill="var(--muted)">trial sequence</text><g fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".45" stroke-width="1.8"><rect x="20" y="62" width="46" height="46" rx="5"/><rect x="78" y="62" width="46" height="46" rx="5"/><rect x="194" y="62" width="46" height="46" rx="5"/></g><path d="M24,66h9v38h-9zM41,66h9v38h-9zM53,66h9v38h-9zM82,66h9v38h-9zM99,66h9v38h-9zM111,66h9v38h-9zM198,66h9v38h-9zM215,66h9v38h-9zM227,66h9v38h-9z" fill="currentColor" fill-opacity=".32"/><g fill="var(--accent)" fill-opacity=".1" stroke="var(--accent)" stroke-width="2.4" stroke-dasharray="5 4"><rect x="136" y="62" width="46" height="46" rx="5"/><rect x="252" y="62" width="46" height="46" rx="5"/></g><g text-anchor="middle" font-size="10" fill="var(--accent-ink)" font-weight="600"><text x="159" y="92">blank</text><text x="275" y="92">blank</text></g><path d="M20,126H300" stroke="currentColor" stroke-opacity=".35" stroke-width="1.6"/><text x="300" y="144" text-anchor="end" font-size="9.5" fill="var(--faint)">time</text><text x="160" y="172" text-anchor="middle" font-size="10" fill="var(--accent-ink)" font-weight="600">each stimulus gets its own baseline</text><text x="160" y="188" text-anchor="middle" font-size="9.5" fill="var(--faint)">interleaved, not blocked</text></svg></div>
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-blank-sweep" title="Link to this term">Blank sweep</a></h3>
-    <p class="acg-def">A trial in which the stimulus is replaced by mean-luminance grey, interleaved among real trials so each stimulus has its own baseline.</p>
     </article>
     <article class="acg-card" id="term-bound-spatial-point" data-cat="tables" data-hay="bound spatial point binds an annotation to the cell at a location via the triad pt_position → pt_supervoxel_id → pt_root_id. annotation tables, ids &amp; queries ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="bsp-t">
@@ -373,12 +341,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-branch-end-root-point" title="Link to this term">Branch / End / Root point</a></h3>
     <p class="acg-def">Named skeleton vertex types; the root is conventionally placed at the soma.</p>
     </article>
-    <article class="acg-card" id="term-catch-trial" data-cat="stimuli" data-hay="catch trial / sham change a change time is drawn but the image does not change. this conservative definition counts only presentations drawn from the change-time distribution; aborted trials are arguably catches too. stimuli &amp; behavioural tasks ">
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-catch-trial" title="Link to this term">Catch trial / sham change</a></h3>
-    <p class="acg-def">A change time is drawn but the image does not change. This conservative definition counts only presentations drawn from the change-time distribution; aborted trials are arguably catches too.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/stimuli/visual-behavior/VB-Behavior.html">in this book</a></div>
-    </article>
     <article class="acg-card" id="term-cave" data-cat="cave" data-hay="cave connectome annotation versioning engine — the suite managing large dynamic connectomics data. cave — access &amp; versioning ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="cave-hub"><title id="cave-hub">CAVE architecture hub</title>
 <rect x="16" y="30" width="96" height="32" rx="6" fill="var(--scaffold)" fill-opacity=".16" stroke="currentColor" stroke-opacity=".6" stroke-width="2"/>
@@ -400,17 +362,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-cave" title="Link to this term">CAVE</a></h3>
     <p class="acg-def">Connectome Annotation Versioning Engine — the suite managing large dynamic connectomics data.</p>
     </article>
-    <article class="acg-card" id="term-caveclient" data-cat="cave" data-hay="caveclient the main python client for programmatic access to cave services. servers: microns global.daf-apis.com, v1dd global.em.brain.allentech.org. cave — access &amp; versioning ">
-    <div class="acg-eb" style="color:#0f766e">CAVE</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-caveclient" title="Link to this term">CAVEclient</a></h3>
-    <p class="acg-def">The main Python client for programmatic access to CAVE services. Servers: MICrONS <code>global.daf-apis.com</code>, V1DD <code>global.em.brain.allentech.org</code>.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="https://caveconnectome.github.io/CAVEclient/" target="_blank" rel="noopener">CAVEclient docs &#8599;</a></div>
-    </article>
-    <article class="acg-card" id="term-cc-abs-cc-max-cc-norm" data-cat="functional" data-hay="cc_abs / cc_max / cc_norm digital-twin model-performance columns. functional data &amp; coregistration ">
-    <div class="acg-eb" style="color:#9a5b12">FUNCTION</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-cc-abs-cc-max-cc-norm" title="Link to this term">cc_abs / cc_max / cc_norm</a></h3>
-    <p class="acg-def">Digital-twin model-performance columns.</p>
-    </article>
     <article class="acg-card" id="term-cell-type" data-cat="celltypes" data-hay="cell type classification of a cell (e.g. 23p, bc) via several tables/methods, keyed on nucleus id. cell types &amp; cortical anatomy ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="ct-t"><title id="ct-t">Cell type dendrogram</title>
 <text x="160" y="30" text-anchor="middle" font-size="11" fill="var(--muted)">all cells</text>
@@ -431,96 +382,15 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-cell-type" title="Link to this term">Cell type</a></h3>
     <p class="acg-def">Classification of a cell (e.g. 23P, BC) via several tables/methods, keyed on nucleus id.</p>
     </article>
-    <article class="acg-card" id="term-cell-id-soma-id" data-cat="tables" data-hay="cell_id / soma_id the 6-digit nucleus id (from nucleus_detection_v0), static across versions; tracks a cell over time. annotation tables, ids &amp; queries ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="cid-t">
-<title id="cid-t">cell_id / soma_id</title>
-<rect x="46" y="26" width="228" height="30" rx="15" fill="var(--neuron)" fill-opacity=".16" stroke="var(--neuron)" stroke-width="2"/>
-<circle cx="70" cy="41" r="7" fill="var(--neuron)"/>
-<text x="86" y="45" font-size="11" class="mono" fill="var(--neuron)">nucleus_id 302  (fixed)</text>
-<line x1="74" y1="56" x2="74" y2="96" stroke="currentColor" stroke-opacity=".4" stroke-width="1.5" stroke-dasharray="3 3"/>
-<line x1="160" y1="56" x2="160" y2="96" stroke="currentColor" stroke-opacity=".4" stroke-width="1.5" stroke-dasharray="3 3"/>
-<line x1="246" y1="56" x2="246" y2="96" stroke="currentColor" stroke-opacity=".4" stroke-width="1.5" stroke-dasharray="3 3"/>
-<rect x="44" y="98" width="60" height="28" rx="6" fill="var(--surface-2)" stroke="var(--accent)" stroke-width="2"/>
-<text x="74" y="116" text-anchor="middle" font-size="10" class="mono" fill="var(--accent-ink)">…041</text>
-<rect x="130" y="98" width="60" height="28" rx="6" fill="var(--surface-2)" stroke="var(--accent)" stroke-width="2"/>
-<text x="160" y="116" text-anchor="middle" font-size="10" class="mono" fill="var(--accent-ink)">…582</text>
-<rect x="216" y="98" width="60" height="28" rx="6" fill="var(--surface-2)" stroke="var(--accent)" stroke-width="2"/>
-<text x="246" y="116" text-anchor="middle" font-size="10" class="mono" fill="var(--accent-ink)">…907</text>
-<path d="M106,112 l18,0 M118,107 l7,5 -7,5" fill="none" stroke="currentColor" stroke-opacity=".7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M192,112 l18,0 M204,107 l7,5 -7,5" fill="none" stroke="currentColor" stroke-opacity=".7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="44" y1="150" x2="286" y2="150" stroke="currentColor" stroke-opacity=".6" stroke-width="2" stroke-linecap="round"/>
-<path d="M280,145 l7,5 -7,5" fill="none" stroke="currentColor" stroke-opacity=".6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="74" cy="150" r="2.6" fill="currentColor"/><text x="74" y="166" text-anchor="middle" font-size="9" fill="var(--muted)">v1</text>
-<circle cx="160" cy="150" r="2.6" fill="currentColor"/><text x="160" y="166" text-anchor="middle" font-size="9" fill="var(--muted)">v2</text>
-<circle cx="246" cy="150" r="2.6" fill="currentColor"/><text x="246" y="166" text-anchor="middle" font-size="9" fill="var(--muted)">v3</text>
-<text x="165" y="186" text-anchor="middle" font-size="10" fill="var(--faint)">root_id changes across versions</text>
-</svg></div>
-    <div class="acg-eb" style="color:#9333ea">TABLES</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-cell-id-soma-id" title="Link to this term">cell_id / soma_id</a></h3>
-    <p class="acg-def">The 6-digit nucleus id (from <code>nucleus_detection_v0</code>), static across versions; tracks a cell over time.</p>
-    </article>
-    <article class="acg-card" id="term-cell-specimen-id" data-cat="dataorg" data-hay="cell_specimen_id the identifier a cell keeps once it has been matched across sessions, so the same neuron carries it on every day it was imaged. before matching, a segmented roi has only a cell_roi_id, unique to one plane on one day — joining on that one instead silently drops the across-day link. datasets, sessions &amp; files ">
-    <div class="acg-eb" style="color:#3f3f46">DATA</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-cell-specimen-id" title="Link to this term">cell_specimen_id</a></h3>
-    <p class="acg-def">The identifier a cell keeps once it has been matched across sessions, so the same neuron carries it on every day it was imaged. Before matching, a segmented ROI has only a <code>cell_roi_id</code>, unique to one plane on one day — joining on that one instead silently drops the across-day link.</p>
-    </article>
     <article class="acg-card" id="term-chandelier-cell" data-cat="celltypes" data-hay="chandelier cell (chc) a parvalbumin interneuron that synapses exclusively onto the axon initial segments of pyramidal cells, placing it in unique control of whether they fire. its output forms vertical strings of boutons — the cartridges the cell is named for. cell types &amp; cortical anatomy ">
     <div class="acg-eb" style="color:#c9357f">CELLTYPE</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-chandelier-cell" title="Link to this term">Chandelier cell (ChC)</a></h3>
     <p class="acg-def">A parvalbumin interneuron that synapses exclusively onto the axon initial segments of pyramidal cells, placing it in unique control of whether they fire. Its output forms vertical strings of boutons — the cartridges the cell is named for.</p>
     </article>
-    <article class="acg-card" id="term-change-detection" data-cat="stimuli" data-hay="change detection task a go/no-go task: images are presented in a continuous stream and the mouse earns water by licking when the image identity changes. the 500 ms grey gap between images adds a working-memory component. stimuli &amp; behavioural tasks ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="cdt-t"><title id="cdt-t">Change detection: lick when the image identity changes</title><rect x="24" y="56" width="40" height="40" rx="4" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".4" stroke-width="1.6"/><path d="M30,90 L58,62 M40,90 L58,68 M30,84 L48,62" stroke="currentColor" stroke-opacity=".45" stroke-width="2" stroke-linecap="round"/><rect x="84" y="56" width="40" height="40" rx="4" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".4" stroke-width="1.6"/><path d="M90,90 L118,62 M100,90 L118,68 M90,84 L108,62" stroke="currentColor" stroke-opacity=".45" stroke-width="2" stroke-linecap="round"/><rect x="144" y="56" width="40" height="40" rx="4" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".4" stroke-width="1.6"/><path d="M150,90 L178,62 M160,90 L178,68 M150,84 L168,62" stroke="currentColor" stroke-opacity=".45" stroke-width="2" stroke-linecap="round"/><rect x="204" y="56" width="40" height="40" rx="4" fill="var(--surface-2)" stroke="var(--accent)" stroke-opacity="1" stroke-width="2.4"/><path d="M216,62 V90 M224,62 V90 M232,62 V90" stroke="currentColor" stroke-opacity=".45" stroke-width="2" stroke-linecap="round"/><rect x="264" y="56" width="40" height="40" rx="4" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".4" stroke-width="1.6"/><path d="M276,62 V90 M284,62 V90 M292,62 V90" stroke="currentColor" stroke-opacity=".45" stroke-width="2" stroke-linecap="round"/><text x="134" y="46" text-anchor="middle" font-size="9" class="mono" fill="var(--faint)">500 ms</text><path d="M224,104 V120" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/><polygon points="224,128 220,118 228,118" fill="var(--accent)"/><text x="224" y="146" text-anchor="middle" font-size="10.5" fill="var(--accent-ink)" font-weight="600">lick</text><text x="224" y="160" text-anchor="middle" font-size="9.5" fill="var(--muted)">water</text><text x="104" y="146" text-anchor="middle" font-size="9.5" fill="var(--faint)">no lick</text><text x="160" y="188" text-anchor="middle" font-size="9.5" fill="var(--muted)">go / no-go, gap held in memory</text></svg></div>
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-change-detection" title="Link to this term">Change detection task</a></h3>
-    <p class="acg-def">A go/no-go task: images are presented in a continuous stream and the mouse earns water by licking when the image identity changes. The 500 ms grey gap between images adds a working-memory component.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/stimuli/visual-behavior/VB-Behavior.html">in this book</a></div>
-    </article>
     <article class="acg-card" id="term-channelrhodopsin" data-cat="genetics" data-hay="channelrhodopsin (chr2) a light-gated ion channel used in the field of optogenetics to control neuronal activity with light. genetic &amp; optical tools ">
     <div class="acg-eb" style="color:#15803d">GENETIC</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-channelrhodopsin" title="Link to this term">Channelrhodopsin (ChR2)</a></h3>
     <p class="acg-def">A light-gated ion channel used in the field of optogenetics to control neuronal activity with light.</p>
-    </article>
-    <article class="acg-card" id="term-chrmine" data-cat="genetics" data-hay="chrmine a red-shifted opsin, excited near 1080 nm. because gcamp is excited near 920 nm the two can be driven independently, which is what makes simultaneous imaging and single-cell photostimulation possible. genetic &amp; optical tools ">
-    <div class="acg-eb" style="color:#15803d">GENETIC</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-chrmine" title="Link to this term">ChRmine</a></h3>
-    <p class="acg-def">A red-shifted opsin, excited near 1080 nm. Because GCaMP is excited near 920 nm the two can be driven independently, which is what makes simultaneous imaging and single-cell photostimulation possible.</p>
-    </article>
-    <article class="acg-card" id="term-classification-system-column" data-cat="celltypes" data-hay="classification_system column the e / i / non-neuron grouping column in cell-type tables. cell types &amp; cortical anatomy ">
-    <div class="acg-eb" style="color:#c9357f">CELLTYPE</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-classification-system-column" title="Link to this term">classification_system column</a></h3>
-    <p class="acg-def">The E / I / non-neuron grouping column in cell-type tables.</p>
-    </article>
-    <article class="acg-card" id="term-clean" data-cat="proofreading" data-hay="clean arbor proofread to remove all merge errors (synapses correct, but may be incomplete). proofreading &amp; data quality ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="pc"><title id="pc">Clean — proofreading status ladder</title>
-<circle cx="72" cy="108" r="10" fill="var(--neuron)" fill-opacity=".2" stroke="var(--neuron)" stroke-width="2.4"/>
-<g fill="none" stroke="var(--neuron)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-<path d="M72,98 C66,82 62,70 58,54"/>
-<path d="M72,98 C74,80 77,66 79,50"/>
-<path d="M72,98 C82,84 90,74 98,60"/>
-<path d="M79,66 C85,62 91,60 98,56"/>
-<path d="M66,74 C60,70 55,68 49,66"/>
-<path d="M72,118 C72,138 69,150 65,166"/>
-</g>
-<rect x="170" y="42" width="132" height="30" rx="15" fill="none" stroke="currentColor" stroke-opacity=".3" stroke-width="1.8"/>
-<text x="236" y="61" text-anchor="middle" font-size="12" fill="var(--muted)">Extended</text>
-<rect x="170" y="87" width="132" height="30" rx="15" fill="var(--accent)" fill-opacity=".16" stroke="var(--accent)" stroke-width="2.4"/>
-<text x="236" y="106" text-anchor="middle" font-size="12" fill="var(--accent-ink)" font-weight="600">Clean</text>
-<rect x="170" y="132" width="132" height="30" rx="15" fill="none" stroke="currentColor" stroke-opacity=".3" stroke-width="1.8"/>
-<text x="236" y="151" text-anchor="middle" font-size="12" fill="var(--muted)">Unproofread</text>
-<path d="M228,82 L236,76 L244,82" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M228,127 L236,121 L244,127" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="72" y="184" text-anchor="middle" font-size="9.5" fill="var(--muted)">merge errors removed</text>
-</svg></div>
-    <div class="acg-eb" style="color:#b8791a">PROOF</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-clean" title="Link to this term">Clean</a></h3>
-    <p class="acg-def">Arbor proofread to remove all merge errors (synapses correct, but may be incomplete).</p>
-    </article>
-    <article class="acg-card" id="term-cloud-volume-imageryclient" data-cat="cave" data-hay="cloud-volume / imageryclient serverless clients to read precomputed imagery/segmentation and download aligned cutouts. cave — access &amp; versioning ">
-    <div class="acg-eb" style="color:#0f766e">CAVE</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-cloud-volume-imageryclient" title="Link to this term">cloud-volume / ImageryClient</a></h3>
-    <p class="acg-def">Serverless clients to read Precomputed imagery/segmentation and download aligned cutouts.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="https://github.com/seung-lab/cloud-volume" target="_blank" rel="noopener">cloud-volume &#8599;</a></div>
     </article>
     <article class="acg-card" id="term-column-microns" data-cat="datasets" data-hay="column (microns) a colloquial name for the 100 micron by 100 micron square column of cortex targeted for the census across layers. this column is a particularly well proofread collection of cells. datasets &amp; scope microns">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="d1"><title id="d1">Column (MICrONS)</title><rect x="66" y="30" width="180" height="140" fill="var(--scaffold)" fill-opacity=".1" stroke="currentColor" stroke-opacity=".6" stroke-width="2"/><line x1="66" y1="48" x2="246" y2="48" stroke="currentColor" stroke-opacity=".35" stroke-width="1.3"/><line x1="66" y1="84" x2="246" y2="84" stroke="currentColor" stroke-opacity=".35" stroke-width="1.3"/><line x1="66" y1="106" x2="246" y2="106" stroke="currentColor" stroke-opacity=".35" stroke-width="1.3"/><line x1="66" y1="140" x2="246" y2="140" stroke="currentColor" stroke-opacity=".35" stroke-width="1.3"/><text x="60" y="42" text-anchor="end" font-size="9" fill="var(--faint)">L1</text><text x="60" y="69" text-anchor="end" font-size="9" fill="var(--faint)">L2/3</text><text x="60" y="99" text-anchor="end" font-size="9" fill="var(--faint)">L4</text><text x="60" y="126" text-anchor="end" font-size="9" fill="var(--faint)">L5</text><text x="60" y="158" text-anchor="end" font-size="9" fill="var(--faint)">L6</text><rect x="146" y="30" width="24" height="140" fill="var(--accent)" fill-opacity=".2" stroke="var(--accent-ink)" stroke-width="2"/><text x="70" y="24" text-anchor="start" font-size="9" fill="var(--muted)">pia</text><text x="70" y="184" text-anchor="start" font-size="9" fill="var(--muted)">white matter</text><line x1="158" y1="170" x2="158" y2="185" stroke="var(--accent-ink)" stroke-width="1.5"/><text x="155" y="196" text-anchor="end" font-size="9.5" class="mono" fill="var(--accent-ink)" font-weight="600">100 µm</text><text x="158" y="196" text-anchor="start" font-size="9.5" fill="var(--accent-ink)" font-weight="600"> census column</text></svg></div>
@@ -548,12 +418,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-compartment-labels" title="Link to this term">Compartment labels</a></h3>
     <p class="acg-def">SWC integer codes: 0 undefined, 1 soma, 2 axon, 3 basal dendrite, 4 apical dendrite.</p>
     </article>
-    <article class="acg-card" id="term-connectivity-viewer" data-cat="tools" data-hay="connectivity viewer dash app showing a cell's synaptic inputs/outputs grouped and colored by cell type. visualisation tools ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="cv-t"><title id="cv-t">Connectivity Viewer</title><rect x="14" y="16" width="292" height="168" rx="9" fill="var(--surface-2)" fill-opacity=".5" stroke="currentColor" stroke-opacity=".4" stroke-width="2"/><line x1="14" y1="40" x2="306" y2="40" stroke="currentColor" stroke-opacity=".3" stroke-width="1.5"/><circle cx="26" cy="28" r="3" fill="currentColor" fill-opacity=".4"/><circle cx="37" cy="28" r="3" fill="currentColor" fill-opacity=".4"/><circle cx="48" cy="28" r="3" fill="currentColor" fill-opacity=".4"/><text x="172" y="32" text-anchor="middle" font-size="10" class="mono" fill="var(--muted)">Connectivity Viewer</text><path d="M54,64 C95,70 120,90 146,100" fill="none" stroke="var(--neuron)" stroke-width="2.2" stroke-linecap="round"/><path d="M54,104 C90,104 118,104 145,104" fill="none" stroke="var(--dendrite)" stroke-width="2.2" stroke-linecap="round"/><path d="M54,144 C95,138 120,118 146,108" fill="none" stroke="var(--axon)" stroke-width="2.2" stroke-linecap="round"/><path d="M174,100 C200,90 235,70 266,64" fill="none" stroke="var(--dendrite)" stroke-width="2.2" stroke-linecap="round"/><path d="M175,104 C205,104 240,104 266,104" fill="none" stroke="var(--neuron)" stroke-width="2.2" stroke-linecap="round"/><path d="M174,108 C200,118 235,138 266,144" fill="none" stroke="var(--axon)" stroke-width="2.2" stroke-linecap="round"/><circle cx="48" cy="64" r="8" fill="var(--neuron)" fill-opacity=".3" stroke="var(--neuron)" stroke-width="2"/><circle cx="48" cy="104" r="8" fill="var(--dendrite)" fill-opacity=".3" stroke="var(--dendrite)" stroke-width="2"/><circle cx="48" cy="144" r="8" fill="var(--axon)" fill-opacity=".3" stroke="var(--axon)" stroke-width="2"/><circle cx="272" cy="64" r="8" fill="var(--dendrite)" fill-opacity=".3" stroke="var(--dendrite)" stroke-width="2"/><circle cx="272" cy="104" r="8" fill="var(--neuron)" fill-opacity=".3" stroke="var(--neuron)" stroke-width="2"/><circle cx="272" cy="144" r="8" fill="var(--axon)" fill-opacity=".3" stroke="var(--axon)" stroke-width="2"/><circle cx="160" cy="104" r="15" fill="var(--neuron)" fill-opacity=".3" stroke="var(--neuron)" stroke-width="2.4"/><circle cx="147" cy="97" r="3.2" fill="var(--synapse)"/><circle cx="146" cy="107" r="3.2" fill="var(--synapse)"/><circle cx="148" cy="115" r="3.2" fill="var(--synapse)"/><circle cx="173" cy="97" r="3.2" fill="var(--synapse)"/><circle cx="174" cy="107" r="3.2" fill="var(--synapse)"/><circle cx="172" cy="115" r="3.2" fill="var(--synapse)"/><circle cx="70" cy="174" r="4.5" fill="var(--neuron)" fill-opacity=".4" stroke="var(--neuron)" stroke-width="1.6"/><text x="80" y="178" font-size="9" class="mono" fill="var(--muted)">23P</text><circle cx="140" cy="174" r="4.5" fill="var(--dendrite)" fill-opacity=".4" stroke="var(--dendrite)" stroke-width="1.6"/><text x="150" y="178" font-size="9" class="mono" fill="var(--muted)">BC</text><circle cx="205" cy="174" r="4.5" fill="var(--axon)" fill-opacity=".4" stroke="var(--axon)" stroke-width="1.6"/><text x="215" y="178" font-size="9" class="mono" fill="var(--muted)">5P</text></svg></div>
-    <div class="acg-eb" style="color:#526278">TOOLS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-connectivity-viewer" title="Link to this term">Connectivity Viewer</a></h3>
-    <p class="acg-def">Dash app showing a cell's synaptic inputs/outputs grouped and colored by cell type.</p>
-    </article>
     <article class="acg-card" id="term-connectome" data-cat="datasets" data-hay="connectome a wiring map of neurons and the synaptic connections between them. datasets &amp; scope ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="d3"><title id="d3">Connectome</title><g stroke="var(--axon)" stroke-width="2.2" stroke-linecap="round" fill="none"><line x1="93" y1="51.6" x2="192" y2="48.4"/><line x1="212.7" y1="58.5" x2="244.3" y2="101.5"/><line x1="240.8" y1="118.6" x2="179.2" y2="155.3"/><line x1="78.5" y1="135.7" x2="155.5" y2="158.3"/><line x1="77.8" y1="64.8" x2="68.2" y2="119.2"/><line x1="201" y1="60.4" x2="172" y2="149.6"/></g><g fill="var(--synapse)"><circle cx="192" cy="48.4" r="3.8"/><circle cx="244.3" cy="101.5" r="3.8"/><circle cx="179.2" cy="155.3" r="3.8"/><circle cx="155.5" cy="158.3" r="3.8"/><circle cx="68.2" cy="119.2" r="3.8"/><circle cx="172" cy="149.6" r="3.8"/></g><g fill="var(--neuron)" fill-opacity=".2" stroke="var(--neuron)" stroke-width="2.2"><circle cx="80" cy="52" r="13"/><circle cx="205" cy="48" r="13"/><circle cx="252" cy="112" r="13"/><circle cx="168" cy="162" r="13"/><circle cx="66" cy="132" r="13"/></g><circle cx="30" cy="180" r="3.8" fill="var(--synapse)"/><text x="39" y="183" font-size="9" fill="var(--muted)">synapse</text><line x1="96" y1="180" x2="118" y2="180" stroke="var(--axon)" stroke-width="2.2" stroke-linecap="round"/><text x="124" y="183" font-size="9" fill="var(--muted)">directed edge</text><circle cx="214" cy="180" r="6" fill="var(--neuron)" fill-opacity=".2" stroke="var(--neuron)" stroke-width="2"/><text x="224" y="183" font-size="9" fill="var(--muted)">neuron</text></svg></div>
     <div class="acg-eb" style="color:#0e7f8c">DATASETS</div>
@@ -564,12 +428,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <div class="acg-eb" style="color:#3f3f46">DATA</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-container" title="Link to this term">Container</a></h3>
     <p class="acg-def"><i>There is no consistent use of this term</i> Most often this refers to the set of recording sessions for a single ophys imaging plane, but can also refer to the set of sessions for an animal.</p>
-    <div class="acg-meta"><span class="acg-chip acg-warn" title="This word means different things in different places">&#9888; ambiguous</span></div>
-    </article>
-    <article class="acg-card" id="term-context-block" data-cat="stimuli" data-hay="context block a ten-minute stretch in which only one modality is rewarded, signalled by instruction trials at its start. blocks alternate for six blocks in a session. stimuli &amp; behavioural tasks ">
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-context-block" title="Link to this term">Context block</a></h3>
-    <p class="acg-def">A ten-minute stretch in which only one modality is rewarded, signalled by instruction trials at its start. Blocks alternate for six blocks in a session.</p>
     <div class="acg-meta"><span class="acg-chip acg-warn" title="This word means different things in different places">&#9888; ambiguous</span></div>
     </article>
     <article class="acg-card" id="term-coordinate-frames" data-cat="volume" data-hay="coordinate frames three systems: voxel (annotations), nanometer (mesh/skeleton vertices), transformed (pia-flattened microns). volume, voxels &amp; coordinates ">
@@ -595,36 +453,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <div class="acg-eb" style="color:#15803d">GENETIC</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-cre-line" title="Link to this term">Cre line</a></h3>
     <p class="acg-def">The Cre-lox system is a site-specific recombinase technology. Cre-recombinase is a tyrosine site-specific recombinase that catalyzes the recombination of DNA between specific sites known as <b>loxP</b> sequences. As used in these experiments, Cre is used with loxP Reporter line in order to drive recombinase of the loxP sites and drive the expression of the reporter. As Cre is often expressed within a specific gene, this allows the reporter expression to be restricted to particular subset of cells. For specific lines used, see the section on transgenic tools.</p>
-    </article>
-    <article class="acg-card" id="term-ctr-pt-position" data-cat="connectivity" data-hay="ctr_pt_position the synapse-junction center point (not root-id-bound). connectivity &amp; synapses ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="cpp-t"><title id="cpp-t">ctr_pt_position — synapse center point</title><path d="M30,64 C84,72 122,96 150,104" fill="none" stroke="var(--axon)" stroke-width="2.6" stroke-linecap="round"/><path d="M290,144 C238,136 200,112 170,104" fill="none" stroke="var(--dendrite)" stroke-width="2.6" stroke-linecap="round"/><text x="40" y="52" font-size="9.5" class="mono" fill="var(--axon)">axon</text><text x="280" y="160" text-anchor="end" font-size="9.5" class="mono" fill="var(--dendrite)">dendrite</text><line x1="146" y1="104" x2="174" y2="104" stroke="var(--synapse)" stroke-width="1.5" stroke-linecap="round" stroke-opacity=".5"/><line x1="160" y1="90" x2="160" y2="118" stroke="var(--synapse)" stroke-width="1.5" stroke-linecap="round" stroke-opacity=".5"/><circle cx="160" cy="104" r="6.5" fill="var(--synapse)"/><line x1="160" y1="112" x2="160" y2="136" stroke="var(--synapse)" stroke-width="1.4" stroke-linecap="round" stroke-opacity=".45"/><text x="160" y="152" text-anchor="middle" font-size="11" class="mono" fill="var(--synapse)">ctr_pt_position</text><text x="160" y="167" text-anchor="middle" font-size="9.5" fill="var(--muted)">synapse centroid, not root-bound</text></svg></div>
-    <div class="acg-eb" style="color:#d1462c">CONNECT</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-ctr-pt-position" title="Link to this term">ctr_pt_position</a></h3>
-    <p class="acg-def">The synapse-junction center point (not root-id-bound).</p>
-    </article>
-    <article class="acg-card" id="term-current-source-density" data-cat="signals" data-hay="current source density (csd) the second spatial derivative of the lfp along the probe, which localises current sinks and sources and so the laminar position of synaptic input. signals &amp; preprocessing ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="csd-t"><title id="csd-t">Current source density along the probe</title> <g fill="none" stroke="currentColor" stroke-opacity=".55" stroke-width="1.6" stroke-linecap="round"> <path d="M40,34 C60,34 66,28 78,34 S104,38 126,34"/> <path d="M40,62 C60,62 68,54 80,62 S104,68 126,62"/> <path d="M40,90 C60,90 70,72 84,90 S104,100 126,90"/> <path d="M40,118 C60,118 70,136 84,118 S104,110 126,118"/> <path d="M40,146 C60,146 68,152 80,146 S104,142 126,146"/></g> <text x="83" y="166" text-anchor="middle" font-size="10.5" fill="var(--muted)">LFP by depth</text> <path d="M140,90 H168" stroke="currentColor" stroke-opacity=".5" stroke-width="1.8" stroke-linecap="round"/><polygon points="174,90 166,86 166,94" fill="currentColor" fill-opacity=".5"/> <text x="157" y="80" text-anchor="middle" font-size="9" class="mono" fill="var(--faint)">d2/dz2</text> <rect x="192" y="26" width="72" height="128" rx="4" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".4" stroke-width="1.6"/> <rect x="192" y="42" width="72" height="22" fill="currentColor" fill-opacity=".18"/> <rect x="192" y="80" width="72" height="26" fill="var(--accent)" fill-opacity=".35"/> <rect x="192" y="122" width="72" height="20" fill="currentColor" fill-opacity=".12"/> <text x="270" y="57" font-size="10" fill="var(--muted)">source</text> <text x="270" y="97" font-size="10" fill="var(--accent-ink)" font-weight="600">sink</text> <text x="270" y="137" font-size="10" fill="var(--muted)">source</text> <text x="228" y="176" text-anchor="middle" font-size="9" fill="var(--faint)">sink marks synaptic input</text> <text x="184" y="26" text-anchor="end" font-size="9" fill="var(--faint)">pia</text> </svg></div>
-    <div class="acg-eb" style="color:#0369a1">SIGNAL</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-current-source-density" title="Link to this term">Current source density (CSD)</a></h3>
-    <p class="acg-def">The second spatial derivative of the LFP along the probe, which localises current sinks and sources and so the laminar position of synaptic input.</p>
-    </article>
-    <article class="acg-card" id="term-d-prime-unit" data-cat="quality" data-hay="d_prime (unit) separability of this unit's waveforms from its neighbours', by linear discriminant analysis. higher is better. not the behavioural d-prime. quality metrics ">
-    <div class="acg-eb" style="color:#4338ca">QUALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-d-prime-unit" title="Link to this term">d_prime (unit)</a></h3>
-    <p class="acg-def">Separability of this unit's waveforms from its neighbours', by linear discriminant analysis. Higher is better. Not the behavioural d-prime.</p>
-    <div class="acg-meta"><span class="acg-chip acg-warn" title="This word means different things in different places">&#9888; ambiguous</span></div>
-    </article>
-    <article class="acg-card" id="term-d-prime-behavior" data-cat="stimuli" data-hay="d-prime (behavioural) signal-detection sensitivity for the task: how far the hit rate exceeds the false-alarm rate. not the unit quality metric of the same name. stimuli &amp; behavioural tasks ">
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-d-prime-behavior" title="Link to this term">d-prime (behavioural)</a></h3>
-    <p class="acg-def">Signal-detection sensitivity for the task: how far the hit rate exceeds the false-alarm rate. Not the unit quality metric of the same name.</p>
-    <div class="acg-meta"><span class="acg-chip acg-warn" title="This word means different things in different places">&#9888; ambiguous</span></div>
-    </article>
-    <article class="acg-card" id="term-dash-web-apps" data-cat="tools" data-hay="dash web apps plotly-dash apps (table viewer, connectivity viewer) for fast querying + neuroglancer-link generation. visualisation tools ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="dw-t"><title id="dw-t">Dash web apps</title><rect x="20" y="24" width="120" height="74" rx="8" fill="var(--surface-2)" fill-opacity=".6" stroke="currentColor" stroke-opacity=".45" stroke-width="2"/><line x1="20" y1="44" x2="140" y2="44" stroke="currentColor" stroke-opacity=".3" stroke-width="1.5"/><text x="80" y="38" text-anchor="middle" font-size="9.5" class="mono" fill="var(--muted)">Table Viewer</text><line x1="34" y1="58" x2="126" y2="58" stroke="currentColor" stroke-opacity=".45" stroke-width="2"/><line x1="34" y1="70" x2="126" y2="70" stroke="currentColor" stroke-opacity=".25" stroke-width="2"/><line x1="34" y1="82" x2="126" y2="82" stroke="currentColor" stroke-opacity=".25" stroke-width="2"/><line x1="64" y1="52" x2="64" y2="90" stroke="currentColor" stroke-opacity=".25" stroke-width="1.5"/><line x1="96" y1="52" x2="96" y2="90" stroke="currentColor" stroke-opacity=".25" stroke-width="1.5"/><rect x="180" y="24" width="120" height="74" rx="8" fill="var(--surface-2)" fill-opacity=".6" stroke="currentColor" stroke-opacity=".45" stroke-width="2"/><line x1="180" y1="44" x2="300" y2="44" stroke="currentColor" stroke-opacity=".3" stroke-width="1.5"/><text x="240" y="38" text-anchor="middle" font-size="8.5" class="mono" fill="var(--muted)">Connectivity Viewer</text><circle cx="240" cy="74" r="6" fill="var(--neuron)" fill-opacity=".3" stroke="var(--neuron)" stroke-width="2"/><line x1="235" y1="70" x2="221" y2="62" stroke="var(--dendrite)" stroke-width="2" stroke-linecap="round"/><line x1="245" y1="70" x2="259" y2="62" stroke="var(--axon)" stroke-width="2" stroke-linecap="round"/><line x1="235" y1="79" x2="222" y2="88" stroke="var(--synapse)" stroke-width="2" stroke-linecap="round"/><line x1="245" y1="79" x2="258" y2="88" stroke="var(--axon)" stroke-width="2" stroke-linecap="round"/><circle cx="219" cy="61" r="3" fill="var(--dendrite)"/><circle cx="261" cy="61" r="3" fill="var(--axon)"/><circle cx="220" cy="90" r="3" fill="var(--synapse)"/><circle cx="260" cy="90" r="3" fill="var(--axon)"/><path d="M80,98 C80,124 108,132 126,146" fill="none" stroke="currentColor" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/><polygon points="121,140 131,142 125,150" fill="currentColor" fill-opacity=".5"/><path d="M240,98 C240,124 212,132 194,146" fill="none" stroke="currentColor" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/><polygon points="189,142 199,140 195,150" fill="currentColor" fill-opacity=".5"/><rect x="100" y="150" width="120" height="30" rx="15" fill="var(--accent)" fill-opacity=".18" stroke="var(--accent)" stroke-width="2"/><text x="160" y="169" text-anchor="middle" font-size="11" class="mono" fill="var(--accent-ink)">Neuroglancer</text><line x1="118" y1="172" x2="202" y2="172" stroke="var(--accent-ink)" stroke-opacity=".5" stroke-width="1.2"/></svg></div>
-    <div class="acg-eb" style="color:#526278">TOOLS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-dash-web-apps" title="Link to this term">Dash web apps</a></h3>
-    <p class="acg-def">Plotly-Dash apps (Table Viewer, Connectivity Viewer) for fast querying + Neuroglancer-link generation.</p>
     </article>
     <article class="acg-card" id="term-dataset" data-cat="dataorg" data-hay="dataset there is no consistent use of this term datasets, sessions &amp; files ">
     <div class="acg-eb" style="color:#3f3f46">DATA</div>
@@ -653,22 +481,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-datastack" title="Link to this term">Datastack</a></h3>
     <p class="acg-def">A named bundle of imagery + segmentation + annotation DB (<code>minnie65_public</code>, <code>v1dd_public</code>).</p>
     </article>
-    <article class="acg-card" id="term-decoder-label" data-cat="quality" data-hay="decoder_label the pipeline's automated call on what a unit is — sua for a single unit, and so on — with decoder_probability as its confidence. quality metrics ">
-    <div class="acg-eb" style="color:#4338ca">QUALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-decoder-label" title="Link to this term">decoder_label</a></h3>
-    <p class="acg-def">The pipeline's automated call on what a unit is — <code>sua</code> for a single unit, and so on — with <code>decoder_probability</code> as its confidence.</p>
-    </article>
-    <article class="acg-card" id="term-default-filters" data-cat="quality" data-hay="default quality filtering visual coding applies isi_violations, amplitude_cutoff and presence_ratio filters by default; visual behavior neuropixels returns every unit unfiltered. opposite defaults on the same kind of data — check which you are holding. quality metrics ">
-    <div class="acg-eb" style="color:#4338ca">QUALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-default-filters" title="Link to this term">Default quality filtering</a></h3>
-    <p class="acg-def">Visual Coding applies <code>isi_violations</code>, <code>amplitude_cutoff</code> and <code>presence_ratio</code> filters by default; Visual Behavior Neuropixels returns every unit unfiltered. Opposite defaults on the same kind of data — check which you are holding.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/ephys/visual-coding/vcnp-quality-metrics.html">in this book</a></div>
-    </article>
-    <article class="acg-card" id="term-default-qc" data-cat="quality" data-hay="default_qc a single pass/fail flag summarising the pipeline's quality criteria for a unit, in the aind-packaged datasets. quality metrics ">
-    <div class="acg-eb" style="color:#4338ca">QUALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-default-qc" title="Link to this term">default_qc</a></h3>
-    <p class="acg-def">A single pass/fail flag summarising the pipeline's quality criteria for a unit, in the AIND-packaged datasets.</p>
-    </article>
     <article class="acg-card" id="term-dendritic-spine" data-cat="morphology" data-hay="dendritic spine the small protrusion on a dendrite that receives most excitatory input, with a bulbous head on a thin neck. spine density separates excitatory from inhibitory dendrites, and spine heads are among the fragments most often left disconnected by automated segmentation. morphology — meshes &amp; skeletons ">
     <div class="acg-eb" style="color:#2a8f57">MORPH</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-dendritic-spine" title="Link to this term">Dendritic spine</a></h3>
@@ -686,33 +498,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-digital-twin" title="Link to this term">Digital twin</a></h3>
     <p class="acg-def">A DNN trained to predict a cell's response to arbitrary stimuli (source of derived functional properties).</p>
     </article>
-    <article class="acg-card" id="term-direct-vs-indirect" data-cat="genetics" data-hay="direct vs indirect activation the central pitfall of optotagging: a neuron may respond to the laser because it expresses the opsin, or because a neuron that does synapses onto it. direct responses are short-latency (&lt;10 ms), reliable across pulses, and tightly distributed in time. genetic &amp; optical tools ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="dvi-t"><title id="dvi-t">Direct versus indirect optotagging responses</title> <rect x="26" y="34" width="6" height="102" rx="2" fill="var(--accent)" fill-opacity=".45"/> <rect x="186" y="34" width="6" height="102" rx="2" fill="var(--accent)" fill-opacity=".45"/> <g fill="var(--accent)"> <circle cx="52" cy="44" r="2.4"/><circle cx="55" cy="58" r="2.4"/><circle cx="51" cy="72" r="2.4"/><circle cx="54" cy="86" r="2.4"/><circle cx="52" cy="100" r="2.4"/><circle cx="53" cy="114" r="2.4"/><circle cx="51" cy="128" r="2.4"/><circle cx="59" cy="72" r="2.4"/></g> <g fill="currentColor" fill-opacity=".6"> <circle cx="228" cy="44" r="2.4"/><circle cx="246" cy="58" r="2.4"/><circle cx="222" cy="86" r="2.4"/><circle cx="256" cy="100" r="2.4"/><circle cx="238" cy="128" r="2.4"/><circle cx="264" cy="72" r="2.4"/><circle cx="212" cy="114" r="2.4"/></g> <g stroke="currentColor" stroke-opacity=".3" stroke-width="1.6" stroke-linecap="round"><path d="M26,142 H150"/><path d="M186,142 H310"/></g> <text x="88" y="26" text-anchor="middle" font-size="11" fill="var(--accent-ink)" font-weight="600">direct</text> <text x="248" y="26" text-anchor="middle" font-size="11" fill="var(--muted)">indirect</text> <text x="88" y="162" text-anchor="middle" font-size="9" fill="var(--faint)">under 10 ms, low jitter</text> <text x="248" y="162" text-anchor="middle" font-size="9" fill="var(--faint)">later, scattered</text> <text x="88" y="178" text-anchor="middle" font-size="9" fill="var(--faint)">every pulse</text> <text x="248" y="178" text-anchor="middle" font-size="9" fill="var(--faint)">via a synapse</text> </svg></div>
-    <div class="acg-eb" style="color:#15803d">GENETIC</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-direct-vs-indirect" title="Link to this term">Direct vs indirect activation</a></h3>
-    <p class="acg-def">The central pitfall of optotagging: a neuron may respond to the laser because it expresses the opsin, or because a neuron that does synapses onto it. Direct responses are short-latency (&lt;10 ms), reliable across pulses, and tightly distributed in time.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="background/Optotagging.html">in this book</a></div>
-    </article>
-    <article class="acg-card" id="term-distance-to-root" data-cat="morphology" data-hay="distance_to_root path length along the skeleton from a vertex back to the root, in nanometres. many level-2 vertices collapse onto the single soma vertex, so the value flattens to zero across the cell body rather than varying smoothly. morphology — meshes &amp; skeletons ">
-    <div class="acg-eb" style="color:#2a8f57">MORPH</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-distance-to-root" title="Link to this term">distance_to_root</a></h3>
-    <p class="acg-def">Path length along the skeleton from a vertex back to the root, in nanometres. Many level-2 vertices collapse onto the single soma vertex, so the value flattens to zero across the cell body rather than varying smoothly.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="https://alleninstitute.github.io/microns_tutorial/" target="_blank" rel="noopener">MICrONS tutorial &#8599;</a></div>
-    </article>
-    <article class="acg-card" id="term-drift-metrics" data-cat="quality" data-hay="drift metrics max_drift and cumulative_drift record how far, in µm, a unit's spikes moved along the probe during the session. newer pipelines add activity_drift and drift_ptp. quality metrics ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="drm-t"><title id="drm-t">Drift metrics: extent versus total path of unit position</title><path d="M44,36 V158 H302" fill="none" stroke="currentColor" stroke-opacity=".4" stroke-width="1.6" stroke-linecap="round"/><path d="M50,58 H278 M50,134 H278" stroke="currentColor" stroke-opacity=".28" stroke-width="1.4" stroke-dasharray="4 4"/><path d="M50,132 C74,128 88,112 108,114 C132,116 142,88 166,82 C188,76 198,98 216,94 C238,90 252,66 276,60" fill="none" stroke="var(--neuron)" stroke-width="2.4" stroke-linecap="round"/><g stroke="var(--accent)" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M290,58 V134"/><path d="M286,64 L290,58 L294,64"/><path d="M286,128 L290,134 L294,128"/></g><text x="286" y="48" text-anchor="end" font-size="9.5" class="mono" fill="var(--accent-ink)" font-weight="600">max_drift</text><text x="34" y="42" text-anchor="end" font-size="9.5" class="mono" fill="var(--faint)">µm</text><text x="302" y="176" text-anchor="end" font-size="10" fill="var(--muted)">session time</text><text x="44" y="192" font-size="9.5" class="mono" fill="var(--faint)">cumulative_drift = length of the path</text></svg></div>
-    <div class="acg-eb" style="color:#4338ca">QUALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-drift-metrics" title="Link to this term">Drift metrics</a></h3>
-    <p class="acg-def"><code>max_drift</code> and <code>cumulative_drift</code> record how far, in µm, a unit's spikes moved along the probe during the session. Newer pipelines add <code>activity_drift</code> and <code>drift_ptp</code>.</p>
-    <div class="acg-meta"><span class="acg-chip acg-warn" title="This word means different things in different places">&#9888; ambiguous</span></div>
-    </article>
-    <article class="acg-card" id="term-drifting-gratings" data-cat="stimuli" data-hay="drifting gratings a full-field sinusoidal grating moving orthogonal to its own orientation. parameters: orientation and direction (degrees), temporal frequency (hz), spatial frequency (cycles/deg), contrast. typically 2 s on, 1 s grey. stimuli &amp; behavioural tasks ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="dgr-t"><title id="dgr-t">Drifting grating: bars move orthogonal to their orientation</title><clipPath id="dgr-c"><circle cx="98" cy="96" r="62"/></clipPath><circle cx="98" cy="96" r="62" fill="var(--surface-2)"/><g clip-path="url(#dgr-c)" transform="rotate(-30 98 96)"><path d="M10,8h11v184h-11zM34,8h11v184h-11zM58,8h11v184h-11zM82,8h11v184h-11zM106,8h11v184h-11zM130,8h11v184h-11zM154,8h11v184h-11zM178,8h11v184h-11zM202,8h11v184h-11zM226,8h11v184h-11zM250,8h11v184h-11zM274,8h11v184h-11zM298,8h11v184h-11zM322,8h11v184h-11z" fill="currentColor" fill-opacity=".35"/></g><circle cx="98" cy="96" r="62" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="2"/><g stroke="var(--accent)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M72,110 L124,82"/><path d="M115,78 L124,82 L120,91"/></g><text x="166" y="58" font-size="10" fill="var(--accent-ink)" font-weight="600">direction</text><path d="M52,52 L144,140" stroke="currentColor" stroke-opacity=".45" stroke-width="1.6" stroke-dasharray="4 4"/><text x="150" y="178" text-anchor="end" font-size="10" fill="var(--muted)">orientation</text><g class="mono" font-size="10" fill="var(--muted)"><text x="192" y="92">TF  Hz</text><text x="192" y="110">SF  cyc/deg</text><text x="192" y="128">contrast</text></g><rect x="192" y="158" width="66" height="12" rx="3" fill="currentColor" fill-opacity=".3"/><rect x="258" y="158" width="34" height="12" rx="3" fill="none" stroke="currentColor" stroke-opacity=".35" stroke-width="1.6"/><text x="225" y="188" text-anchor="middle" font-size="9" fill="var(--faint)">2 s on</text><text x="275" y="188" text-anchor="middle" font-size="9" fill="var(--faint)">1 s</text></svg></div>
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-drifting-gratings" title="Link to this term">Drifting gratings</a></h3>
-    <p class="acg-def">A full-field sinusoidal grating moving orthogonal to its own orientation. Parameters: orientation and direction (degrees), temporal frequency (Hz), spatial frequency (cycles/deg), contrast. Typically 2 s on, 1 s grey.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/stimuli/passive-visual-stimuli/visual-stimuli-list.html">in this book</a></div>
-    </article>
     <article class="acg-card" id="term-driver-line" data-cat="genetics" data-hay="driver line a general term for transgenic mouse lines that are engineered to label a specific cell type or cell population by expressing a specific gene under the control of the promoter for the cell type or cell population of interest. a cre line is a common type of driver line that allows specific genes to be expressed when crossed with a reporter line. the driver line determines what cell population is targeted, and the reporter line determines what will be expressed in that specific cell population (for example, gfp, gcamp, or channelrhodopsin). genetic &amp; optical tools ">
     <div class="acg-eb" style="color:#15803d">GENETIC</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-driver-line" title="Link to this term">Driver line</a></h3>
@@ -723,19 +508,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <div class="acg-eb" style="color:#9a5b12">FUNCTION</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-dsi" title="Link to this term">DSI</a></h3>
     <p class="acg-def">Direction selectivity index (0–1).</p>
-    </article>
-    <article class="acg-card" id="term-dynamic-foraging" data-cat="stimuli" data-hay="dynamic foraging task two choices, binary reward, and reward probabilities that change during the session. a go cue opens a short window in which the mouse licks left or right; the mouse must learn from recent outcomes to track the better side. stimuli &amp; behavioural tasks ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="dfg-t"><title id="dfg-t">Dynamic foraging: reward probabilities switch mid-session</title><text x="26" y="30" font-size="10" fill="var(--muted)">reward prob.</text><path d="M26,96 H294" stroke="currentColor" stroke-opacity=".2" stroke-width="1.4"/><path d="M26,52 H156 V126 H294" fill="none" stroke="currentColor" stroke-opacity=".8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M26,126 H156 V52 H294" fill="none" stroke="currentColor" stroke-opacity=".32" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><text x="300" y="130" text-anchor="end" font-size="9.5" class="mono" fill="var(--muted)">L</text><text x="300" y="48" text-anchor="end" font-size="9.5" class="mono" fill="var(--faint)">R</text><path d="M156,40 V166" stroke="var(--accent)" stroke-width="2.2" stroke-dasharray="5 4" stroke-linecap="round"/><text x="156" y="30" text-anchor="middle" font-size="10" fill="var(--accent-ink)" font-weight="600">block switch</text><text x="26" y="158" font-size="10" fill="var(--muted)">licks</text><g stroke="currentColor" stroke-opacity=".65" stroke-width="2.2" stroke-linecap="round"><path d="M66,146 v10 M80,146 v10 M98,146 v10 M112,146 v10 M126,146 v10 M140,146 v10"/><path d="M172,158 v10 M186,158 v10 M204,158 v10 M222,158 v10 M240,158 v10 M262,158 v10"/></g><text x="100" y="184" text-anchor="middle" font-size="9.5" fill="var(--faint)">choose left</text><text x="220" y="184" text-anchor="middle" font-size="9.5" fill="var(--faint)">choose right</text></svg></div>
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-dynamic-foraging" title="Link to this term">Dynamic foraging task</a></h3>
-    <p class="acg-def">Two choices, binary reward, and reward probabilities that change during the session. A go cue opens a short window in which the mouse licks left or right; the mouse must learn from recent outcomes to track the better side.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/stimuli/dynamic-foraging/Dynamic-Foraging.html">in this book</a></div>
-    </article>
-    <article class="acg-card" id="term-dynamic-routing" data-cat="stimuli" data-hay="dynamic routing task a context-dependent go/no-go task alternating visual and auditory blocks. the same stimulus is a target or not depending on the current block, so stimulus and meaning can be separated. stimuli &amp; behavioural tasks ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="dyro-t"><title id="dyro-t">Dynamic Routing: the same stimulus changes meaning by block</title><rect x="20" y="40" width="88" height="30" rx="8" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".4" stroke-width="1.8"/><rect x="116" y="40" width="88" height="30" rx="8" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".4" stroke-width="1.8"/><rect x="212" y="40" width="88" height="30" rx="8" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".4" stroke-width="1.8"/><text x="64" y="60" text-anchor="middle" font-size="10.5" fill="var(--muted)">visual block</text><text x="160" y="60" text-anchor="middle" font-size="10.5" fill="var(--muted)">auditory block</text><text x="256" y="60" text-anchor="middle" font-size="10.5" fill="var(--muted)">visual block</text><g fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".55" stroke-width="1.8"><rect x="50" y="92" width="28" height="28" rx="4"/><rect x="146" y="92" width="28" height="28" rx="4"/><rect x="242" y="92" width="28" height="28" rx="4"/></g><g stroke="currentColor" stroke-opacity=".5" stroke-width="4"><path d="M57,94 V118 M65,94 V118 M73,94 V118 M153,94 V118 M161,94 V118 M169,94 V118 M249,94 V118 M257,94 V118 M265,94 V118"/></g><text x="64" y="146" text-anchor="middle" font-size="11.5" fill="var(--accent-ink)" font-weight="600">GO</text><text x="160" y="146" text-anchor="middle" font-size="11.5" fill="var(--muted)">NO-GO</text><text x="256" y="146" text-anchor="middle" font-size="11.5" fill="var(--accent-ink)" font-weight="600">GO</text><text x="160" y="182" text-anchor="middle" font-size="10" fill="var(--faint)">same stimulus, meaning set by block</text></svg></div>
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-dynamic-routing" title="Link to this term">Dynamic Routing task</a></h3>
-    <p class="acg-def">A context-dependent go/no-go task alternating visual and auditory blocks. The same stimulus is a target or not depending on the current block, so stimulus and meaning can be separated.</p>
     </article>
     <article class="acg-card" id="term-edges" data-cat="morphology" data-hay="edges pairs of connected vertices (mesh.edges, skeleton edges). morphology — meshes &amp; skeletons ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="m-edge"><title id="m-edge">One highlighted edge between adjacent vertices</title><g fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="1.8" stroke-linecap="round"><path d="M58,150 L100,122"/><path d="M100,122 L150,132"/><path d="M150,132 L188,96"/><path d="M188,96 L140,80"/><path d="M140,80 L96,70"/><path d="M96,70 L52,96"/><path d="M52,96 L58,150"/></g><line x1="100" y1="122" x2="96" y2="70" stroke="var(--accent)" stroke-width="3.4" stroke-linecap="round"/><g fill="currentColor" fill-opacity=".55"><circle cx="58" cy="150" r="3.6"/><circle cx="150" cy="132" r="3.6"/><circle cx="188" cy="96" r="3.6"/><circle cx="140" cy="80" r="3.6"/><circle cx="52" cy="96" r="3.6"/></g><circle cx="100" cy="122" r="5" fill="var(--accent)" stroke="var(--surface)" stroke-width="1.5"/><circle cx="96" cy="70" r="5" fill="var(--accent)" stroke="var(--surface)" stroke-width="1.5"/><line x1="98" y1="96" x2="128" y2="90" stroke="var(--accent-ink)" stroke-width="1.5"/><text x="132" y="94" font-size="11" fill="var(--accent-ink)" font-weight="600">edge</text><text x="156" y="140" font-size="9.5" fill="var(--muted)">vertex</text></svg></div>
@@ -767,86 +539,10 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-electron-microscopy-em" title="Link to this term">Electron microscopy (EM)</a></h3>
     <p class="acg-def">Imaging that reaches nanometer resolution to reveal tissue ultrastructure.</p>
     </article>
-    <article class="acg-card" id="term-encoding-vs-decoding" data-cat="responses" data-hay="encoding vs decoding encoding asks whether an event changes neural activity; decoding asks whether the event can be read back out of the activity. same data, opposite direction. response properties &amp; analysis ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="encdec-t"><title id="encdec-t">Encoding and decoding: same data, opposite direction</title><rect x="22" y="66" width="94" height="66" rx="10" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".45" stroke-width="1.8"/><path d="M57,82 V116 M66,82 V116 M75,82 V116 M84,82 V116" stroke="currentColor" stroke-opacity=".5" stroke-width="5"/><text x="69" y="154" text-anchor="middle" font-size="11" fill="var(--muted)">stimulus</text><rect x="204" y="66" width="94" height="66" rx="10" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".45" stroke-width="1.8"/><path d="M218,82 V92 M240,82 V92 M268,82 V92 M284,82 V92 M224,96 V106 M250,96 V106 M262,96 V106 M290,96 V106 M214,110 V120 M232,110 V120 M258,110 V120 M280,110 V120" stroke="var(--neuron)" stroke-width="2.2" stroke-linecap="round"/><text x="251" y="154" text-anchor="middle" font-size="11" fill="var(--muted)">activity</text><path d="M124,84 H196" fill="none" stroke="currentColor" stroke-opacity=".6" stroke-width="2" stroke-linecap="round"/><path d="M190,80 L196,84 L190,88" fill="none" stroke="currentColor" stroke-opacity=".6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="160" y="74" text-anchor="middle" font-size="10.5" fill="var(--muted)">encoding</text><path d="M196,114 H124" fill="none" stroke="var(--accent)" stroke-width="2.2" stroke-linecap="round"/><path d="M130,110 L124,114 L130,118" fill="none" stroke="var(--accent)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><text x="160" y="132" text-anchor="middle" font-size="10.5" fill="var(--accent-ink)" font-weight="600">decoding</text></svg></div>
-    <div class="acg-eb" style="color:#9f1239">RESPONSE</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-encoding-vs-decoding" title="Link to this term">Encoding vs decoding</a></h3>
-    <p class="acg-def">Encoding asks whether an event changes neural activity; decoding asks whether the event can be read back out of the activity. Same data, opposite direction.</p>
-    </article>
-    <article class="acg-card" id="term-enhancer-aav" data-cat="genetics" data-hay="enhancer aav a virus carrying a cell-type-specific enhancer, used to restrict expression without breeding a transgenic line. genetic &amp; optical tools ">
-    <div class="acg-eb" style="color:#15803d">GENETIC</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-enhancer-aav" title="Link to this term">Enhancer AAV</a></h3>
-    <p class="acg-def">A virus carrying a cell-type-specific enhancer, used to restrict expression without breeding a transgenic line.</p>
-    </article>
-    <article class="acg-card" id="term-environment-secrets" data-cat="cave" data-hay="environment secrets how the cave auth token is supplied when code runs on a shared or hosted machine: exported as environment variables named api_secret_&lt;server&gt; instead of being written to a credentials file in the home directory. cave — access &amp; versioning ">
-    <div class="acg-eb" style="color:#0f766e">CAVE</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-environment-secrets" title="Link to this term">Environment secrets</a></h3>
-    <p class="acg-def">How the CAVE auth token is supplied when code runs on a shared or hosted machine: exported as environment variables named <code>API_SECRET_&lt;server&gt;</code> instead of being written to a credentials file in the home directory.</p>
-    </article>
     <article class="acg-card" id="term-ephys" data-cat="modalities" data-hay="ephys shorthand for electrophysiology. recording modalities &amp; instruments ">
     <div class="acg-eb" style="color:#c2410c">MODALITY</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-ephys" title="Link to this term">Ephys</a></h3>
     <p class="acg-def">Shorthand for electrophysiology.</p>
-    </article>
-    <article class="acg-card" id="term-selection-bias-ephys" data-cat="responses" data-hay="ephys selection bias spike sorting needs enough spikes to form a cluster, so sparsely active neurons are missed and large-spike, high-rate neurons — and layer 5 — are over-represented. ophys sees many of the cells ephys does not. response properties &amp; analysis ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="sbe-t"><title id="sbe-t">Ephys selection bias: large, fast-firing units dominate</title><rect x="40" y="30" width="94" height="148" rx="4" fill="var(--scaffold)" fill-opacity=".18" stroke="currentColor" stroke-opacity=".4" stroke-width="1.8"/><path d="M40,66H134 M40,100H134 M40,140H134" stroke="currentColor" stroke-opacity=".25" stroke-width="1.4"/><rect x="40" y="100" width="94" height="40" fill="var(--accent)" fill-opacity=".12"/><g fill="none" stroke="currentColor" stroke-opacity=".35" stroke-width="1.6" stroke-dasharray="2 3"><circle cx="60" cy="42" r="4"/><circle cx="104" cy="46" r="4"/><circle cx="84" cy="56" r="4"/><circle cx="114" cy="92" r="4"/><circle cx="62" cy="152" r="4"/><circle cx="96" cy="158" r="4"/><circle cx="66" cy="88" r="4"/><circle cx="166" cy="112" r="4"/></g><g fill="var(--neuron)"><circle cx="64" cy="60" r="6"/><circle cx="96" cy="74" r="6"/><circle cx="58" cy="118" r="6"/><circle cx="92" cy="112" r="6"/><circle cx="74" cy="128" r="6"/><circle cx="112" cy="130" r="6"/><circle cx="166" cy="82" r="6"/></g><g text-anchor="end" font-size="9" class="mono" fill="var(--faint)"><text x="32" y="52">L2/3</text><text x="32" y="88">L4</text><text x="32" y="166">L6</text></g><text x="32" y="126" text-anchor="end" font-size="9" class="mono" fill="var(--accent-ink)" font-weight="600">L5</text><g font-size="10" fill="var(--muted)"><text x="180" y="86">sorted: big, fast-firing</text><text x="180" y="116">missed: sparsely active</text></g><text x="180" y="144" font-size="10" fill="var(--accent-ink)" font-weight="600">L5 over-represented</text></svg></div>
-    <div class="acg-eb" style="color:#9f1239">RESPONSE</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-selection-bias-ephys" title="Link to this term">Ephys selection bias</a></h3>
-    <p class="acg-def">Spike sorting needs enough spikes to form a cluster, so sparsely active neurons are missed and large-spike, high-rate neurons — and layer 5 — are over-represented. Ophys sees many of the cells ephys does not.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="background/Ophys-ephys-comparison.html">in this book</a></div>
-    </article>
-    <article class="acg-card" id="term-epoch" data-cat="dataorg" data-hay="epoch a labelled stretch of time — but of what, and on whose clock, differs everywhere it appears. datasets, sessions &amp; files ">
-    <div class="acg-eb" style="color:#3f3f46">DATA</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-epoch" title="Link to this term">Epoch</a></h3>
-    <p class="acg-def">A labelled stretch of time — but of what, and on whose clock, differs everywhere it appears.</p>
-    <div class="acg-meta"><span class="acg-chip acg-warn" title="This word means different things in different places">&#9888; ambiguous</span></div>
-    </article>
-    <article class="acg-card" id="term-error-profiles" data-cat="proofreading" data-hay="error profiles the characteristic ways automated segmentation fails, and how they differ by compartment: thin axons are dominated by split errors, thicker dendrites and somata by merges. this asymmetry is why proofreading status is tracked separately for axon and dendrite. proofreading &amp; data quality ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="pep"><title id="pep">Error profiles — axons vs dendrites</title>
-<line x1="160" y1="28" x2="160" y2="168" stroke="currentColor" stroke-opacity=".18" stroke-width="1.5"/>
-<circle cx="46" cy="160" r="5" fill="var(--axon)"/>
-<g fill="none" stroke="var(--axon)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-<path d="M46,155 C48,142 50,134 54,124"/>
-<path d="M63,114 C68,104 72,96 78,86"/>
-<path d="M87,76 C92,66 96,58 100,48"/>
-<path d="M70,101 C82,99 92,98 104,96"/>
-<path d="M118,94 C128,93 136,92 144,90"/>
-</g>
-<g fill="none" stroke="var(--accent)" stroke-width="2.4" stroke-linecap="round">
-<path d="M52,122 L62,116"/>
-<path d="M76,84 L86,78"/>
-<path d="M104,99 L114,91"/>
-</g>
-<text x="85" y="184" text-anchor="middle" font-size="10" fill="var(--axon)">axons: more splits</text>
-<circle cx="238" cy="150" r="9" fill="var(--dendrite)" fill-opacity=".22" stroke="var(--dendrite)" stroke-width="2.4"/>
-<g fill="none" stroke="var(--dendrite)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-<path d="M238,141 C232,124 228,112 222,96"/>
-<path d="M238,141 C242,120 244,108 246,90"/>
-<path d="M238,141 C250,127 258,117 268,104"/>
-<path d="M246,90 C252,84 258,82 264,78"/>
-<path d="M268,104 C276,100 282,99 289,96"/>
-<path d="M222,96 C216,91 212,89 205,85"/>
-<path d="M238,141 C232,145 228,147 223,150"/>
-<path d="M215,155 C210,157 206,159 200,162"/>
-</g>
-<path d="M214,157 L224,147" fill="none" stroke="var(--accent)" stroke-width="2.4" stroke-linecap="round"/>
-<text x="234" y="184" text-anchor="middle" font-size="10" fill="var(--dendrite)">dendrites: fewer errors</text>
-</svg></div>
-    <div class="acg-eb" style="color:#b8791a">PROOF</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-error-profiles" title="Link to this term">Error profiles</a></h3>
-    <p class="acg-def">The characteristic ways automated segmentation fails, and how they differ by compartment: thin axons are dominated by split errors, thicker dendrites and somata by merges. This asymmetry is why proofreading status is tracked separately for axon and dendrite.</p>
-    </article>
-    <article class="acg-card" id="term-event-detection" data-cat="signals" data-hay="event detection the events array that sits beside dff: δf/f deconvolved into discrete events, one value per frame per roi. small events are recovered unreliably, so it is a cleaner signal than δf/f but not a spike train. signals &amp; preprocessing ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="evd-t"><title id="evd-t">Event detection from delta F over F</title> <path d="M22,86 H298" stroke="currentColor" stroke-opacity=".25" stroke-width="1.4"/> <path d="M22,86 C38,86 42,84 48,86 C56,88 58,30 68,32 C78,34 82,84 96,86 C110,88 112,48 122,50 C134,52 138,84 152,86 C166,88 170,76 178,78 C186,80 190,86 200,86 C214,86 218,42 228,44 C240,46 244,84 258,86 C272,88 286,86 298,86" fill="none" stroke="var(--neuron)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/> <text x="22" y="30" font-size="10.5" class="mono" fill="var(--muted)">ΔF/F</text> <path d="M22,150 H298" stroke="currentColor" stroke-opacity=".25" stroke-width="1.4"/> <g stroke="var(--accent)" stroke-width="2.6" stroke-linecap="round"> <path d="M67,150 V116"/><path d="M121,150 V128"/><path d="M227,150 V120"/></g> <path d="M178,150 V142" stroke="currentColor" stroke-opacity=".35" stroke-width="2.6" stroke-linecap="round"/> <text x="22" y="170" font-size="10.5" fill="var(--muted)">events</text> <text x="120" y="170" font-size="9" fill="var(--faint)">L0 deconvolution</text> <text x="178" y="118" text-anchor="middle" font-size="9" fill="var(--faint)">1-2 spikes:</text> <text x="178" y="129" text-anchor="middle" font-size="9" fill="var(--faint)">unreliable</text> </svg></div>
-    <div class="acg-eb" style="color:#0369a1">SIGNAL</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-event-detection" title="Link to this term">Event detection</a></h3>
-    <p class="acg-def">The <code>events</code> array that sits beside <code>dff</code>: ΔF/F deconvolved into discrete events, one value per frame per ROI. Small events are recovered unreliably, so it is a cleaner signal than ΔF/F but not a spike train.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="background/Two-photon-calcium-imaging.html">in this book</a></div>
-    </article>
-    <article class="acg-card" id="term-evoked-vs-spontaneous" data-cat="responses" data-hay="evoked vs spontaneous activity driven by a stimulus versus activity during the grey-screen epochs. the comparison that decides whether a response is a response at all. response properties &amp; analysis ">
-    <div class="acg-eb" style="color:#9f1239">RESPONSE</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-evoked-vs-spontaneous" title="Link to this term">Evoked vs spontaneous</a></h3>
-    <p class="acg-def">Activity driven by a stimulus versus activity during the grey-screen epochs. The comparison that decides whether a response is a response at all.</p>
     </article>
     <article class="acg-card" id="term-excitatory-v1-cell-types" data-cat="celltypes" data-hay="excitatory v1 cell types pyramidal subclasses by layer/projection: 23p, 4p, 5p-it/et/np, 6p-it/ct (+ mtype clusters l2a…l6wm). cell types &amp; cortical anatomy ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="ev-t"><title id="ev-t">Excitatory V1 cell types by layer</title>
@@ -885,55 +581,11 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-excitatory-v1-cell-types" title="Link to this term">Excitatory V1 cell types</a></h3>
     <p class="acg-def">Pyramidal subclasses by layer/projection: 23P, 4P, 5P-IT/ET/NP, 6P-IT/CT (+ mtype clusters L2a…L6wm).</p>
     </article>
-    <article class="acg-card" id="term-experience-level" data-cat="stimuli" data-hay="experience level whether the image set in a session is the one the mouse trained on (familiar) or a different one (novel). the axis the visual behavior datasets were built to test. stimuli &amp; behavioural tasks ">
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-experience-level" title="Link to this term">Experience level</a></h3>
-    <p class="acg-def">Whether the image set in a session is the one the mouse trained on (<code>Familiar</code>) or a different one (<code>Novel</code>). The axis the Visual Behavior datasets were built to test.</p>
-    </article>
     <article class="acg-card" id="term-experiment" data-cat="dataorg" data-hay="experiment there is no consistent use of this term it can refer to a stimulus protocol, an entire data collection campaign, or a single session. it is highly ambiguous. datasets, sessions &amp; files ">
     <div class="acg-eb" style="color:#3f3f46">DATA</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-experiment" title="Link to this term">Experiment</a></h3>
     <p class="acg-def"><i>There is no consistent use of this term</i> It can refer to a stimulus protocol, an entire data collection campaign, or a single session. It is highly ambiguous.</p>
     <div class="acg-meta"><span class="acg-chip acg-warn" title="This word means different things in different places">&#9888; ambiguous</span></div>
-    </article>
-    <article class="acg-card" id="term-extended" data-cat="proofreading" data-hay="extended arbor proofread to remove all merge and split errors (correct and as-complete-as-possible). proofreading &amp; data quality ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="pex"><title id="pex">Extended — proofreading status ladder</title>
-<circle cx="72" cy="108" r="10" fill="var(--neuron)" fill-opacity=".2" stroke="var(--neuron)" stroke-width="2.4"/>
-<g fill="none" stroke="var(--neuron)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-<path d="M72,98 C64,82 58,70 52,54"/>
-<path d="M72,98 C72,80 72,66 72,48"/>
-<path d="M72,98 C82,82 90,72 98,56"/>
-<path d="M72,98 C56,88 48,82 38,74"/>
-<path d="M72,98 C90,90 102,88 114,84"/>
-<path d="M72,48 C68,42 64,40 58,36"/>
-<path d="M72,48 C76,42 80,40 86,36"/>
-<path d="M98,56 C104,50 110,48 116,44"/>
-<path d="M114,84 C122,80 128,79 136,76"/>
-<path d="M52,54 C46,50 42,49 36,46"/>
-<path d="M72,118 C72,136 74,148 78,164"/>
-<path d="M73,132 C67,138 62,142 56,148"/>
-<path d="M75,146 C81,150 86,153 92,158"/>
-</g>
-<rect x="170" y="42" width="132" height="30" rx="15" fill="var(--accent)" fill-opacity=".16" stroke="var(--accent)" stroke-width="2.4"/>
-<text x="236" y="61" text-anchor="middle" font-size="12" fill="var(--accent-ink)" font-weight="600">Extended</text>
-<rect x="170" y="87" width="132" height="30" rx="15" fill="none" stroke="currentColor" stroke-opacity=".3" stroke-width="1.8"/>
-<text x="236" y="106" text-anchor="middle" font-size="12" fill="var(--muted)">Clean</text>
-<rect x="170" y="132" width="132" height="30" rx="15" fill="none" stroke="currentColor" stroke-opacity=".3" stroke-width="1.8"/>
-<text x="236" y="151" text-anchor="middle" font-size="12" fill="var(--muted)">Unproofread</text>
-<path d="M228,82 L236,76 L244,82" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M228,127 L236,121 L244,127" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="72" y="184" text-anchor="middle" font-size="9.5" fill="var(--muted)">fullest arbor</text>
-</svg></div>
-    <div class="acg-eb" style="color:#b8791a">PROOF</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-extended" title="Link to this term">Extended</a></h3>
-    <p class="acg-def">Arbor proofread to remove all merge AND split errors (correct and as-complete-as-possible).</p>
-    </article>
-    <article class="acg-card" id="term-electrophysiology" data-cat="modalities" data-hay="extracellular electrophysiology recording voltage from outside the cell membrane, which gives better access to intact brains than intracellular recording. its two readouts are spikes and the local field potential. recording modalities &amp; instruments ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="ep-t"><title id="ep-t">Extracellular electrophysiology: spikes and local field potential</title><path d="M40,34 h20 v100 l-10,14 l-10,-14 z" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".5" stroke-width="1.8" stroke-linejoin="round"/><rect x="44" y="46" width="12" height="5" rx="1.5" fill="currentColor" fill-opacity=".45"/><rect x="44" y="64" width="12" height="5" rx="1.5" fill="currentColor" fill-opacity=".45"/><rect x="44" y="82" width="12" height="5" rx="1.5" fill="currentColor" fill-opacity=".45"/><rect x="44" y="100" width="12" height="5" rx="1.5" fill="currentColor" fill-opacity=".45"/><rect x="44" y="118" width="12" height="5" rx="1.5" fill="currentColor" fill-opacity=".45"/><g fill="var(--neuron)" fill-opacity=".22" stroke="var(--neuron)" stroke-width="2"><circle cx="24" cy="58" r="7.5"/><circle cx="80" cy="96" r="7.5"/><circle cx="26" cy="124" r="7.5"/></g><text x="50" y="172" text-anchor="middle" font-size="10" fill="var(--muted)">outside the cell</text><text x="118" y="38" font-size="10.5" fill="var(--muted)">spikes</text><path d="M118,64 h26 l3,-18 l3,26 l3,-8 h34 l3,-18 l3,26 l3,-8 h30 l3,-18 l3,26 l3,-8 h60" fill="none" stroke="currentColor" stroke-opacity=".85" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M118,128 C138,106 150,150 172,128 C194,106 206,150 228,128 C250,106 262,150 284,128 C290,122 294,126 300,124" fill="none" stroke="currentColor" stroke-opacity=".4" stroke-width="2.2" stroke-linecap="round"/><text x="118" y="166" font-size="10.5" fill="var(--muted)">local field potential</text></svg></div>
-    <div class="acg-eb" style="color:#c2410c">MODALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-electrophysiology" title="Link to this term">Extracellular electrophysiology</a></h3>
-    <p class="acg-def">Recording voltage from outside the cell membrane, which gives better access to intact brains than intracellular recording. Its two readouts are spikes and the local field potential.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="background/Neuropixels-electrophysiology.html">in this book</a></div>
     </article>
     <article class="acg-card" id="term-faces" data-cat="morphology" data-hay="faces triangles of connected vertex indices that tile a mesh surface (mesh.faces). morphology — meshes &amp; skeletons ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="m-face"><title id="m-face">One triangular face highlighted in a mesh patch</title><polygon points="130,50 190,58 120,105" fill="var(--accent)" fill-opacity=".28" stroke="var(--accent-ink)" stroke-width="2.4" stroke-linejoin="round"/><g fill="none" stroke="currentColor" stroke-opacity=".5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M70,60 L130,50 L190,58 L245,52"/><path d="M60,110 L120,105 L180,108 L240,102"/><path d="M75,155 L135,150 L195,152 L250,148"/><path d="M70,60 L60,110 M130,50 L120,105 M190,58 L180,108 M245,52 L240,102"/><path d="M60,110 L75,155 M120,105 L135,150 M180,108 L195,152 M240,102 L250,148"/><path d="M130,50 L60,110 M190,58 L120,105 M245,52 L180,108"/><path d="M120,105 L75,155 M180,108 L135,150 M240,102 L195,152"/></g><line x1="150" y1="72" x2="175" y2="52" stroke="var(--accent-ink)" stroke-width="1.5"/><text x="178" y="50" font-size="10.5" fill="var(--accent-ink)" font-weight="600">1 face</text><text x="160" y="188" text-anchor="middle" font-size="9.5" fill="var(--muted)">triangle = 3 vertices + 3 edges</text></svg></div>
@@ -979,17 +631,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <p class="acg-def">Focused-ion-beam SEM; block-face EM that mills &amp; images, giving near-isotropic voxels.</p>
     <div class="acg-meta"><span class="acg-chip acg-aside" title="An adjacent method, not used to acquire these datasets">adjacent method</span></div>
     </article>
-    <article class="acg-card" id="term-field-of-view" data-cat="modalities" data-hay="field of view the imaged extent of one plane, in pixels and in µm. recorded per imaging plane as field_of_view_width/height. recording modalities &amp; instruments ">
-    <div class="acg-eb" style="color:#c2410c">MODALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-field-of-view" title="Link to this term">Field of view</a></h3>
-    <p class="acg-def">The imaged extent of one plane, in pixels and in µm. Recorded per imaging plane as <code>field_of_view_width/height</code>.</p>
-    <div class="acg-meta"><span class="acg-chip acg-warn" title="This word means different things in different places">&#9888; ambiguous</span></div>
-    </article>
-    <article class="acg-card" id="term-firing-rate" data-cat="quality" data-hay="firing_rate mean spike rate over the whole session. low values may mean a sparsely active neuron or a badly detected one. quality metrics ">
-    <div class="acg-eb" style="color:#4338ca">QUALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-firing-rate" title="Link to this term">firing_rate</a></h3>
-    <p class="acg-def">Mean spike rate over the whole session. Low values may mean a sparsely active neuron or a badly detected one.</p>
-    </article>
     <article class="acg-card" id="term-fluorophore" data-cat="genetics" data-hay="fluorophore a type of molecule which absorb light and re-emit it at a longer wavelength in a process called fluorescence. as a result, fluorophores fluoresce only while exposed to a light source. genetic &amp; optical tools ">
     <div class="acg-eb" style="color:#15803d">GENETIC</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-fluorophore" title="Link to this term">Fluorophore</a></h3>
@@ -1005,13 +646,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <div class="acg-eb" style="color:#c9357f">CELLTYPE</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-gaba" title="Link to this term">GABA</a></h3>
     <p class="acg-def">Gamma-aminobutyric acid (GABA) is the main inhibitory neurotransmitter in the mammalian brain. In cortex, most GABAergic neurons are local interneurons.</p>
-    </article>
-    <article class="acg-card" id="term-gabor-patches" data-cat="stimuli" data-hay="gabor patches spatially restricted gratings. the receptive-field mapping stimulus in visual coding neuropixels: 20° diameter, three orientations on a 9 × 9 grid of screen positions, identical in every session. stimuli &amp; behavioural tasks ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="gab-t"><title id="gab-t">Gabor patches on a 9 by 9 grid of screen positions</title><path d="M20,44 V170 M34,44 V170 M48,44 V170 M62,44 V170 M76,44 V170 M90,44 V170 M104,44 V170 M118,44 V170 M132,44 V170 M146,44 V170 M20,44 H146 M20,58 H146 M20,72 H146 M20,86 H146 M20,100 H146 M20,114 H146 M20,128 H146 M20,142 H146 M20,156 H146 M20,170 H146" fill="none" stroke="currentColor" stroke-opacity=".28" stroke-width="1.2"/><rect x="76" y="100" width="14" height="14" fill="var(--accent)" fill-opacity=".3" stroke="var(--accent)" stroke-width="1.8"/><path d="M92,106 C122,102 160,100 194,98" fill="none" stroke="currentColor" stroke-opacity=".35" stroke-width="1.6" stroke-dasharray="4 4"/><circle cx="240" cy="96" r="42" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".35" stroke-width="1.8"/><path d="M199,96 H281 M207,76 H273 M207,116 H273 M229,61 H251 M229,131 H251" stroke="currentColor" stroke-opacity=".5" stroke-width="10"/><text x="83" y="188" text-anchor="middle" font-size="9.5" class="mono" fill="var(--faint)">9 × 9 positions</text><text x="240" y="160" text-anchor="middle" font-size="11" fill="var(--accent-ink)" font-weight="600">20° patch</text><text x="240" y="176" text-anchor="middle" font-size="9.5" fill="var(--muted)">3 orientations</text><text x="240" y="190" text-anchor="middle" font-size="9.5" fill="var(--faint)">same every session</text></svg></div>
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-gabor-patches" title="Link to this term">Gabor patches</a></h3>
-    <p class="acg-def">Spatially restricted gratings. The receptive-field mapping stimulus in Visual Coding Neuropixels: 20° diameter, three orientations on a 9 × 9 grid of screen positions, identical in every session.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/ephys/visual-coding/vcnp-receptive-fields.html">in this book</a></div>
     </article>
     <article class="acg-card" id="term-gcamp" data-cat="genetics" data-hay="gcamp a family of geci. gcamp was generated by a fusion of the calcium binding domain of the calmodulin protein with green fluorescent protein (gfp). in these data we use primarily gcamp6f as well as some gcamp6s, fast and slow variants respectively. these two variants differ in their sensitivity as well as their kinetics — primarily with regards to their decay. for more see {cite:t}`chen2013`. genetic &amp; optical tools ">
     <div class="acg-eb" style="color:#15803d">GENETIC</div>
@@ -1033,12 +667,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <div class="acg-eb" style="color:#15803d">GENETIC</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-gfp" title="Link to this term">GFP</a></h3>
     <p class="acg-def">Green fluorescent protein. Discovered at FHL.</p>
-    </article>
-    <article class="acg-card" id="term-golden-mouse-409828" data-cat="functional" data-hay="golden mouse (409828) the single v1dd mouse with functional coregistration. functional data &amp; coregistration v1dd">
-    <div class="acg-eb" style="color:#9a5b12">FUNCTION</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-golden-mouse-409828" title="Link to this term">Golden Mouse (409828)</a></h3>
-    <p class="acg-def">The single V1DD mouse with functional coregistration.</p>
-    <div class="acg-meta"><span class="acg-chip acg-ds">V1DD only</span></div>
     </article>
     <article class="acg-card" id="term-gosi-gdsi" data-cat="functional" data-hay="gosi / gdsi global orientation/direction selectivity indices (vector-sum variant). functional data &amp; coregistration ">
     <div class="acg-eb" style="color:#9a5b12">FUNCTION</div>
@@ -1073,34 +701,15 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-grids-chunk" title="Link to this term">Grids / Chunk</a></h3>
     <p class="acg-def">The volume is partitioned into a 3D grid of chunks for the chunked-graph.</p>
     </article>
-    <article class="acg-card" id="term-head-fixation" data-cat="modalities" data-hay="head fixation / head bar a surgically implanted bar clamps the mouse's head in a repeatable position — better than 10 µm across clamp cycles, which is what makes it possible to return to the same cells on a later day. recording modalities &amp; instruments ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="hfix-t"><title id="hfix-t">Head fixation: implanted bar clamped in a repeatable position</title><ellipse cx="164" cy="128" rx="58" ry="36" fill="var(--scaffold)" fill-opacity=".18" stroke="currentColor" stroke-opacity=".5" stroke-width="2"/><ellipse cx="108" cy="142" rx="18" ry="12" fill="var(--scaffold)" fill-opacity=".18" stroke="currentColor" stroke-opacity=".5" stroke-width="2"/><circle cx="198" cy="104" r="13" fill="var(--scaffold)" fill-opacity=".18" stroke="currentColor" stroke-opacity=".5" stroke-width="2"/><circle cx="126" cy="126" r="3.2" fill="currentColor" fill-opacity=".6"/><rect x="96" y="74" width="132" height="12" rx="6" fill="var(--accent)" fill-opacity=".2" stroke="var(--accent)" stroke-width="2.4"/><rect x="70" y="60" width="28" height="40" rx="5" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".55" stroke-width="2"/><rect x="226" y="60" width="28" height="40" rx="5" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".55" stroke-width="2"/><text x="162" y="52" text-anchor="middle" font-size="11" fill="var(--accent-ink)" font-weight="600">head bar</text><text x="84" y="116" text-anchor="middle" font-size="9.5" fill="var(--muted)">clamp</text><text x="240" y="116" text-anchor="middle" font-size="9.5" fill="var(--muted)">clamp</text><text x="164" y="184" text-anchor="middle" font-size="10" class="mono" fill="var(--faint)">same position to &lt; 10 µm</text></svg></div>
-    <div class="acg-eb" style="color:#c2410c">MODALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-head-fixation" title="Link to this term">Head fixation / head bar</a></h3>
-    <p class="acg-def">A surgically implanted bar clamps the mouse's head in a repeatable position — better than 10 µm across clamp cycles, which is what makes it possible to return to the same cells on a later day.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="background/experimental-setup.html">in this book</a></div>
-    </article>
     <article class="acg-card" id="term-higher-visual-area" data-cat="responses" data-hay="higher visual area (hva) a **higher visual area** is a term for cortical visual areas that receive input from the primary visual cortex, thus considered to be &quot;higher&quot; in the visual hierarchy. in primates, higher visual areas include v2, v3, v4, v5, mt, etc. in the mouse, higher visual areas include: visl, visal, vispm, visam, visrl among others. for more, see {cite:t}`glickfeld_higher-order_2017`. response properties &amp; analysis ">
     <div class="acg-eb" style="color:#9f1239">RESPONSE</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-higher-visual-area" title="Link to this term">Higher visual area (HVA)</a></h3>
     <p class="acg-def">A **higher visual area** is a term for cortical visual areas that receive input from the primary visual cortex, thus considered to be "higher" in the visual hierarchy. In primates, higher visual areas include V2, V3, V4, V5, MT, etc. In the mouse, higher visual areas include: VISl, VIsal, VISpm, VISam, VISrl among others. For more, see {cite:t}`glickfeld_higher-order_2017`.</p>
     </article>
-    <article class="acg-card" id="term-trial-outcomes" data-cat="stimuli" data-hay="hit / miss / false alarm / correct reject lick within the 750 ms window after a change = hit; no lick after a change = miss; lick after a sham change = false alarm; withholding on a sham change = correct reject. licking before the scheduled change aborts the trial. stimuli &amp; behavioural tasks ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="trout-t"><title id="trout-t">Hit, miss, false alarm and correct reject</title><text x="164" y="52" text-anchor="middle" font-size="10.5" fill="var(--muted)">lick</text><text x="256" y="52" text-anchor="middle" font-size="10.5" fill="var(--muted)">no lick</text><text x="112" y="96" text-anchor="end" font-size="10.5" fill="var(--muted)">change</text><text x="112" y="144" text-anchor="end" font-size="10.5" fill="var(--muted)">sham</text><rect x="120" y="62" width="88" height="44" rx="9" fill="var(--accent)" fill-opacity=".18" stroke="var(--accent)" stroke-width="2.4"/><text x="164" y="90" text-anchor="middle" font-size="11.5" fill="var(--accent-ink)" font-weight="600">hit</text><rect x="212" y="62" width="88" height="44" rx="9" fill="none" stroke="currentColor" stroke-opacity=".32" stroke-width="1.8"/><text x="256" y="90" text-anchor="middle" font-size="11.5" fill="var(--muted)">miss</text><rect x="120" y="110" width="88" height="44" rx="9" fill="none" stroke="currentColor" stroke-opacity=".32" stroke-width="1.8"/><text x="164" y="138" text-anchor="middle" font-size="11.5" fill="var(--muted)">false alarm</text><rect x="212" y="110" width="88" height="44" rx="9" fill="var(--accent)" fill-opacity=".18" stroke="var(--accent)" stroke-width="2.4"/><text x="256" y="132" text-anchor="middle" font-size="11.5" fill="var(--accent-ink)" font-weight="600">correct</text><text x="256" y="146" text-anchor="middle" font-size="11.5" fill="var(--accent-ink)" font-weight="600">reject</text><text x="160" y="182" text-anchor="middle" font-size="9.5" class="mono" fill="var(--faint)">750 ms response window</text></svg></div>
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-trial-outcomes" title="Link to this term">Hit / miss / false alarm / correct reject</a></h3>
-    <p class="acg-def">Lick within the 750 ms window after a change = hit; no lick after a change = miss; lick after a sham change = false alarm; withholding on a sham change = correct reject. Licking before the scheduled change aborts the trial.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/stimuli/visual-behavior/VB-Behavior.html">in this book</a></div>
-    </article>
     <article class="acg-card" id="term-hyperparameter" data-cat="responses" data-hay="hyperparameter a free parameter that controls behaviors in machine learning algorithms. these are distinct from parameters which control behaviors of the models developed by the algorithms; hyperparameters affect how the algorithm finds the models in the first place. response properties &amp; analysis ">
     <div class="acg-eb" style="color:#9f1239">RESPONSE</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-hyperparameter" title="Link to this term">Hyperparameter</a></h3>
     <p class="acg-def">A free parameter that controls behaviors in machine learning algorithms. These are distinct from parameters which control behaviors of the models developed by the algorithms; hyperparameters affect how the algorithm finds the models in the first place.</p>
-    </article>
-    <article class="acg-card" id="term-image-set" data-cat="stimuli" data-hay="image set which eight natural images a session used (g or h, a or b). two images are shared between sets, so novelty is a property of the other six. stimuli &amp; behavioural tasks ">
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-image-set" title="Link to this term">Image set</a></h3>
-    <p class="acg-def">Which eight natural images a session used (G or H, A or B). Two images are shared between sets, so novelty is a property of the other six.</p>
     </article>
     <article class="acg-card" id="term-imagery" data-cat="imaging" data-hay="imagery the 3d grayscale (0–255) array depicting em ultrastructure. imaging &amp; ultrastructure ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="img-t"><title id="img-t">Imagery: grayscale EM tile</title>
@@ -1129,26 +738,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <div class="acg-eb" style="color:#8a6f4a">IMAGING</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-imagery" title="Link to this term">Imagery</a></h3>
     <p class="acg-def">The 3D grayscale (0–255) array depicting EM ultrastructure.</p>
-    </article>
-    <article class="acg-card" id="term-imaging-depth" data-cat="modalities" data-hay="imaging depth depth in µm below the cortical surface at which a plane was collected. roughly: &lt;250 layer 2/3, 250–350 layer 4, 350–500 layer 5, &gt;500 layer 6 — but layer-specific cre lines are the reliable way to get layer specificity. recording modalities &amp; instruments ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="idep-t"><title id="idep-t">Imaging depth below the cortical surface</title><rect x="90" y="34" width="100" height="140" rx="4" fill="var(--scaffold)" fill-opacity=".14" stroke="currentColor" stroke-opacity=".35" stroke-width="1.8"/><path d="M90,84 h100 M90,104 h100 M90,134 h100" stroke="currentColor" stroke-opacity=".3" stroke-width="1.2" stroke-dasharray="4 4"/><text x="140" y="28" text-anchor="middle" font-size="10" fill="var(--muted)">pia</text><text x="140" y="60" text-anchor="middle" font-size="10" fill="var(--muted)">L2/3</text><text x="140" y="98" text-anchor="middle" font-size="10" fill="var(--muted)">L4</text><text x="140" y="122" text-anchor="middle" font-size="10" fill="var(--muted)">L5</text><text x="140" y="158" text-anchor="middle" font-size="10" fill="var(--muted)">L6</text><path d="M74,34 V174" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/><path d="M74,34.0 h6" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/><text x="68" y="37.0" text-anchor="end" font-size="9" class="mono" fill="var(--faint)">0</text><path d="M74,84.0 h6" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/><text x="68" y="87.0" text-anchor="end" font-size="9" class="mono" fill="var(--faint)">250</text><path d="M74,104.0 h6" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/><text x="68" y="107.0" text-anchor="end" font-size="9" class="mono" fill="var(--faint)">350</text><path d="M74,134.0 h6" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/><text x="68" y="137.0" text-anchor="end" font-size="9" class="mono" fill="var(--faint)">500</text><path d="M90,74 h100" stroke="var(--accent)" stroke-width="3" stroke-linecap="round"/><text x="196" y="78" font-size="10" fill="var(--accent-ink)" font-weight="600">plane</text><text x="160" y="192" text-anchor="middle" font-size="9.5" fill="var(--muted)">Cre line, not depth, gives layer specificity</text></svg></div>
-    <div class="acg-eb" style="color:#c2410c">MODALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-imaging-depth" title="Link to this term">Imaging depth</a></h3>
-    <p class="acg-def">Depth in µm below the cortical surface at which a plane was collected. Roughly: &lt;250 layer 2/3, 250–350 layer 4, 350–500 layer 5, &gt;500 layer 6 — but layer-specific Cre lines are the reliable way to get layer specificity.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/ophys/visual-coding/vc2p-dataset.html">in this book</a></div>
-    </article>
-    <article class="acg-card" id="term-imaging-plane" data-cat="modalities" data-hay="imaging plane one two-photon focal plane. a single-plane microscope images one per session; the multiscope/mesoscope images up to eight. the plane, not the session, is the unit that quality control passes or fails. recording modalities &amp; instruments ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="ipl-t"><title id="ipl-t">Imaging plane: one focal plane within a multi-plane stack</title><path d="M74,46 L214,46 L172,70 L32,70 Z" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".4" stroke-width="1.8" stroke-linejoin="round"/><path d="M74,68 L214,68 L172,92 L32,92 Z" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".4" stroke-width="1.8" stroke-linejoin="round"/><path d="M74,90 L214,90 L172,114 L32,114 Z" fill="var(--accent)" fill-opacity=".14" stroke="var(--accent)" stroke-width="2.4" stroke-linejoin="round"/><g fill="var(--neuron)"><circle cx="80" cy="106" r="3.4"/><circle cx="112" cy="98" r="3.4"/><circle cx="150" cy="106" r="3.4"/><circle cx="128" cy="108" r="3.4"/><circle cx="176" cy="99" r="3.4"/></g><path d="M74,112 L214,112 L172,136 L32,136 Z" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".4" stroke-width="1.8" stroke-linejoin="round"/><path d="M74,134 L214,134 L172,158 L32,158 Z" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".4" stroke-width="1.8" stroke-linejoin="round"/><path d="M236,46 q7,0 7,8 v34 q0,10 9,10 q-9,0 -9,10 v34 q0,8 -7,8" fill="none" stroke="currentColor" stroke-opacity=".35" stroke-width="1.6" stroke-linecap="round"/><text x="262" y="98" font-size="10" fill="var(--muted)">up to 8</text><text x="262" y="112" font-size="10" fill="var(--muted)">planes</text><path d="M226,102 H210" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/><text x="123" y="26" text-anchor="middle" font-size="11" fill="var(--accent-ink)" font-weight="600">one plane = one experiment</text><text x="123" y="180" text-anchor="middle" font-size="9.5" fill="var(--faint)">session = all planes together</text></svg></div>
-    <div class="acg-eb" style="color:#c2410c">MODALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-imaging-plane" title="Link to this term">Imaging plane</a></h3>
-    <p class="acg-def">One two-photon focal plane. A single-plane microscope images one per session; the Multiscope/Mesoscope images up to eight. The plane, not the session, is the unit that quality control passes or fails.</p>
-    </article>
-    <article class="acg-card" id="term-indicator-sparsification" data-cat="responses" data-hay="indicator sparsification calcium indicators respond non-linearly to firing rate: bursts are boosted, isolated spikes washed out. tuning measured with ophys therefore looks sharper and sparser than the same tuning measured with ephys. response properties &amp; analysis ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="isp-t"><title id="isp-t">Indicator sparsification: calcium boosts bursts and loses isolated spikes</title><text x="26" y="46" font-size="9" class="mono" fill="var(--faint)">dF/F</text><path d="M26,96 L40,96 C46,96 46,52 56,52 C68,54 74,92 92,95 L100,95 C104,95 104,84 108,84 C116,86 120,94 136,95" fill="none" stroke="var(--neuron)" stroke-width="2.2" stroke-linecap="round"/><path d="M26,136 H136" stroke="currentColor" stroke-opacity=".25" stroke-width="1.2"/><path d="M40,136 V122" stroke="currentColor" stroke-opacity=".75" stroke-width="2" stroke-linecap="round"/><path d="M46,136 V122" stroke="currentColor" stroke-opacity=".75" stroke-width="2" stroke-linecap="round"/><path d="M52,136 V122" stroke="currentColor" stroke-opacity=".75" stroke-width="2" stroke-linecap="round"/><path d="M58,136 V122" stroke="currentColor" stroke-opacity=".75" stroke-width="2" stroke-linecap="round"/><path d="M104,136 V122" stroke="currentColor" stroke-opacity=".75" stroke-width="2" stroke-linecap="round"/><text x="52" y="152" text-anchor="middle" font-size="9" fill="var(--faint)">burst</text><text x="106" y="152" text-anchor="middle" font-size="9" fill="var(--faint)">single</text><text x="82" y="176" text-anchor="middle" font-size="9.5" fill="var(--muted)">bursts boosted</text><path d="M180,136 H302" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/><path d="M182,130 C204,128 214,92 240,90 C266,88 278,126 300,130" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="2.2" stroke-linecap="round"/><path d="M182,134 C216,133 228,56 240,56 C252,56 264,133 300,134" fill="none" stroke="var(--accent)" stroke-width="2.4" stroke-linecap="round"/><text x="240" y="46" text-anchor="middle" font-size="10" fill="var(--accent-ink)" font-weight="600">ophys</text><text x="296" y="112" text-anchor="end" font-size="10" fill="var(--muted)">ephys</text><text x="240" y="176" text-anchor="middle" font-size="9.5" fill="var(--muted)">tuning looks sharper</text></svg></div>
-    <div class="acg-eb" style="color:#9f1239">RESPONSE</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-indicator-sparsification" title="Link to this term">Indicator sparsification</a></h3>
-    <p class="acg-def">Calcium indicators respond non-linearly to firing rate: bursts are boosted, isolated spikes washed out. Tuning measured with ophys therefore looks sharper and sparser than the same tuning measured with ephys.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="background/Ophys-ephys-comparison.html">in this book</a></div>
     </article>
     <article class="acg-card" id="term-inhibitory-v1-cell-types" data-cat="celltypes" data-hay="inhibitory v1 cell types interneuron subclasses: bc, bpc, mc, ngc (manual) and ptc/dtc/stc/itc (targeting-based mtypes). cell types &amp; cortical anatomy ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="iv-t"><title id="iv-t">Inhibitory V1 cell types: manual vs targeting</title>
@@ -1202,18 +791,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <p class="acg-def">Intrinsic signal imaging, also called ISI, is a method to measure changes in blood flow associated with neural activity using reflectance of red light on the brain's surface, measured using a standard CCD camera. The amount of red light reflected by the brain tissue increases when oxygenated hemoglobin perfuses the local region. The timecourse of the ISI signal is slow, and the magnitude of the reflectance changes are small. As a result, the use of periodic stimuli can aid in signal detection. A common use of ISI is to map retinotopy across the brain surface by moving a slowly drifting bar across the visual field then measuring the signal in each pixel at the frequency of the periodic drifting bar. ISI has also been used to identify orientation maps in species with organized orientation maps like cats and primates, as well as to map the location of the whisker barrels in somatosensory cortex of the mouse. For additional papers using ISI to map the organization of the mouse visual cortex see {cite:t}`kalatsky2003` and {cite:t}`garrett2014`.</p>
     <div class="acg-meta"><span class="acg-chip acg-warn" title="This word means different things in different places">&#9888; ambiguous</span></div>
     </article>
-    <article class="acg-card" id="term-isi-violations" data-cat="quality" data-hay="isi_violations rate of inter-spike intervals shorter than the refractory period. a real neuron cannot fire that fast, so violations mean spikes from more than one cell were merged. default threshold 0.5. quality metrics ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="isiv-t"><title id="isiv-t">isi_violations: intervals shorter than the refractory period</title><path d="M24,120 H296" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/><rect x="118" y="88" width="13" height="32" rx="2" fill="var(--accent)" fill-opacity=".16"/><path d="M40,120 V92" stroke="currentColor" stroke-opacity=".8" stroke-width="2.2" stroke-linecap="round"/><path d="M84,120 V92" stroke="currentColor" stroke-opacity=".8" stroke-width="2.2" stroke-linecap="round"/><path d="M176,120 V92" stroke="currentColor" stroke-opacity=".8" stroke-width="2.2" stroke-linecap="round"/><path d="M220,120 V92" stroke="currentColor" stroke-opacity=".8" stroke-width="2.2" stroke-linecap="round"/><path d="M262,120 V92" stroke="currentColor" stroke-opacity=".8" stroke-width="2.2" stroke-linecap="round"/><path d="M120,120 V88" stroke="var(--accent)" stroke-width="2.4" stroke-linecap="round"/><path d="M129,120 V88" stroke="var(--accent)" stroke-width="2.4" stroke-linecap="round"/><path d="M120,132 v6 H129 v-6" fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round"/><text x="124" y="154" text-anchor="middle" font-size="9.5" fill="var(--accent-ink)" font-weight="600">&lt; refractory</text><path d="M220,132 v6 H262 v-6" fill="none" stroke="currentColor" stroke-opacity=".4" stroke-width="1.6" stroke-linejoin="round"/><text x="241" y="154" text-anchor="middle" font-size="9.5" fill="var(--faint)">ISI</text><text x="160" y="40" text-anchor="middle" font-size="10.5" fill="var(--muted)">spikes from two cells merged</text><text x="160" y="186" text-anchor="middle" font-size="9" class="mono" fill="var(--faint)">threshold 0.5</text></svg></div>
-    <div class="acg-eb" style="color:#4338ca">QUALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-isi-violations" title="Link to this term">isi_violations</a></h3>
-    <p class="acg-def">Rate of inter-spike intervals shorter than the refractory period. A real neuron cannot fire that fast, so violations mean spikes from more than one cell were merged. Default threshold 0.5.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/ephys/visual-coding/vcnp-quality-metrics.html">in this book</a></div>
-    </article>
-    <article class="acg-card" id="term-isolation-distance" data-cat="quality" data-hay="isolation_distance distance in mahalanobis space to the nearest other cluster of waveforms. higher is better separated. quality metrics ">
-    <div class="acg-eb" style="color:#4338ca">QUALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-isolation-distance" title="Link to this term">isolation_distance</a></h3>
-    <p class="acg-def">Distance in Mahalanobis space to the nearest other cluster of waveforms. Higher is better separated.</p>
-    </article>
     <article class="acg-card" id="term-it-et-np-ct-sp" data-cat="celltypes" data-hay="it / et / np / ct / sp projection categories: intratelencephalic, extratelencephalic, near-projecting, corticothalamic, subplate. cell types &amp; cortical anatomy ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="ip-t"><title id="ip-t">Excitatory projection classes and their targets</title>
 <rect x="34" y="22" width="50" height="158" fill="currentColor" fill-opacity=".04" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/>
@@ -1240,11 +817,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <div class="acg-eb" style="color:#c9357f">CELLTYPE</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-it-et-np-ct-sp" title="Link to this term">IT / ET / NP / CT / SP</a></h3>
     <p class="acg-def">Projection categories: intratelencephalic, extratelencephalic, near-projecting, corticothalamic, subplate.</p>
-    </article>
-    <article class="acg-card" id="term-l-ratio" data-cat="quality" data-hay="l_ratio contamination measure related to isolation distance: the probability that nearby spikes belong to this cluster. lower is better. quality metrics ">
-    <div class="acg-eb" style="color:#4338ca">QUALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-l-ratio" title="Link to this term">l_ratio</a></h3>
-    <p class="acg-def">Contamination measure related to isolation distance: the probability that nearby spikes belong to this cluster. Lower is better.</p>
     </article>
     <article class="acg-card" id="term-layer-cortical" data-cat="celltypes" data-hay="layer (cortical) l1–l6 along the pia→wm axis; drives cell-type naming. not the neuroglancer layer. cell types &amp; cortical anatomy ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="lc-t"><title id="lc-t">Cortical layers from pia to white matter</title>
@@ -1288,13 +860,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-local-field-potential" title="Link to this term">Local field potential (LFP)</a></h3>
     <p class="acg-def">Transient electrical potential generated in nervous tissue by the summed activity of cells in that tissue. This is typically measured in a lower temporal-frequency band of less than 250 Hz.</p>
     </article>
-    <article class="acg-card" id="term-locally-sparse-noise" data-cat="stimuli" data-hay="locally sparse noise black and white spots flashed on a grey screen, arranged so no two spots fall within 5 pixels of each other. the exclusion zone is what makes the average around any pixel structureless, so a receptive field can be recovered. stimuli &amp; behavioural tasks ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="lsn-t"><title id="lsn-t">Locally sparse noise with an exclusion zone</title> <rect x="34" y="26" width="200" height="128" rx="5" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".4" stroke-width="1.8"/> <g stroke="currentColor" stroke-opacity=".12" stroke-width="1"> <path d="M59,26 V154 M84,26 V154 M109,26 V154 M134,26 V154 M159,26 V154 M184,26 V154 M209,26 V154"/> <path d="M34,51 H234 M34,77 H234 M34,103 H234 M34,129 H234"/></g> <rect x="60" y="52" width="24" height="24" fill="currentColor" fill-opacity=".65"/> <rect x="160" y="27" width="24" height="24" fill="var(--accent)" fill-opacity=".8"/> <rect x="110" y="104" width="24" height="24" fill="var(--accent)" fill-opacity=".8"/> <rect x="185" y="129" width="24" height="24" fill="currentColor" fill-opacity=".65"/> <circle cx="122" cy="116" r="34" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-dasharray="4 4"/> <path d="M122,116 L156,116" stroke="var(--accent)" stroke-width="1.4"/> <text x="140" y="112" font-size="9" class="mono" fill="var(--accent-ink)">5 px</text> <text x="252" y="52" font-size="10" fill="var(--muted)">bright</text> <rect x="252" y="60" width="14" height="14" fill="var(--accent)" fill-opacity=".8"/> <text x="252" y="98" font-size="10" fill="var(--muted)">dark</text> <rect x="252" y="106" width="14" height="14" fill="currentColor" fill-opacity=".65"/> <text x="134" y="176" text-anchor="middle" font-size="9.5" fill="var(--faint)">no two spots within the zone</text> </svg></div>
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-locally-sparse-noise" title="Link to this term">Locally sparse noise</a></h3>
-    <p class="acg-def">Black and white spots flashed on a grey screen, arranged so no two spots fall within 5 pixels of each other. The exclusion zone is what makes the average around any pixel structureless, so a receptive field can be recovered.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/stimuli/passive-visual-stimuli/visual-stimuli-list.html">in this book</a></div>
-    </article>
     <article class="acg-card" id="term-martinotti-cell" data-cat="celltypes" data-hay="martinotti cell (mc) a martinotti cell is a particular subtype of sst cell that targets the apical dendrites of pyramidal cells in layer 1. martinotti cells are found in layer 2/3 and layer 5. cell types &amp; cortical anatomy ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="d-martinotti-cell"><title id="d-martinotti-cell">Martinotti cell</title><defs><clipPath id="d-martinotti-cell-c" clipPathUnits="userSpaceOnUse"><rect x="88" y="26" width="76" height="118"/></clipPath></defs><g transform="translate(160,100) scale(1.55) translate(-126,-88)"><g clip-path="url(#d-martinotti-cell-c)"><g stroke="var(--dendrite)" stroke-width="2" fill="none" stroke-linecap="round">
 <path d="M50,73 V54 M50,73 l-9,-12 M50,73 l9,-12"/>
@@ -1337,12 +902,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-materialization-versioning" title="Link to this term">Materialization &amp; Versioning</a></h3>
     <p class="acg-def">Timestamped snapshots of the annotation DB; each version = a fixed timestamp (MICrONS v1507, V1DD v1196).</p>
     </article>
-    <article class="acg-card" id="term-maximum-projection" data-cat="signals" data-hay="maximum / average projection the imaging movie collapsed over time into one image — the standard way to see every cell in a plane at once. signals &amp; preprocessing ">
-    <div class="acg-eb" style="color:#0369a1">SIGNAL</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-maximum-projection" title="Link to this term">Maximum / average projection</a></h3>
-    <p class="acg-def">The imaging movie collapsed over time into one image — the standard way to see every cell in a plane at once.</p>
-    <div class="acg-meta"><span class="acg-chip acg-warn" title="This word means different things in different places">&#9888; ambiguous</span></div>
-    </article>
     <article class="acg-card" id="term-merge-errors" data-cat="proofreading" data-hay="merge errors two neurons' processes incorrectly joined; they add false connections. proofreading &amp; data quality ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="pm"><title id="pm">Merge errors — false merge</title>
 <circle cx="34" cy="60" r="10" fill="var(--neuron)" fill-opacity=".22" stroke="var(--neuron)" stroke-width="2.4"/>
@@ -1365,23 +924,11 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-meshes" title="Link to this term">Meshes</a></h3>
     <p class="acg-def">Vertices + triangular faces defining a neuron's 3D outer surface.</p>
     </article>
-    <article class="acg-card" id="term-meshparty-meshwork" data-cat="morphology" data-hay="meshparty / meshwork python package + object bundling the l2 mesh, skeleton, and anno annotations, kept in sync. morphology — meshes &amp; skeletons ">
-    <div class="acg-eb" style="color:#2a8f57">MORPH</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-meshparty-meshwork" title="Link to this term">MeshParty / Meshwork</a></h3>
-    <p class="acg-def">Python package + object bundling the L2 mesh, skeleton, and <code>anno</code> annotations, kept in sync.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="https://github.com/sdorkenw/MeshParty" target="_blank" rel="noopener">MeshParty &#8599;</a></div>
-    </article>
     <article class="acg-card" id="term-meshpoints" data-cat="morphology" data-hay="meshpoints informal usage for mesh vertices. not a formal term — say vertices, since “point” elsewhere means an annotation position. morphology — meshes &amp; skeletons ">
     <div class="acg-eb" style="color:#2a8f57">MORPH</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-meshpoints" title="Link to this term">Meshpoints</a></h3>
     <p class="acg-def">Informal usage for mesh vertices. Not a formal term — say <em>vertices</em>, since “point” elsewhere means an annotation position.</p>
     <div class="acg-meta"><span class="acg-chip acg-warn" title="This word means different things in different places">&#9888; ambiguous</span></div>
-    </article>
-    <article class="acg-card" id="term-meshwork-annotation-tables" data-cat="morphology" data-hay="meshwork annotation tables the dataframes carried on nrn.anno, indexed to mesh and skeleton vertices: pre_syn, post_syn, is_axon, lvl2_ids, segment_properties, vol_prop. they are what places a synapse at a position along the arbor rather than merely in the volume. morphology — meshes &amp; skeletons ">
-    <div class="acg-eb" style="color:#2a8f57">MORPH</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-meshwork-annotation-tables" title="Link to this term">Meshwork annotation tables</a></h3>
-    <p class="acg-def">The dataframes carried on <code>nrn.anno</code>, indexed to mesh and skeleton vertices: <code>pre_syn</code>, <code>post_syn</code>, <code>is_axon</code>, <code>lvl2_ids</code>, <code>segment_properties</code>, <code>vol_prop</code>. They are what places a synapse at a position along the arbor rather than merely in the volume.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="https://alleninstitute.github.io/microns_tutorial/" target="_blank" rel="noopener">MICrONS tutorial &#8599;</a></div>
     </article>
     <article class="acg-card" id="term-meshwork-mask" data-cat="morphology" data-hay="meshwork mask a boolean array over mesh vertices restricting a meshwork to part of a cell, applied with apply_mask or mask_context so mesh, skeleton and annotations stay in step. masking on anno.is_axon is how axonal and dendritic path length are measured separately. morphology — meshes &amp; skeletons ">
     <div class="acg-eb" style="color:#2a8f57">MORPH</div>
@@ -1421,36 +968,12 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <p class="acg-def">A labelling scheme combining somatic, dendritic and spine features. Excitatory labels are layer plus projection class (<code>L2IT</code>…<code>L6CT</code>); inhibitory labels split more finely than the mtypes (<code>NMC</code>, <code>ChC</code>, <code>PV</code>, <code>AltBasket</code>, <code>AltDTC</code>, <code>ITCperi</code>, <code>L1</code>).</p>
     <div class="acg-meta"><span class="acg-chip acg-ds">MICrONS only</span><a class="acg-chip acg-src" href="https://alleninstitute.github.io/microns_tutorial/" target="_blank" rel="noopener">MICrONS tutorial &#8599;</a></div>
     </article>
-    <article class="acg-card" id="term-natural-movies" data-cat="stimuli" data-hay="natural movies black and white film clips with natural spatial and temporal statistics — usually the opening shot of touch of evil, chosen because it is continuous, with no cuts and varied motion. stimuli &amp; behavioural tasks ">
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-natural-movies" title="Link to this term">Natural movies</a></h3>
-    <p class="acg-def">Black and white film clips with natural spatial and temporal statistics — usually the opening shot of <i>Touch of Evil</i>, chosen because it is continuous, with no cuts and varied motion.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/stimuli/passive-visual-stimuli/visual-stimuli-list.html">in this book</a></div>
-    </article>
-    <article class="acg-card" id="term-natural-scenes" data-cat="stimuli" data-hay="natural scenes black and white photographs with natural spatial statistics, flashed for 0.25 s with no gap. visual coding uses 118 images drawn from the berkeley, van hateren and mcgill image sets. stimuli &amp; behavioural tasks ">
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-natural-scenes" title="Link to this term">Natural scenes</a></h3>
-    <p class="acg-def">Black and white photographs with natural spatial statistics, flashed for 0.25 s with no gap. Visual Coding uses 118 images drawn from the Berkeley, van Hateren and McGill image sets.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/stimuli/passive-visual-stimuli/visual-stimuli-list.html">in this book</a></div>
-    </article>
-    <article class="acg-card" id="term-neurd" data-cat="morphology" data-hay="neurd decomposes a neuron mesh into an annotated graph of processes, spines and boutons, supporting automated proofreading and feature extraction. the baylor cell-type tables are derived from it. morphology — meshes &amp; skeletons ">
-    <div class="acg-eb" style="color:#2a8f57">MORPH</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-neurd" title="Link to this term">NEURD</a></h3>
-    <p class="acg-def">Decomposes a neuron mesh into an annotated graph of processes, spines and boutons, supporting automated proofreading and feature extraction. The Baylor cell-type tables are derived from it.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="https://alleninstitute.github.io/microns_tutorial/" target="_blank" rel="noopener">MICrONS tutorial &#8599;</a></div>
-    </article>
     <article class="acg-card" id="term-neuroglancer" data-cat="tools" data-hay="neuroglancer webgl browser viewer for very large volumetric connectomics data (imagery, segmentation, meshes, annotations). visualisation tools ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="ng-t"><title id="ng-t">Neuroglancer</title><rect x="18" y="20" width="138" height="78" rx="4" fill="var(--surface-2)" fill-opacity=".5" stroke="currentColor" stroke-opacity=".35" stroke-width="1.8"/><rect x="164" y="20" width="138" height="78" rx="4" fill="var(--surface-2)" fill-opacity=".5" stroke="currentColor" stroke-opacity=".35" stroke-width="1.8"/><rect x="18" y="102" width="138" height="78" rx="4" fill="var(--surface-2)" fill-opacity=".5" stroke="currentColor" stroke-opacity=".35" stroke-width="1.8"/><rect x="164" y="102" width="138" height="78" rx="4" fill="var(--surface-2)" fill-opacity=".5" stroke="currentColor" stroke-opacity=".35" stroke-width="1.8"/><line x1="18" y1="59" x2="156" y2="59" stroke="currentColor" stroke-opacity=".3" stroke-width="1"/><line x1="87" y1="20" x2="87" y2="98" stroke="currentColor" stroke-opacity=".3" stroke-width="1"/><ellipse cx="87" cy="59" rx="24" ry="16" fill="var(--neuron)" fill-opacity=".3" stroke="var(--neuron)" stroke-width="2"/><circle cx="96" cy="54" r="3" fill="var(--synapse)"/><line x1="164" y1="59" x2="302" y2="59" stroke="currentColor" stroke-opacity=".3" stroke-width="1"/><line x1="233" y1="20" x2="233" y2="98" stroke="currentColor" stroke-opacity=".3" stroke-width="1"/><ellipse cx="233" cy="59" rx="18" ry="19" fill="var(--neuron)" fill-opacity=".3" stroke="var(--neuron)" stroke-width="2"/><line x1="18" y1="141" x2="156" y2="141" stroke="currentColor" stroke-opacity=".3" stroke-width="1"/><line x1="87" y1="102" x2="87" y2="180" stroke="currentColor" stroke-opacity=".3" stroke-width="1"/><ellipse cx="87" cy="141" rx="23" ry="14" fill="var(--neuron)" fill-opacity=".3" stroke="var(--neuron)" stroke-width="2"/><circle cx="233" cy="138" r="8" fill="var(--neuron)" fill-opacity=".3" stroke="var(--neuron)" stroke-width="2.2"/><path d="M233,131 C228,119 221,113 213,117" fill="none" stroke="var(--dendrite)" stroke-width="2.2" stroke-linecap="round"/><path d="M233,131 C239,120 247,115 254,121" fill="none" stroke="var(--dendrite)" stroke-width="2.2" stroke-linecap="round"/><path d="M233,146 C233,158 240,164 249,168" fill="none" stroke="var(--axon)" stroke-width="2.2" stroke-linecap="round"/><text x="26" y="34" font-size="9" class="mono" fill="var(--muted)">xy</text><text x="172" y="34" font-size="9" class="mono" fill="var(--muted)">xz</text><text x="26" y="116" font-size="9" class="mono" fill="var(--muted)">yz</text><text x="172" y="116" font-size="9" class="mono" fill="var(--muted)">3D</text></svg></div>
     <div class="acg-eb" style="color:#526278">TOOLS</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-neuroglancer" title="Link to this term">Neuroglancer</a></h3>
     <p class="acg-def">WebGL browser viewer for very large volumetric connectomics data (imagery, segmentation, meshes, annotations).</p>
     <div class="acg-meta"><a class="acg-chip acg-src" href="https://github.com/google/neuroglancer" target="_blank" rel="noopener">Neuroglancer &#8599;</a></div>
-    </article>
-    <article class="acg-card" id="term-neuroglancer-forks" data-cat="tools" data-hay="neuroglancer forks neuroglancer is maintained as several diverging branches. spelunker is the one cave datastacks link to; the seung-lab and flywire branches are the other widely used ones. states are broadly compatible but not identical. visualisation tools ">
-    <div class="acg-eb" style="color:#526278">TOOLS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-neuroglancer-forks" title="Link to this term">Neuroglancer forks</a></h3>
-    <p class="acg-def">Neuroglancer is maintained as several diverging branches. Spelunker is the one CAVE datastacks link to; the Seung-lab and FlyWire branches are the other widely used ones. States are broadly compatible but not identical.</p>
-    <div class="acg-meta"><span class="acg-chip acg-warn" title="This word means different things in different places">&#9888; ambiguous</span></div>
     </article>
     <article class="acg-card" id="term-neuroglancer-layer-img-seg-ann" data-cat="tools" data-hay="neuroglancer layer (img/seg/ann) the data layers in a neuroglancer state. not the cortical layer. visualisation tools ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="nl-t"><title id="nl-t">Neuroglancer layers img seg ann</title><line x1="34" y1="80" x2="34" y2="164" stroke="currentColor" stroke-opacity=".25" stroke-width="1.4" stroke-dasharray="3 4"/><line x1="208" y1="80" x2="208" y2="164" stroke="currentColor" stroke-opacity=".25" stroke-width="1.4" stroke-dasharray="3 4"/><polygon points="62,132 236,132 208,164 34,164" fill="var(--scaffold)" fill-opacity=".18" stroke="currentColor" stroke-opacity=".5" stroke-width="1.8"/><line x1="70" y1="141" x2="200" y2="141" stroke="currentColor" stroke-opacity=".22" stroke-width="1.4"/><line x1="60" y1="152" x2="190" y2="152" stroke="currentColor" stroke-opacity=".22" stroke-width="1.4"/><polygon points="62,90 236,90 208,122 34,122" fill="var(--neuron)" fill-opacity=".2" stroke="var(--neuron)" stroke-width="2"/><path d="M110,98 C130,94 156,98 160,108 C162,116 140,118 120,116 C104,114 98,102 110,98 Z" fill="var(--neuron)" fill-opacity=".45" stroke="var(--neuron)" stroke-width="1.8"/><polygon points="62,48 236,48 208,80 34,80" fill="var(--synapse)" fill-opacity=".1" stroke="var(--synapse)" stroke-width="2"/><circle cx="120" cy="62" r="3.6" fill="var(--synapse)"/><circle cx="158" cy="68" r="3.6" fill="var(--synapse)"/><circle cx="90" cy="70" r="3.6" fill="var(--synapse)"/><text x="248" y="68" font-size="12" class="mono" fill="var(--synapse)">ann</text><text x="248" y="110" font-size="12" class="mono" fill="var(--neuron)">seg</text><text x="248" y="152" font-size="12" class="mono" fill="var(--muted)">img</text></svg></div>
@@ -1492,28 +1015,11 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-neuronal-process" title="Link to this term">Neuronal process</a></h3>
     <p class="acg-def">An axon or dendrite branch of a neuron (a process that splits at branch points).</p>
     </article>
-    <article class="acg-card" id="term-neuropil-correction" data-cat="signals" data-hay="neuropil correction an annulus around the roi, excluding nearby cells, gives a local neuropil signal. it is subtracted from the raw trace after weighting by a per-cell r value. signals &amp; preprocessing ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="npc-t"><title id="npc-t">Neuropil correction: annulus signal subtracted from the ROI trace</title><circle cx="70" cy="88" r="32" fill="none" stroke="currentColor" stroke-opacity=".4" stroke-width="1.6" stroke-dasharray="5 4"/><circle cx="70" cy="88" r="15" fill="var(--neuron)" fill-opacity=".3" stroke="var(--neuron)" stroke-width="2.2"/><g fill="none" stroke="var(--neuron)" stroke-opacity=".45" stroke-width="1.6" stroke-dasharray="3 3"><circle cx="42" cy="60" r="9"/><circle cx="100" cy="112" r="9"/></g><text x="70" y="140" text-anchor="middle" font-size="10" fill="var(--muted)">ROI + annulus</text><text x="70" y="154" text-anchor="middle" font-size="9" fill="var(--faint)">nearby cells excluded</text><text x="152" y="40" font-size="9.5" fill="var(--muted)">raw</text><path d="M152,60 C168,58 174,34 190,36 C206,38 210,62 226,60 C244,58 250,44 266,46 C282,48 288,58 302,56" fill="none" stroke="currentColor" stroke-opacity=".75" stroke-width="2" stroke-linecap="round"/><text x="140" y="102" text-anchor="middle" font-size="13" fill="var(--muted)">−</text><text x="152" y="86" font-size="9.5" class="mono" fill="var(--muted)">r × neuropil</text><path d="M152,106 C170,104 178,96 196,98 C214,100 220,110 238,108 C258,106 266,98 282,100 C292,101 296,104 302,104" fill="none" stroke="currentColor" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/><text x="140" y="152" text-anchor="middle" font-size="13" fill="var(--muted)">=</text><text x="152" y="136" font-size="9.5" fill="var(--accent-ink)" font-weight="600">corrected</text><path d="M152,158 C168,157 176,134 192,136 C208,138 212,158 228,157 C246,156 254,150 268,152 C284,154 290,157 302,156" fill="none" stroke="var(--accent)" stroke-width="2.4" stroke-linecap="round"/></svg></div>
-    <div class="acg-eb" style="color:#0369a1">SIGNAL</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-neuropil-correction" title="Link to this term">Neuropil correction</a></h3>
-    <p class="acg-def">An annulus around the ROI, excluding nearby cells, gives a local neuropil signal. It is subtracted from the raw trace after weighting by a per-cell <code>r</code> value.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/ophys/visual-coding/vc2p-session-data.html">in this book</a></div>
-    </article>
     <article class="acg-card" id="term-neuropixels" data-cat="modalities" data-hay="neuropixels a family of devices for obtaining high channel count single unit extracellular recordings created through a collaborative open science project funded by howard hughes medical institute, gatsby charitable trust, the wellcome trust, and the allen institute. these devices utilize modern integrated circuit design to miniaturize aspects of electrophysiology, enabling recordings of hundred of single units from a single probe with minimal brain damage. {cite:t}`jun2017` describes these probes; a summary can also be found here. recording modalities &amp; instruments ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="npx-t"><title id="npx-t">Neuropixels: dense electrode sites along one silicon shank</title><rect x="52" y="22" width="30" height="138" rx="3" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".5" stroke-width="2"/><path d="M52,158 L82,158 L67,182 Z" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".5" stroke-width="2" stroke-linejoin="round"/><path d="M57,36 h8v6h-8zM69,44 h8v6h-8zM57,52 h8v6h-8zM69,60 h8v6h-8zM57,68 h8v6h-8zM69,76 h8v6h-8zM57,84 h8v6h-8zM69,92 h8v6h-8zM57,100 h8v6h-8zM69,108 h8v6h-8zM57,116 h8v6h-8zM69,124 h8v6h-8zM57,132 h8v6h-8zM69,140 h8v6h-8z" fill="currentColor" fill-opacity=".45"/><text x="67" y="14" text-anchor="middle" font-size="10" fill="var(--muted)">one shank</text><text x="67" y="196" text-anchor="middle" font-size="9.5" class="mono" fill="var(--faint)">384 sites</text><path d="M96,56H132 M96,100H132 M96,144H132" stroke="currentColor" stroke-opacity=".3" stroke-width="1.6" stroke-dasharray="3 4"/><g fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" stroke-opacity=".45"><path d="M140,56 h8 l4,-5 l5,20 l5,-16 c3,-5 6,-2 8,-1 h12"/><path d="M140,144 h8 l4,-5 l5,20 l5,-16 c3,-5 6,-2 8,-1 h12"/></g><path d="M140,100 h8 l4,-5 l5,20 l5,-16 c3,-5 6,-2 8,-1 h12" fill="none" stroke="var(--accent)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><text x="216" y="26" text-anchor="middle" font-size="10.5" fill="var(--accent-ink)" font-weight="600">sorted units</text><text x="216" y="180" text-anchor="middle" font-size="9.5" fill="var(--muted)">hundreds per probe</text></svg></div>
     <div class="acg-eb" style="color:#c2410c">MODALITY</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-neuropixels" title="Link to this term">Neuropixels</a></h3>
     <p class="acg-def">A family of devices for obtaining high channel count single unit extracellular recordings created through a collaborative open science project funded by Howard Hughes Medical Institute, Gatsby Charitable Trust, the Wellcome Trust, and the Allen Institute. These devices utilize modern integrated circuit design to miniaturize aspects of electrophysiology, enabling recordings of hundred of single units from a single probe with minimal brain damage. {cite:t}`jun2017` describes these probes; a summary can also be found here.</p>
-    </article>
-    <article class="acg-card" id="term-nglui-statebuilder-parser" data-cat="cave" data-hay="nglui (statebuilder/parser) python package to generate and parse neuroglancer states from dataframes. cave — access &amp; versioning ">
-    <div class="acg-eb" style="color:#0f766e">CAVE</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-nglui-statebuilder-parser" title="Link to this term">nglui (statebuilder/parser)</a></h3>
-    <p class="acg-def">Python package to generate and parse Neuroglancer states from dataframes.</p>
-    </article>
-    <article class="acg-card" id="term-nn-hit-miss" data-cat="quality" data-hay="nn_hit_rate / nn_miss_rate nearest-neighbour estimates of contamination and of missing spikes respectively. quality metrics ">
-    <div class="acg-eb" style="color:#4338ca">QUALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-nn-hit-miss" title="Link to this term">nn_hit_rate / nn_miss_rate</a></h3>
-    <p class="acg-def">Nearest-neighbour estimates of contamination and of missing spikes respectively.</p>
     </article>
     <article class="acg-card" id="term-nodes" data-cat="morphology" data-hay="nodes vertices in the skeleton / l2 graph. morphology — meshes &amp; skeletons ">
     <div class="acg-eb" style="color:#2a8f57">MORPH</div>
@@ -1532,31 +1038,10 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-nwb" title="Link to this term">NWB (Neurodata Without Borders)</a></h3>
     <p class="acg-def">A standardized file format for physiology and behavior data. All of our physiology and behavior data is stored in NWB files. The Visual Coding and Visual Behavior data are in NWB files with a hdf backend, while the newer data (V1DD, BCI, Dynamic Foraging, NP Ultra & Psychedelics) have a Zarr backend - which is optimized for cloud access. More info can be found here</p>
     </article>
-    <article class="acg-card" id="term-omission" data-cat="stimuli" data-hay="omission 5% of non-change presentations are dropped, interrupting the expected stimulus cadence so that expectation signals can be measured. omissions occur during recording but not during training, and never at or just before a change. stimuli &amp; behavioural tasks ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="omi-t"><title id="omi-t">An omitted stimulus presentation</title> <g fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".45" stroke-width="1.8"> <rect x="20" y="62" width="30" height="46" rx="4"/> <rect x="66" y="62" width="30" height="46" rx="4"/> <rect x="112" y="62" width="30" height="46" rx="4"/> <rect x="204" y="62" width="30" height="46" rx="4"/> <rect x="250" y="62" width="30" height="46" rx="4"/></g> <g stroke="currentColor" stroke-opacity=".35" stroke-width="2.6"> <path d="M27,66 v38 M35,66 v38 M43,66 v38"/><path d="M73,66 v38 M81,66 v38 M89,66 v38"/><path d="M119,66 v38 M127,66 v38 M135,66 v38"/><path d="M211,66 v38 M219,66 v38 M227,66 v38"/><path d="M257,66 v38 M265,66 v38 M273,66 v38"/></g> <rect x="158" y="62" width="30" height="46" rx="4" fill="none" stroke="var(--accent)" stroke-width="2.2" stroke-dasharray="5 4"/> <text x="173" y="48" text-anchor="middle" font-size="11" fill="var(--accent-ink)" font-weight="600">omission</text> <text x="173" y="34" text-anchor="middle" font-size="9" class="mono" fill="var(--faint)">5%</text> <path d="M20,132 H288" stroke="currentColor" stroke-opacity=".3" stroke-width="1.6" stroke-linecap="round"/> <polygon points="294,132 286,128 286,136" fill="currentColor" fill-opacity=".3"/> <text x="300" y="148" text-anchor="end" font-size="10" fill="var(--muted)">time</text> <text x="152" y="176" text-anchor="middle" font-size="9.5" fill="var(--faint)">never at or just before a change</text> </svg></div>
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-omission" title="Link to this term">Omission</a></h3>
-    <p class="acg-def">5% of non-change presentations are dropped, interrupting the expected stimulus cadence so that expectation signals can be measured. Omissions occur during recording but not during training, and never at or just before a change.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/stimuli/visual-behavior/VB-Behavior.html">in this book</a></div>
-    </article>
     <article class="acg-card" id="term-ophys" data-cat="modalities" data-hay="ophys shorthand for optical physiology, often in reference to two-photon calcium imaging, but can also include other methods such as fiber photometry. recording modalities &amp; instruments ">
     <div class="acg-eb" style="color:#c2410c">MODALITY</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-ophys" title="Link to this term">Ophys</a></h3>
     <p class="acg-def">Shorthand for optical physiology, often in reference to Two-photon calcium imaging, but can also include other methods such as fiber photometry.</p>
-    </article>
-    <article class="acg-card" id="term-ophys-experiment" data-cat="dataorg" data-hay="ophys experiment one imaging plane in one session — the narrowest unit in the hierarchy, with its own imaging_depth and targeted_structure. quality control passes or fails each plane separately. datasets, sessions &amp; files ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="oexp-t"><title id="oexp-t">Ophys experiment: one imaging plane within a session</title><rect x="18" y="42" width="284" height="106" rx="10" fill="none" stroke="currentColor" stroke-opacity=".3" stroke-width="1.8"/><text x="22" y="34" font-size="10.5" fill="var(--muted)">session</text><rect x="34" y="58" width="58" height="72" rx="7" fill="var(--surface-2)" fill-opacity="1" stroke="currentColor" stroke-opacity=".35" stroke-width="1.6"/><g fill="var(--neuron)" fill-opacity=".5"><circle cx="50" cy="80" r="4"/><circle cx="64" cy="94" r="4"/><circle cx="78" cy="88" r="4"/></g><text x="63" y="122" text-anchor="middle" font-size="9" class="mono" fill="var(--faint)">175</text><text x="83" y="70" text-anchor="middle" font-size="9" fill="var(--muted)">✓</text><rect x="102" y="58" width="58" height="72" rx="7" fill="var(--accent)" fill-opacity=".12" stroke="var(--accent)" stroke-opacity="1" stroke-width="2.4"/><g fill="var(--neuron)" fill-opacity=".5"><circle cx="118" cy="80" r="4"/><circle cx="132" cy="94" r="4"/><circle cx="146" cy="88" r="4"/></g><text x="131" y="122" text-anchor="middle" font-size="9" class="mono" fill="var(--faint)">275</text><text x="151" y="70" text-anchor="middle" font-size="9" fill="var(--muted)">✓</text><rect x="170" y="58" width="58" height="72" rx="7" fill="var(--surface-2)" fill-opacity="1" stroke="currentColor" stroke-opacity=".35" stroke-width="1.6"/><g fill="var(--neuron)" fill-opacity=".5"><circle cx="186" cy="80" r="4"/><circle cx="200" cy="94" r="4"/><circle cx="214" cy="88" r="4"/></g><text x="199" y="122" text-anchor="middle" font-size="9" class="mono" fill="var(--faint)">375</text><text x="219" y="70" text-anchor="middle" font-size="9" fill="var(--muted)">✓</text><rect x="238" y="58" width="58" height="72" rx="7" fill="var(--surface-2)" fill-opacity="1" stroke="currentColor" stroke-opacity=".35" stroke-width="1.6"/><g fill="var(--neuron)" fill-opacity=".5"><circle cx="254" cy="80" r="4"/><circle cx="268" cy="94" r="4"/><circle cx="282" cy="88" r="4"/></g><text x="267" y="122" text-anchor="middle" font-size="9" class="mono" fill="var(--faint)">500</text><text x="287" y="70" text-anchor="middle" font-size="9" fill="var(--faint)">✗</text><path d="M131,132 V150" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/><text x="131" y="166" text-anchor="middle" font-size="11" fill="var(--accent-ink)" font-weight="600">experiment</text><text x="160" y="188" text-anchor="middle" font-size="9" class="mono" fill="var(--faint)">imaging_depth · targeted_structure</text></svg></div>
-    <div class="acg-eb" style="color:#3f3f46">DATA</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-ophys-experiment" title="Link to this term">Ophys experiment</a></h3>
-    <p class="acg-def"><b>One imaging plane in one session</b> — the narrowest unit in the hierarchy, with its own <code>imaging_depth</code> and <code>targeted_structure</code>. Quality control passes or fails each plane separately.</p>
-    <div class="acg-meta"><span class="acg-chip acg-warn" title="This word means different things in different places">&#9888; ambiguous</span></div>
-    </article>
-    <article class="acg-card" id="term-opsin" data-cat="genetics" data-hay="opsin a light-gated ion channel. illumination changes its conformation, letting ions cross the membrane and either forcing the cell to spike (excitatory opsin) or suppressing spiking (inhibitory). genetic &amp; optical tools ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="ops-t"><title id="ops-t">Opsin: a light-gated ion channel in the membrane</title><rect x="20" y="86" width="150" height="34" rx="6" fill="var(--scaffold)" fill-opacity=".18" stroke="currentColor" stroke-opacity=".3" stroke-width="1.6"/><text x="24" y="80" font-size="9" fill="var(--faint)">outside</text><text x="24" y="136" font-size="9" fill="var(--faint)">inside</text><rect x="80" y="80" width="12" height="46" rx="5" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".6" stroke-width="1.8"/><rect x="100" y="80" width="12" height="46" rx="5" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".6" stroke-width="1.8"/><g stroke="var(--accent)" stroke-width="2" stroke-linecap="round"><path d="M46,44 L70,70"/><path d="M62,38 L82,64"/><path d="M30,58 L58,78"/></g><text x="30" y="34" font-size="10" fill="var(--accent-ink)" font-weight="600">light</text><g fill="currentColor" fill-opacity=".6"><circle cx="96" cy="72" r="3.2"/><circle cx="96" cy="100" r="3.2"/><circle cx="96" cy="134" r="3.2"/></g><text x="122" y="140" font-size="9" fill="var(--faint)">ions</text><rect x="204" y="38" width="72" height="5" rx="2.5" fill="var(--accent)"/><path d="M196,62 H306" stroke="currentColor" stroke-opacity=".25" stroke-width="1.2"/><path d="M206,62 V48" stroke="currentColor" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/><path d="M215,62 V48" stroke="currentColor" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/><path d="M224,62 V48" stroke="currentColor" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/><path d="M233,62 V48" stroke="currentColor" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/><path d="M242,62 V48" stroke="currentColor" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/><path d="M251,62 V48" stroke="currentColor" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/><path d="M260,62 V48" stroke="currentColor" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/><path d="M269,62 V48" stroke="currentColor" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/><text x="250" y="82" text-anchor="middle" font-size="10" fill="var(--muted)">excitatory</text><rect x="204" y="106" width="72" height="5" rx="2.5" fill="var(--accent)"/><path d="M196,130 H306" stroke="currentColor" stroke-opacity=".25" stroke-width="1.2"/><path d="M198,130 V116" stroke="currentColor" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/><path d="M284,130 V116" stroke="currentColor" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/><path d="M298,130 V116" stroke="currentColor" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/><text x="250" y="150" text-anchor="middle" font-size="10" fill="var(--muted)">inhibitory</text><text x="250" y="186" text-anchor="middle" font-size="9" fill="var(--faint)">bar = illumination</text></svg></div>
-    <div class="acg-eb" style="color:#15803d">GENETIC</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-opsin" title="Link to this term">Opsin</a></h3>
-    <p class="acg-def">A light-gated ion channel. Illumination changes its conformation, letting ions cross the membrane and either forcing the cell to spike (excitatory opsin) or suppressing spiking (inhibitory).</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="background/Optotagging.html">in this book</a></div>
     </article>
     <article class="acg-card" id="term-optogenetics" data-cat="genetics" data-hay="optogenetics a method for controlling the activity of neurons by expressing light activated ion channels (using a reporter line ) in a specific subpopulation of cells (using a driver line) to enable temporally precise control of neural spiking. spiking can be suppressed or enhanced using different types of reporters. see {cite:t}`peron2011` for a review on optogenetics as a method. genetic &amp; optical tools ">
     <div class="acg-eb" style="color:#15803d">GENETIC</div>
@@ -1585,24 +1070,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-pv-neuron" title="Link to this term">Parvalbumin-positive (PV+) neuron</a></h3>
     <p class="acg-def">Fast spiking neurons, also known as fast spiking interneurons, is a short-hand for parvalbumin positive GABA-ergic inhibitory interneurons found in many brain regions that have strong inhibitory effects on neighboring cells. In experimental preparations where the genetic identity of neurons can be paired with electrophysiological recordings, PV+ neurons have short action potentials, occasionally less than 400 µS.</p>
     </article>
-    <article class="acg-card" id="term-passive-replay" data-cat="stimuli" data-hay="passive replay block the same stimuli replayed with the lick spout retracted and no reward, so task-dependent modulation can be separated from stimulus drive. stimuli &amp; behavioural tasks ">
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-passive-replay" title="Link to this term">Passive replay block</a></h3>
-    <p class="acg-def">The same stimuli replayed with the lick spout retracted and no reward, so task-dependent modulation can be separated from stimulus drive.</p>
-    </article>
-    <article class="acg-card" id="term-pcg-skel" data-cat="morphology" data-hay="pcg_skel builds a skeleton for a root id directly from the level-2 chunked graph, optionally attaching synapses and volumetric properties. because it never touches the full-resolution mesh it can skeletonise very large neurons quickly. morphology — meshes &amp; skeletons ">
-    <div class="acg-eb" style="color:#2a8f57">MORPH</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-pcg-skel" title="Link to this term">pcg_skel</a></h3>
-    <p class="acg-def">Builds a skeleton for a root id directly from the level-2 chunked graph, optionally attaching synapses and volumetric properties. Because it never touches the full-resolution mesh it can skeletonise very large neurons quickly.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="https://alleninstitute.github.io/microns_tutorial/" target="_blank" rel="noopener">MICrONS tutorial &#8599;</a></div>
-    </article>
-    <article class="acg-card" id="term-peak-channel" data-cat="signals" data-hay="peak channel the channel on which a unit's mean waveform is largest. a unit carries no position of its own — joining peak_channel_id to the electrodes table at general/extracellular_ephys/electrodes is how it acquires a ccf location, a brain-region label and a depth. signals &amp; preprocessing ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="pkch-t"><title id="pkch-t">Peak channel: the channel with the largest mean waveform</title><rect x="34" y="30" width="14" height="8" rx="2" fill="currentColor" fill-opacity=".35"/><path d="M70,34 h12 l3,0.8 l3,-4.0 l4,5.4 l5,-2.2 h16" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><rect x="34" y="56" width="14" height="8" rx="2" fill="currentColor" fill-opacity=".35"/><path d="M70,60 h12 l3,1.8 l3,-9.0 l4,12.2 l5,-5.0 h16" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><rect x="34" y="82" width="14" height="8" rx="2" fill="var(--accent)" fill-opacity=".9"/><path d="M70,86 h12 l3,4.8 l3,-24.0 l4,32.4 l5,-13.2 h16" fill="none" stroke="var(--accent)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><rect x="34" y="108" width="14" height="8" rx="2" fill="currentColor" fill-opacity=".35"/><path d="M70,112 h12 l3,2.6 l3,-13.0 l4,17.6 l5,-7.2 h16" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><rect x="34" y="134" width="14" height="8" rx="2" fill="currentColor" fill-opacity=".35"/><path d="M70,138 h12 l3,1.2 l3,-6.0 l4,8.1 l5,-3.3 h16" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><rect x="34" y="160" width="14" height="8" rx="2" fill="currentColor" fill-opacity=".35"/><path d="M70,164 h12 l3,0.6 l3,-3.0 l4,4.1 l5,-1.7 h16" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><text x="118" y="72" font-size="9.5" fill="var(--accent-ink)" font-weight="600">largest</text><path d="M124,96 H190" stroke="currentColor" stroke-opacity=".5" stroke-width="1.8" stroke-linecap="round"/><polygon points="196,96 188,92 188,100" fill="currentColor" fill-opacity=".5"/><rect x="202" y="70" width="100" height="52" rx="8" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".35" stroke-width="1.8"/><text x="252" y="90" text-anchor="middle" font-size="9.5" class="mono" fill="var(--faint)">channels</text><text x="252" y="108" text-anchor="middle" font-size="10.5" fill="var(--muted)">region + depth</text><text x="160" y="190" text-anchor="middle" font-size="10" class="mono" fill="var(--accent-ink)">peak_channel_id</text></svg></div>
-    <div class="acg-eb" style="color:#0369a1">SIGNAL</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-peak-channel" title="Link to this term">Peak channel</a></h3>
-    <p class="acg-def">The channel on which a unit's mean waveform is largest. A unit carries no position of its own — joining <code>peak_channel_id</code> to the electrodes table at <code>general/extracellular_ephys/electrodes</code> is how it acquires a CCF location, a brain-region label and a depth.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/ephys/visual-coding/vcnp-units.html">in this book</a></div>
-    </article>
     <article class="acg-card" id="term-physiology" data-cat="datasets" data-hay="physiology the activity side of a functional-connectomics dataset: the calcium-imaging responses recorded from the same neurons that were later reconstructed in em. datasets &amp; scope ">
     <div class="acg-eb" style="color:#0e7f8c">DATASETS</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-physiology" title="Link to this term">Physiology</a></h3>
@@ -1619,35 +1086,10 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-precomputed-format" title="Link to this term">Precomputed format</a></h3>
     <p class="acg-def">Storage representation for arbitrarily large images/meshes/skeletons.</p>
     </article>
-    <article class="acg-card" id="term-pref-dir" data-cat="functional" data-hay="pref_dir preferred direction in degrees (0–360; 0 = vertical bar moving right, ccw+). functional data &amp; coregistration ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="pdir-t"><title id="pdir-t">pref_dir</title><circle cx="176" cy="100" r="68" fill="none" stroke="currentColor" stroke-opacity=".2" stroke-width="1.4"/><circle cx="176" cy="100" r="34" fill="none" stroke="currentColor" stroke-opacity=".2" stroke-width="1.4"/><line x1="104" y1="100" x2="248" y2="100" stroke="currentColor" stroke-opacity=".26" stroke-width="1.3"/><line x1="176" y1="28" x2="176" y2="172" stroke="currentColor" stroke-opacity=".26" stroke-width="1.3"/><path d="M176,100 C186,68 232,66 240,100 C232,134 186,132 176,100 Z" transform="rotate(-42 176 100)" fill="var(--accent)" fill-opacity=".16" stroke="var(--accent)" stroke-width="2" stroke-linejoin="round"/><line x1="176" y1="100" x2="222" y2="58" stroke="var(--accent)" stroke-width="3.4" stroke-linecap="round"/><path d="M222,58 L210,60 M222,58 L219,71" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M202,100 A26 26 0 0 0 195,82" fill="none" stroke="currentColor" stroke-opacity=".55" stroke-width="1.6"/><text x="206" y="88" font-size="11" fill="var(--muted)">θ</text><text x="252" y="104" font-size="9" class="mono" fill="var(--faint)">0°</text><text x="176" y="24" text-anchor="middle" font-size="9" class="mono" fill="var(--faint)">90°</text><text x="100" y="104" text-anchor="end" font-size="9" class="mono" fill="var(--faint)">180°</text><text x="176" y="185" text-anchor="middle" font-size="9" class="mono" fill="var(--faint)">270°</text><text x="20" y="30" font-size="13" class="mono" fill="var(--accent-ink)" font-weight="600">pref_dir</text></svg></div>
-    <div class="acg-eb" style="color:#9a5b12">FUNCTION</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-pref-dir" title="Link to this term">pref_dir</a></h3>
-    <p class="acg-def">Preferred direction in degrees (0–360; 0 = vertical bar moving right, CCW+).</p>
-    </article>
-    <article class="acg-card" id="term-pref-ori" data-cat="functional" data-hay="pref_ori preferred orientation in degrees (0–180). functional data &amp; coregistration ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="pori-t"><title id="pori-t">pref_ori</title><g transform="rotate(-34 168 104)"><rect x="112" y="76" width="112" height="6" rx="3" fill="var(--accent)" fill-opacity=".3"/><rect x="104" y="98" width="128" height="13" rx="6" fill="var(--accent)"/><rect x="112" y="126" width="112" height="6" rx="3" fill="var(--accent)" fill-opacity=".3"/></g><line x1="168" y1="104" x2="240" y2="104" stroke="currentColor" stroke-opacity=".4" stroke-width="1.6" stroke-dasharray="5 4"/><path d="M204,104 A36 36 0 0 0 198,82" fill="none" stroke="currentColor" stroke-opacity=".55" stroke-width="1.6"/><text x="208" y="90" font-size="11" fill="var(--muted)">θ</text><text x="20" y="30" font-size="13" class="mono" fill="var(--accent-ink)" font-weight="600">pref_ori</text><text x="160" y="188" text-anchor="middle" font-size="9.5" class="mono" fill="var(--faint)">θ ∈ 0–180°</text></svg></div>
-    <div class="acg-eb" style="color:#9a5b12">FUNCTION</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-pref-ori" title="Link to this term">pref_ori</a></h3>
-    <p class="acg-def">Preferred orientation in degrees (0–180).</p>
-    </article>
-    <article class="acg-card" id="term-presence-ratio" data-cat="quality" data-hay="presence_ratio fraction of the session in which the unit had spikes. a low value usually means the unit drifted away from the probe. default threshold 0.9. quality metrics ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="pres-t"><title id="pres-t">Presence ratio across the session</title> <rect x="30" y="44" width="256" height="26" rx="4" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".35" stroke-width="1.6"/> <path d="M40,49 V65 M56,49 V65 M72,49 V65 M92,49 V65 M108,49 V65 M126,49 V65 M144,49 V65 M162,49 V65 M180,49 V65 M198,49 V65 M216,49 V65 M234,49 V65 M252,49 V65 M270,49 V65" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round"/> <text x="30" y="36" font-size="10" fill="var(--muted)">unit A</text> <text x="286" y="36" text-anchor="end" font-size="10" class="mono" fill="var(--accent-ink)">0.98 keep</text> <rect x="30" y="104" width="256" height="26" rx="4" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".35" stroke-width="1.6"/> <path d="M40,109 V125 M56,109 V125 M72,109 V125 M92,109 V125 M108,109 V125 M126,109 V125" stroke="currentColor" stroke-opacity=".55" stroke-width="1.8" stroke-linecap="round"/> <text x="30" y="96" font-size="10" fill="var(--muted)">unit B</text> <text x="286" y="96" text-anchor="end" font-size="10" class="mono" fill="var(--muted)">0.42 drifted</text> <text x="210" y="122" text-anchor="middle" font-size="9" fill="var(--faint)">no spikes after drift</text> <path d="M30,150 H286" stroke="currentColor" stroke-opacity=".3" stroke-width="1.6" stroke-linecap="round"/> <text x="158" y="168" text-anchor="middle" font-size="10" fill="var(--muted)">session</text> <text x="158" y="184" text-anchor="middle" font-size="9" class="mono" fill="var(--faint)">threshold 0.9</text> </svg></div>
-    <div class="acg-eb" style="color:#4338ca">QUALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-presence-ratio" title="Link to this term">presence_ratio</a></h3>
-    <p class="acg-def">Fraction of the session in which the unit had spikes. A low value usually means the unit drifted away from the probe. Default threshold 0.9.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/ephys/visual-coding/vcnp-quality-metrics.html">in this book</a></div>
-    </article>
     <article class="acg-card" id="term-primary-visual-cortex" data-cat="celltypes" data-hay="primary visual cortex (v1 / visp) the largest visual area in cortex that receives inputs from the lateral geniculate nucleus of thalamus. often referred to as v1 or visp. cell types &amp; cortical anatomy ">
     <div class="acg-eb" style="color:#c9357f">CELLTYPE</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-primary-visual-cortex" title="Link to this term">Primary visual cortex (V1 / VISp)</a></h3>
     <p class="acg-def">The largest visual area in cortex that receives inputs from the Lateral geniculate nucleus of thalamus. Often referred to as <b>V1</b> or <b>VISp</b>.</p>
-    </article>
-    <article class="acg-card" id="term-probe-shank-channel" data-cat="modalities" data-hay="probe / shank / channel / site the recording hierarchy: a probe carries one or more shanks, a shank is patterned with recording sites, and the subset wired out for recording at any moment are the channels. recording modalities &amp; instruments ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="psc-t"><title id="psc-t">Probe, shank, site and channel</title> <rect x="46" y="22" width="112" height="22" rx="5" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".55" stroke-width="2"/> <path d="M72,44 v104 l8,14 l8,-14 V44 Z" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".55" stroke-width="1.8" stroke-linejoin="round"/> <path d="M124,44 v104 l8,14 l8,-14 V44 Z" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".55" stroke-width="1.8" stroke-linejoin="round"/> <g fill="currentColor" fill-opacity=".45"> <circle cx="80" cy="58" r="3"/><circle cx="80" cy="74" r="3"/><circle cx="80" cy="90" r="3"/><circle cx="80" cy="106" r="3"/><circle cx="80" cy="122" r="3"/><circle cx="80" cy="138" r="3"/> <circle cx="132" cy="58" r="3"/><circle cx="132" cy="74" r="3"/><circle cx="132" cy="122" r="3"/><circle cx="132" cy="138" r="3"/></g> <circle cx="132" cy="90" r="3.6" fill="var(--accent)"/><circle cx="132" cy="106" r="3.6" fill="var(--accent)"/> <g stroke="currentColor" stroke-opacity=".35" stroke-width="1.4"> <path d="M160,33 H196"/><path d="M144,60 H196"/><path d="M144,98 H196"/><path d="M74,74 H44"/></g> <text x="200" y="37" font-size="11" fill="var(--muted)">probe</text> <text x="200" y="64" font-size="11" fill="var(--muted)">shank</text> <text x="40" y="78" text-anchor="end" font-size="11" fill="var(--muted)">site</text> <text x="200" y="102" font-size="11" fill="var(--accent-ink)" font-weight="600">channel</text> <text x="200" y="115" font-size="9" fill="var(--faint)">wired out now</text> <text x="106" y="180" text-anchor="middle" font-size="9" fill="var(--faint)">sites patterned on each shank</text> </svg></div>
-    <div class="acg-eb" style="color:#c2410c">MODALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-probe-shank-channel" title="Link to this term">Probe / shank / channel / site</a></h3>
-    <p class="acg-def">The recording hierarchy: a probe carries one or more shanks, a shank is patterned with recording sites, and the subset wired out for recording at any moment are the channels.</p>
     </article>
     <article class="acg-card" id="term-proofreading" data-cat="proofreading" data-hay="proofreading manual correction of split/merge errors to make neurons biologically accurate/complete. proofreading &amp; data quality ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="pp"><title id="pp">Proofreading — before and after</title>
@@ -1681,12 +1123,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-proofreading" title="Link to this term">Proofreading</a></h3>
     <p class="acg-def">Manual correction of split/merge errors to make neurons biologically accurate/complete.</p>
     </article>
-    <article class="acg-card" id="term-psth" data-cat="responses" data-hay="psth peri-stimulus time histogram: spikes binned relative to stimulus onset and averaged over trials, giving the time course of the response. response properties &amp; analysis ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="psth-t"><title id="psth-t">Peri-stimulus time histogram</title> <path d="M96,20 V172" stroke="var(--accent)" stroke-width="2" stroke-opacity=".7"/> <text x="96" y="14" text-anchor="middle" font-size="9.5" fill="var(--accent-ink)">onset</text> <g stroke="currentColor" stroke-opacity=".6" stroke-width="4" stroke-linecap="round"> <path d="M44,30 h0 M70,30 h0 M104,30 h0 M112,30 h0 M126,30 h0 M180,30 h0"/> <path d="M52,46 h0 M102,46 h0 M116,46 h0 M130,46 h0 M158,46 h0 M216,46 h0"/> <path d="M36,62 h0 M82,62 h0 M106,62 h0 M118,62 h0 M140,62 h0 M196,62 h0"/> <path d="M62,78 h0 M100,78 h0 M110,78 h0 M124,78 h0 M168,78 h0 M240,78 h0"/> <path d="M48,94 h0 M90,94 h0 M108,94 h0 M122,94 h0 M150,94 h0 M228,94 h0"/></g> <text x="26" y="66" text-anchor="end" font-size="9.5" fill="var(--muted)">trials</text> <path d="M30,156 H300" stroke="currentColor" stroke-opacity=".3" stroke-width="1.6"/> <path d="M32,146 h14 v-2 h16 v3 h16 v-2 h16 v-34 h16 v-8 h16 v22 h16 v12 h16 v6 h16 v-2 h16 v1 h16 v2 h16 v-1 h14 v13 h-220 Z" fill="var(--accent)" fill-opacity=".5"/> <text x="26" y="132" text-anchor="end" font-size="9.5" fill="var(--muted)">rate</text> <text x="165" y="176" text-anchor="middle" font-size="9.5" fill="var(--faint)">binned and averaged over trials</text> </svg></div>
-    <div class="acg-eb" style="color:#9f1239">RESPONSE</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-psth" title="Link to this term">PSTH</a></h3>
-    <p class="acg-def">Peri-stimulus time histogram: spikes binned relative to stimulus onset and averaged over trials, giving the time course of the response.</p>
-    </article>
     <article class="acg-card" id="term-pychunkedgraph-pcg-l2-graph" data-cat="segmentation" data-hay="pychunkedgraph (pcg) / l2 graph hierarchical representation: l0 = voxels, l1 = supervoxels, l2 = supervoxels grouped within a chunk. segmentation &amp; reconstruction ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="pcg"><title id="pcg">PyChunkedGraph L2 graph</title><g stroke="currentColor" stroke-opacity=".4" stroke-width="1.5"><rect x="60" y="150" width="14" height="14" fill="var(--scaffold)" fill-opacity=".16"/><rect x="78" y="150" width="14" height="14" fill="var(--scaffold)" fill-opacity=".16"/><rect x="96" y="150" width="14" height="14" fill="var(--scaffold)" fill-opacity=".16"/><rect x="114" y="150" width="14" height="14" fill="var(--scaffold)" fill-opacity=".16"/><rect x="132" y="150" width="14" height="14" fill="var(--scaffold)" fill-opacity=".16"/><rect x="150" y="150" width="14" height="14" fill="var(--scaffold)" fill-opacity=".16"/><rect x="168" y="150" width="14" height="14" fill="var(--scaffold)" fill-opacity=".16"/><rect x="186" y="150" width="14" height="14" fill="var(--scaffold)" fill-opacity=".16"/></g><g stroke="currentColor" stroke-opacity=".55" stroke-width="2"><rect x="74" y="98" width="22" height="22" fill="var(--scaffold)" fill-opacity=".3"/><rect x="104" y="98" width="22" height="22" fill="var(--scaffold)" fill-opacity=".3"/><rect x="134" y="98" width="22" height="22" fill="var(--scaffold)" fill-opacity=".3"/><rect x="164" y="98" width="22" height="22" fill="var(--scaffold)" fill-opacity=".3"/></g><circle cx="116" cy="48" r="12" fill="var(--accent)" fill-opacity=".3" stroke="var(--accent-ink)" stroke-width="2.2"/><circle cx="144" cy="48" r="12" fill="var(--accent)" fill-opacity=".3" stroke="var(--accent-ink)" stroke-width="2.2"/><g fill="none" stroke="currentColor" stroke-opacity=".6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M130,148 V124"/><path d="M124,130 l6,-6 6,6"/><path d="M130,96 V66"/><path d="M124,72 l6,-6 6,6"/></g><text x="210" y="52" font-size="10.5" fill="var(--accent-ink)">L2 nodes <tspan class="mono" fill="var(--faint)">~10</tspan></text><text x="210" y="113" font-size="10.5" fill="var(--muted)">supervoxels <tspan class="mono" fill="var(--faint)">1e3</tspan></text><text x="210" y="160" font-size="10.5" fill="var(--muted)">voxels <tspan class="mono" fill="var(--faint)">1e6</tspan></text></svg></div>
     <div class="acg-eb" style="color:#6d55e0">SEGMENT</div>
@@ -1697,17 +1133,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <div class="acg-eb" style="color:#c9357f">CELLTYPE</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-pyramidal-cell" title="Link to this term">Pyramidal cell</a></h3>
     <p class="acg-def">A type of excitatory neuron with a characteristic cell body shape and apical dendrite. In visual cortex, pyramidal cells are by far the most common type of excitatory neuron.</p>
-    </article>
-    <article class="acg-card" id="term-q-value-rpe" data-cat="stimuli" data-hay="q value / rpe latent variables of a reinforcement-learning fit to foraging behaviour: the expected value of each choice, and the reward prediction error that updates it. useful precisely because they can then be regressed against neural activity. stimuli &amp; behavioural tasks ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="qrpe-t"><title id="qrpe-t">Q value and reward prediction error fitted to foraging behaviour</title><text x="20" y="66" font-size="9" fill="var(--faint)">choice</text><path d="M20,76 H92" stroke="currentColor" stroke-opacity=".25" stroke-width="1.2"/><path d="M28,76 V64" stroke="currentColor" stroke-opacity=".75" stroke-width="2" stroke-linecap="round"/><path d="M46,76 V64" stroke="currentColor" stroke-opacity=".75" stroke-width="2" stroke-linecap="round"/><path d="M62,76 V64" stroke="currentColor" stroke-opacity=".75" stroke-width="2" stroke-linecap="round"/><path d="M84,76 V64" stroke="currentColor" stroke-opacity=".75" stroke-width="2" stroke-linecap="round"/><path d="M20,104 H92" stroke="currentColor" stroke-opacity=".25" stroke-width="1.2"/><path d="M28,104 V92" stroke="currentColor" stroke-opacity=".75" stroke-width="2" stroke-linecap="round"/><path d="M62,104 V92" stroke="currentColor" stroke-opacity=".75" stroke-width="2" stroke-linecap="round"/><text x="20" y="122" font-size="9" fill="var(--faint)">reward</text><text x="56" y="150" text-anchor="middle" font-size="10" fill="var(--muted)">behaviour</text><path d="M98,90 H112" stroke="currentColor" stroke-opacity=".5" stroke-width="1.8" stroke-linecap="round"/><polygon points="118,90 110,86 110,94" fill="currentColor" fill-opacity=".5"/><rect x="122" y="58" width="86" height="64" rx="9" fill="var(--surface-2)" stroke="var(--accent)" stroke-width="2.2"/><text x="165" y="86" text-anchor="middle" font-size="11" class="mono" fill="var(--accent-ink)" font-weight="600">Q value</text><text x="165" y="106" text-anchor="middle" font-size="11" class="mono" fill="var(--accent-ink)" font-weight="600">RPE</text><text x="165" y="150" text-anchor="middle" font-size="10" fill="var(--muted)">RL model fit</text><path d="M214,90 H228" stroke="currentColor" stroke-opacity=".5" stroke-width="1.8" stroke-linecap="round"/><polygon points="234,90 226,86 226,94" fill="currentColor" fill-opacity=".5"/><path d="M240,104 h8 l4,-22 l4,26 l6,-8 h6 l4,-20 l4,24 l6,-6 h20" fill="none" stroke="var(--neuron)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><text x="270" y="150" text-anchor="middle" font-size="10" fill="var(--muted)">neural activity</text><text x="160" y="184" text-anchor="middle" font-size="9.5" fill="var(--faint)">latent variables become regressors</text></svg></div>
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-q-value-rpe" title="Link to this term">Q value / RPE</a></h3>
-    <p class="acg-def">Latent variables of a reinforcement-learning fit to foraging behaviour: the expected value of each choice, and the reward prediction error that updates it. Useful precisely because they can then be regressed against neural activity.</p>
-    </article>
-    <article class="acg-card" id="term-query-table-synapse-query" data-cat="tables" data-hay="query_table / synapse_query the two query entry points + filter_in_dict; note the 200k-row cap, desired_resolution, select_columns, split_positions. annotation tables, ids &amp; queries ">
-    <div class="acg-eb" style="color:#9333ea">TABLES</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-query-table-synapse-query" title="Link to this term">query_table / synapse_query</a></h3>
-    <p class="acg-def">The two query entry points + <code>filter_in_dict</code>; note the 200k-row cap, <code>desired_resolution</code>, <code>select_columns</code>, <code>split_positions</code>.</p>
     </article>
     <article class="acg-card" id="term-radial-distance" data-cat="morphology" data-hay="radial distance depth measured along the local pia-to-white-matter streamline rather than along a straight line. cortex curves, so two cells the same euclidean distance apart can sit in different layers; following the streamline is what makes depth comparable across a volume. standard_transform.radial_distance computes it. morphology — meshes &amp; skeletons ">
     <div class="acg-eb" style="color:#2a8f57">MORPH</div>
@@ -1720,56 +1145,11 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-radius" title="Link to this term">Radius</a></h3>
     <p class="acg-def">Half the cable thickness at a skeleton vertex (µm).</p>
     </article>
-    <article class="acg-card" id="term-readout-loc-x-y" data-cat="functional" data-hay="readout_loc_x/y approximate receptive-field center in stimulus space. functional data &amp; coregistration ">
-    <div class="acg-eb" style="color:#9a5b12">FUNCTION</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-readout-loc-x-y" title="Link to this term">readout_loc_x/y</a></h3>
-    <p class="acg-def">Approximate receptive-field center in stimulus space.</p>
-    </article>
     <article class="acg-card" id="term-receptive-field" data-cat="responses" data-hay="receptive field in a sensory context, the receptive field of a neuron is the region of the stimulus domain in which sensory stimulus needs to lie in order to evoke a response. for visual cortical cells, for example, the receptive field is the region of visual space in which stimuli can evoke neural responses. in a computational context, this notion is often generalized multiple dimensions (e.g. space, time, frequency, etc.) and thus equates to the necessary stimulus features that drive neural response (e.g. a localized grating of a specific orientation and frequency). response properties &amp; analysis ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="rfd-t"><title id="rfd-t">Receptive field: only stimuli inside the region drive the cell</title><rect x="24" y="34" width="96" height="60" rx="4" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".45" stroke-width="1.8"/><ellipse cx="72" cy="64" rx="26" ry="18" fill="var(--accent)" fill-opacity=".14" stroke="var(--accent)" stroke-width="2" stroke-dasharray="4 4"/><rect x="64" y="56" width="16" height="16" rx="2" fill="currentColor" fill-opacity=".6"/><path d="M150,56v14M155,56v14M162,56v14M165,56v14M167,56v14M176,56v14M184,56v14M185,56v14M186,56v14M191,56v14M194,56v14M198,56v14M205,56v14M207,56v14" stroke="var(--neuron)" stroke-width="2.2" stroke-linecap="round"/><text x="292" y="46" text-anchor="end" font-size="10" fill="var(--accent-ink)" font-weight="600">response</text><rect x="24" y="112" width="96" height="60" rx="4" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".45" stroke-width="1.8"/><ellipse cx="72" cy="142" rx="26" ry="18" fill="none" stroke="currentColor" stroke-opacity=".3" stroke-width="2" stroke-dasharray="4 4"/><rect x="98" y="118" width="16" height="16" rx="2" fill="currentColor" fill-opacity=".6"/><path d="M190,134v14M194,134v14M207,134v14" stroke="currentColor" stroke-opacity=".45" stroke-width="2.2" stroke-linecap="round"/><text x="292" y="124" text-anchor="end" font-size="10" fill="var(--muted)">no response</text><text x="72" y="22" text-anchor="middle" font-size="10" fill="var(--muted)">stimulus inside</text><text x="72" y="190" text-anchor="middle" font-size="10" fill="var(--muted)">stimulus outside</text></svg></div>
     <div class="acg-eb" style="color:#9f1239">RESPONSE</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-receptive-field" title="Link to this term">Receptive field</a></h3>
     <p class="acg-def">In a sensory context, the receptive field of a neuron is the region of the stimulus domain in which sensory stimulus needs to lie in order to evoke a response. For visual cortical cells, for example, the receptive field is the region of visual space in which stimuli can evoke neural responses. In a computational context, this notion is often generalized multiple dimensions (e.g. space, time, frequency, etc.) and thus equates to the necessary stimulus features that drive neural response (e.g. a localized grating of a specific orientation and frequency).</p>
-    </article>
-    <article class="acg-card" id="term-reference-table" data-cat="tables" data-hay="reference table a table linked to another (usually nucleus_detection_v0) by shared annotation id, adding _ref columns. annotation tables, ids &amp; queries ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="reft-t">
-<title id="reft-t">Reference table</title>
-<rect x="20" y="48" width="112" height="94" rx="5" fill="var(--surface-2)" stroke="var(--border)" stroke-width="1.5"/>
-<text x="26" y="62" font-size="9.5" class="mono" fill="var(--muted)">cells</text>
-<line x1="20" y1="68" x2="132" y2="68" stroke="var(--border)" stroke-width="1.3"/>
-<rect x="96" y="68" width="36" height="74" fill="var(--accent)" fill-opacity=".18"/>
-<line x1="96" y1="48" x2="96" y2="142" stroke="var(--border)" stroke-width="1.3"/>
-<line x1="20" y1="92" x2="132" y2="92" stroke="var(--border)" stroke-opacity=".55" stroke-width="1"/>
-<line x1="20" y1="117" x2="132" y2="117" stroke="var(--border)" stroke-opacity=".55" stroke-width="1"/>
-<text x="30" y="84" font-size="9" class="mono" fill="var(--muted)">pos</text>
-<text x="30" y="109" font-size="9" class="mono" fill="var(--faint)">…</text>
-<text x="30" y="134" font-size="9" class="mono" fill="var(--faint)">…</text>
-<text x="114" y="84" text-anchor="middle" font-size="9" class="mono" fill="var(--accent-ink)">id</text>
-<text x="114" y="109" text-anchor="middle" font-size="9" class="mono" fill="var(--accent-ink)">7</text>
-<text x="114" y="134" text-anchor="middle" font-size="9" class="mono" fill="var(--accent-ink)">8</text>
-<rect x="188" y="48" width="112" height="94" rx="5" fill="var(--surface-2)" stroke="var(--border)" stroke-width="1.5"/>
-<text x="194" y="62" font-size="9.5" class="mono" fill="var(--muted)">cell_type</text>
-<line x1="188" y1="68" x2="300" y2="68" stroke="var(--border)" stroke-width="1.3"/>
-<rect x="188" y="68" width="36" height="74" fill="var(--accent)" fill-opacity=".18"/>
-<rect x="224" y="68" width="76" height="74" fill="var(--dendrite)" fill-opacity=".14"/>
-<line x1="224" y1="48" x2="224" y2="142" stroke="var(--border)" stroke-width="1.3"/>
-<line x1="188" y1="92" x2="300" y2="92" stroke="var(--border)" stroke-opacity=".55" stroke-width="1"/>
-<line x1="188" y1="117" x2="300" y2="117" stroke="var(--border)" stroke-opacity=".55" stroke-width="1"/>
-<text x="206" y="84" text-anchor="middle" font-size="9" class="mono" fill="var(--accent-ink)">id</text>
-<text x="206" y="109" text-anchor="middle" font-size="9" class="mono" fill="var(--accent-ink)">7</text>
-<text x="206" y="134" text-anchor="middle" font-size="9" class="mono" fill="var(--accent-ink)">8</text>
-<text x="232" y="84" font-size="9" class="mono" fill="var(--dendrite)">type_ref</text>
-<text x="232" y="109" font-size="9" class="mono" fill="var(--muted)">exc</text>
-<text x="232" y="134" font-size="9" class="mono" fill="var(--muted)">inh</text>
-<text x="160" y="94" text-anchor="middle" font-size="8.5" fill="var(--accent-ink)">join on id</text>
-<line x1="136" y1="105" x2="184" y2="105" stroke="var(--accent-ink)" stroke-width="2" stroke-linecap="round"/>
-<path d="M142,100 l-6,5 6,5" fill="none" stroke="var(--accent-ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M178,100 l6,5 -6,5" fill="none" stroke="var(--accent-ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="160" y="170" text-anchor="middle" font-size="9.5" fill="var(--muted)">adds *_ref columns</text>
-</svg></div>
-    <div class="acg-eb" style="color:#9333ea">TABLES</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-reference-table" title="Link to this term">Reference table</a></h3>
-    <p class="acg-def">A table linked to another (usually <code>nucleus_detection_v0</code>) by shared annotation <code>id</code>, adding <code>_ref</code> columns.</p>
     </article>
     <article class="acg-card" id="term-regular-spiking-neuron" data-cat="celltypes" data-hay="regular spiking neuron (rs) neurons that, when injected with a long step of current in the context of intracellular recordings, show spike frequency adaptation where the rate of spiking decreases over time. these neurons also have longer (or wider) action potentials, and lower spike rates even when injected with large currents due to hyperpolarization after each action potential. these are the most common type of neurons in the mammalian cortex, and are often associated excitatory neurons. in extracellular recordings, neurons with longer action potentials are also sometimes referred to as regular spiking neurons, a feature which is used to associate these units with specific cell types, such as excitatory pyramidal neurons among others. cell types &amp; cortical anatomy ">
     <div class="acg-eb" style="color:#c9357f">CELLTYPE</div>
@@ -1797,11 +1177,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-resolution" title="Link to this term">Resolution</a></h3>
     <p class="acg-def">Physical voxel size in nm/voxel (MICrONS 4×4×40; V1DD 9×9×45); set per query via <code>desired_resolution</code>.</p>
     </article>
-    <article class="acg-card" id="term-rmi" data-cat="stimuli" data-hay="response modulation index (rmi) the normalised contrast between visual and auditory target response rates, collapsing two hit rates into one number that says which context the mouse is behaving in. stimuli &amp; behavioural tasks ">
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-rmi" title="Link to this term">Response modulation index (RMI)</a></h3>
-    <p class="acg-def">The normalised contrast between visual and auditory target response rates, collapsing two hit rates into one number that says which context the mouse is behaving in.</p>
-    </article>
     <article class="acg-card" id="term-retinotopy" data-cat="responses" data-hay="retinotopy retinotopy refers to the mapping of visual space on to neural space. most visual areas of the brain contain an orderly map of visual space such that neighboring regions in space are represented by neighboring regions in the brain. retinotopic maps are typically measured in terms of altitude (aka vertical retinotopy), referring to the axis from upper to lower visual field, and and azimuth (aka horizontal retinotopy), referring to the axis from left to right in space. response properties &amp; analysis ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="ret-t"><title id="ret-t">Retinotopy: neighbouring points in visual space map to neighbouring cortex</title><rect x="30" y="44" width="100" height="100" rx="3" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".4" stroke-width="1.6"/><path d="M63,44 V144 M97,44 V144 M30,77 H130 M30,111 H130" stroke="currentColor" stroke-opacity=".18" stroke-width="1.2"/><circle cx="50" cy="68" r="5" fill="var(--accent)" fill-opacity="1"/><circle cx="108" cy="72" r="5" fill="currentColor" fill-opacity=".7"/><circle cx="76" cy="124" r="5" fill="currentColor" fill-opacity=".35"/><path d="M206,52 C252,40 296,62 292,96 C288,132 244,152 212,140 C186,130 180,68 206,52" fill="var(--scaffold)" fill-opacity=".18" stroke="currentColor" stroke-opacity=".45" stroke-width="1.8"/><circle cx="224" cy="76" r="5" fill="var(--accent)" fill-opacity="1"/><circle cx="272" cy="88" r="5" fill="currentColor" fill-opacity=".7"/><circle cx="238" cy="124" r="5" fill="currentColor" fill-opacity=".35"/><path d="M140,94 H166" stroke="currentColor" stroke-opacity=".5" stroke-width="1.8" stroke-linecap="round"/><polygon points="174,94 165,89 165,99" fill="currentColor" fill-opacity=".5"/><text x="157" y="84" text-anchor="middle" font-size="9" fill="var(--faint)">maps to</text><path d="M30,156 H92" stroke="currentColor" stroke-opacity=".4" stroke-width="1.5"/><polygon points="98,156 90,152 90,160" fill="currentColor" fill-opacity=".4"/><text x="112" y="159" font-size="9" fill="var(--faint)">azimuth</text><path d="M20,144 V60" stroke="currentColor" stroke-opacity=".4" stroke-width="1.5"/><polygon points="20,52 16,60 24,60" fill="currentColor" fill-opacity=".4"/><text x="14" y="102" text-anchor="middle" font-size="9" fill="var(--faint)" transform="rotate(-90 14 102)">altitude</text><text x="80" y="184" text-anchor="middle" font-size="10.5" fill="var(--muted)">visual field</text><text x="244" y="184" text-anchor="middle" font-size="10.5" fill="var(--muted)">cortex</text></svg></div>
     <div class="acg-eb" style="color:#9f1239">RESPONSE</div>
@@ -1819,12 +1194,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <div class="acg-eb" style="color:#6d55e0">SEGMENT</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-root-id-pt-root-id" title="Link to this term">Root_id (pt_root_id)</a></h3>
     <p class="acg-def">Unique integer for a specific segmentation = a specific version of a cell (a.k.a. segment / object id).</p>
-    </article>
-    <article class="acg-card" id="term-running-speed" data-cat="signals" data-hay="running speed speed on the running disc, temporally aligned to the activity traces. same length as δf/f, so a stimulus epoch indexes into both. signals &amp; preprocessing ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="run-t"><title id="run-t">Running speed aligned sample-for-sample with the activity trace</title><rect x="140" y="26" width="52" height="130" fill="var(--accent)" fill-opacity=".12"/><text x="166" y="20" text-anchor="middle" font-size="9.5" fill="var(--accent-ink)" font-weight="600">stimulus epoch</text><path d="M40,74 H292" stroke="currentColor" stroke-opacity=".2" stroke-width="1.4"/><path d="M40,67L50,64L59,66L69,62L79,59L88,69L98,76L108,63L118,67L127,70L137,57L147,60L156,54L166,58L176,57L185,66L195,62L205,55L214,57L224,55L234,55L244,67L253,59L263,59L273,64L282,72L292,61" fill="none" stroke="currentColor" stroke-opacity=".75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="40" y="40" font-size="10" fill="var(--muted)">running speed</text><text x="292" y="40" text-anchor="end" font-size="9" class="mono" fill="var(--faint)">cm/s</text><path d="M40,148 H292" stroke="currentColor" stroke-opacity=".2" stroke-width="1.4"/><path d="M40,137L50,135L59,128L69,132L79,134L88,133L98,140L108,138L118,135L127,130L137,140L147,142L156,147L166,136L176,133L185,142L195,131L205,125L214,127L224,129L234,138L244,146L253,141L263,147L273,147L282,147L292,150" fill="none" stroke="var(--neuron)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><text x="40" y="114" font-size="10" fill="var(--muted)">ΔF/F</text><path d="M40,166 H292" stroke="currentColor" stroke-opacity=".35" stroke-width="1.6"/><text x="166" y="184" text-anchor="middle" font-size="10" fill="var(--muted)">same time index in both</text></svg></div>
-    <div class="acg-eb" style="color:#0369a1">SIGNAL</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-running-speed" title="Link to this term">Running speed</a></h3>
-    <p class="acg-def">Speed on the running disc, temporally aligned to the activity traces. Same length as ΔF/F, so a stimulus epoch indexes into both.</p>
     </article>
     <article class="acg-card" id="term-saccade" data-cat="celltypes" data-hay="saccade a rapid and ballistic eye movement that shifts the visual field between two fixation points. mice are not foveal animals, and their eye movements are different from foveal animals (such as humans). cell types &amp; cortical anatomy ">
     <div class="acg-eb" style="color:#c9357f">CELLTYPE</div>
@@ -1896,45 +1265,16 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-session" title="Link to this term">Session</a></h3>
     <p class="acg-def">A physiological and/or behavioral recording that happens at one time.</p>
     </article>
-    <article class="acg-card" id="term-share-link-middleauth" data-cat="tools" data-hay="share link / middleauth authenticated state-sharing mechanism. visualisation tools ">
-    <div class="acg-eb" style="color:#526278">TOOLS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-share-link-middleauth" title="Link to this term">Share link / middleauth</a></h3>
-    <p class="acg-def">Authenticated state-sharing mechanism.</p>
-    </article>
-    <article class="acg-card" id="term-signal-noise-correlation" data-cat="responses" data-hay="signal vs noise correlation signal correlation compares two cells' mean responses across stimulus conditions — do they like the same things. noise correlation compares their trial-to-trial fluctuations to the same condition — do they vary together. response properties &amp; analysis ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="snc-t"><title id="snc-t">Signal correlation across conditions versus noise correlation within a condition</title><text x="86" y="34" text-anchor="middle" font-size="11" fill="var(--muted)" font-weight="600">signal</text><path d="M34,44 V118 H140" fill="none" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/><path d="M40,112 C58,110 64,58 84,56 C104,54 118,104 136,110" fill="none" stroke="currentColor" stroke-opacity=".85" stroke-width="2.2" stroke-linecap="round"/><path d="M40,116 C60,114 68,74 88,72 C108,70 120,110 136,114" fill="none" stroke="currentColor" stroke-opacity=".35" stroke-width="2.2" stroke-linecap="round"/><text x="88" y="134" text-anchor="middle" font-size="9" fill="var(--faint)">stimulus condition</text><text x="88" y="156" text-anchor="middle" font-size="9.5" fill="var(--muted)">same preferences?</text><text x="242" y="34" text-anchor="middle" font-size="11" fill="var(--muted)" font-weight="600">noise</text><path d="M190,44 V118 H296" fill="none" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/><path d="M198,112 L288,54" stroke="var(--accent)" stroke-width="2" stroke-dasharray="5 4" stroke-linecap="round"/><circle cx="206" cy="104" r="2.8" fill="currentColor" fill-opacity=".6"/><circle cx="218" cy="102" r="2.8" fill="currentColor" fill-opacity=".6"/><circle cx="224" cy="90" r="2.8" fill="currentColor" fill-opacity=".6"/><circle cx="236" cy="92" r="2.8" fill="currentColor" fill-opacity=".6"/><circle cx="242" cy="80" r="2.8" fill="currentColor" fill-opacity=".6"/><circle cx="252" cy="84" r="2.8" fill="currentColor" fill-opacity=".6"/><circle cx="258" cy="70" r="2.8" fill="currentColor" fill-opacity=".6"/><circle cx="270" cy="72" r="2.8" fill="currentColor" fill-opacity=".6"/><circle cx="280" cy="60" r="2.8" fill="currentColor" fill-opacity=".6"/><text x="242" y="134" text-anchor="middle" font-size="9" fill="var(--faint)">cell A, trial by trial</text><text x="242" y="156" text-anchor="middle" font-size="9.5" fill="var(--muted)">fluctuate together?</text><text x="160" y="184" text-anchor="middle" font-size="9" fill="var(--faint)">two cells, two questions</text></svg></div>
-    <div class="acg-eb" style="color:#9f1239">RESPONSE</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-signal-noise-correlation" title="Link to this term">Signal vs noise correlation</a></h3>
-    <p class="acg-def">Signal correlation compares two cells' mean responses across stimulus conditions — do they like the same things. Noise correlation compares their trial-to-trial fluctuations to the same condition — do they vary together.</p>
-    </article>
-    <article class="acg-card" id="term-single-vs-multi-unit" data-cat="signals" data-hay="single unit vs multi-unit not two categories but a gradient, from complete and uncontaminated to incomplete and highly contaminated. every analysis still has to draw a binary line somewhere; quality metrics are how you draw it deliberately. signals &amp; preprocessing ">
-    <div class="acg-eb" style="color:#0369a1">SIGNAL</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-single-vs-multi-unit" title="Link to this term">Single unit vs multi-unit</a></h3>
-    <p class="acg-def">Not two categories but a gradient, from complete and uncontaminated to incomplete and highly contaminated. Every analysis still has to draw a binary line somewhere; quality metrics are how you draw it deliberately.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/ephys/visual-coding/vcnp-quality-metrics.html">in this book</a></div>
-    </article>
     <article class="acg-card" id="term-skeletons" data-cat="morphology" data-hay="skeletons tree-like linear representation of a neuron's branching (vertices + edges, radius, compartments). morphology — meshes &amp; skeletons ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="m-skel"><title id="m-skel">Cartoon neuron reduced to a skeleton</title><path d="M72,93 C68,72 60,60 52,50 M62,100 C44,92 34,86 24,80 M84,98 C100,86 108,78 118,66 M66,122 C54,138 46,146 38,158 M80,122 C92,140 96,150 100,162" fill="none" stroke="var(--neuron)" stroke-width="4.5" stroke-linecap="round"/><circle cx="72" cy="108" r="15" fill="var(--neuron)" fill-opacity=".3" stroke="var(--neuron)" stroke-width="2.2"/><path d="M150,105 L176,105 M170,100 L176,105 L170,110" fill="none" stroke="currentColor" stroke-opacity=".7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="163" y="98" text-anchor="middle" font-size="9" class="mono" fill="var(--faint)">skeletonize</text><path d="M232,102 C228,82 220,70 212,60 M224,104 C206,96 196,90 186,84 M244,102 C260,90 268,82 278,70 M228,120 C216,136 208,144 200,156 M240,120 C252,138 256,148 260,160" fill="none" stroke="currentColor" stroke-opacity=".7" stroke-width="2" stroke-linecap="round"/><circle cx="232" cy="108" r="6" fill="var(--neuron)" stroke="var(--surface)" stroke-width="1.5"/><text x="72" y="184" text-anchor="middle" font-size="10.5" fill="var(--muted)">neuron</text><text x="235" y="184" text-anchor="middle" font-size="10.5" fill="var(--muted)">skeleton</text></svg></div>
     <div class="acg-eb" style="color:#2a8f57">MORPH</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-skeletons" title="Link to this term">Skeletons</a></h3>
     <p class="acg-def">Tree-like linear representation of a neuron's branching (vertices + edges, radius, compartments).</p>
     </article>
-    <article class="acg-card" id="term-snr-unit" data-cat="quality" data-hay="snr waveform amplitude relative to background noise on the peak channel. quality metrics ">
-    <div class="acg-eb" style="color:#4338ca">QUALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-snr-unit" title="Link to this term">snr</a></h3>
-    <p class="acg-def">Waveform amplitude relative to background noise on the peak channel.</p>
-    <div class="acg-meta"><span class="acg-chip acg-warn" title="This word means different things in different places">&#9888; ambiguous</span></div>
-    </article>
     <article class="acg-card" id="term-somatostatin-sst-cell" data-cat="celltypes" data-hay="somatostatin (sst) cell a type of inhibitory interneuron expressing the molecular marker somatostatin (sst, or sometimes som). sst cells tend to target the distal dendrites of excitatory neurons, and have important roles in regulating the activity of excitatory neurons. cell types &amp; cortical anatomy ">
     <div class="acg-eb" style="color:#c9357f">CELLTYPE</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-somatostatin-sst-cell" title="Link to this term">Somatostatin (SST) cell</a></h3>
     <p class="acg-def">A type of inhibitory interneuron expressing the molecular marker somatostatin (SST, or sometimes SOM). SST cells tend to target the distal dendrites of excitatory neurons, and have important roles in regulating the activity of excitatory neurons.</p>
-    </article>
-    <article class="acg-card" id="term-source" data-cat="tables" data-hay="source disambiguation: image_source/segmentation_source, the neuroglancer layer source, and skeleton path_between(source,…). annotation tables, ids &amp; queries ">
-    <div class="acg-eb" style="color:#9333ea">TABLES</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-source" title="Link to this term">Source</a></h3>
-    <p class="acg-def">Disambiguation: <code>image_source</code>/<code>segmentation_source</code>, the Neuroglancer layer source, and skeleton <code>path_between(source,…)</code>.</p>
-    <div class="acg-meta"><span class="acg-chip acg-warn" title="This word means different things in different places">&#9888; ambiguous</span></div>
     </article>
     <article class="acg-card" id="term-source-presynaptic" data-cat="connectivity" data-hay="source (presynaptic) the presynaptic partner of a synapse (pre_pt_root_id). connectivity &amp; synapses ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="src-t"><title id="src-t">Source (presynaptic)</title><text x="252" y="34" text-anchor="middle" font-size="9.5" fill="var(--faint)">target</text><path d="M258,44 C252,92 252,116 258,160" fill="none" stroke="var(--dendrite)" stroke-width="2.6" stroke-linecap="round" stroke-opacity=".5"/><circle cx="56" cy="98" r="22" fill="var(--neuron)" fill-opacity=".18" stroke="var(--neuron)" stroke-width="2.6"/><path d="M78,98 C120,98 168,98 204,98" fill="none" stroke="var(--axon)" stroke-width="2.6" stroke-linecap="round"/><path d="M214,98 l-11,-5 M214,98 l-11,5" fill="none" stroke="var(--axon)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="240" cy="98" r="6.5" fill="var(--synapse)"/><text x="56" y="150" text-anchor="middle" font-size="13" class="mono" fill="var(--axon)" font-weight="600">pre</text><text x="56" y="166" text-anchor="middle" font-size="9.5" fill="var(--muted)">presynaptic source</text></svg></div>
@@ -1952,26 +1292,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-spectral-shape-analysis" title="Link to this term">Spectral shape analysis (HKS)</a></h3>
     <p class="acg-def">Shape descriptors computed from the heat kernel on a mesh, invariant to how the surface is bent. A classifier on these features drives the spine, shaft and soma predictions attached to synapses.</p>
     <div class="acg-meta"><a class="acg-chip acg-src" href="https://alleninstitute.github.io/microns_tutorial/" target="_blank" rel="noopener">MICrONS tutorial &#8599;</a></div>
-    </article>
-    <article class="acg-card" id="term-spike-band-lfp-band" data-cat="modalities" data-hay="spike band / lfp band the two streams split off each channel: the spike band at 30 khz with a 500 hz high-pass, carrying action potentials from adjacent neurons; the lfp band at 2.5 khz, carrying low-frequency fluctuations from a wider area. recording modalities &amp; instruments ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="sblb-t"><title id="sblb-t">Spike band and LFP band split from the same channel</title><rect x="20" y="30" width="18" height="136" rx="5" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".5" stroke-width="1.8"/><path d="M24,48 h10 M24,66 h10 M24,110 h10 M24,128 h10 M24,146 h10" stroke="currentColor" stroke-opacity=".4" stroke-width="4" stroke-linecap="round"/><path d="M24,88 h10" stroke="var(--accent)" stroke-width="5" stroke-linecap="round"/><path d="M42,88 H60 M60,88 V54 H82 M60,88 V132 H82" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M88,54 H118 L122,36 L126,66 L130,54 H164 L168,38 L172,64 L176,54 H216 L220,36 L224,66 L228,54 H306" fill="none" stroke="currentColor" stroke-opacity=".8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="88" y="82" font-size="11" fill="var(--accent-ink)" font-weight="600">spike band</text><text x="88" y="96" font-size="9.5" class="mono" fill="var(--faint)">30 kHz · high-pass 500 Hz</text><path d="M88,132 C104,110 120,110 136,132 C152,154 168,154 184,132 C200,110 216,110 232,132 C248,154 264,154 280,132 C288,121 298,118 306,120" fill="none" stroke="currentColor" stroke-opacity=".8" stroke-width="2.2" stroke-linecap="round"/><text x="88" y="176" font-size="11" fill="var(--muted)">LFP band</text><text x="88" y="190" font-size="9.5" class="mono" fill="var(--faint)">2.5 kHz · low frequency</text></svg></div>
-    <div class="acg-eb" style="color:#c2410c">MODALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-spike-band-lfp-band" title="Link to this term">Spike band / LFP band</a></h3>
-    <p class="acg-def">The two streams split off each channel: the spike band at 30 kHz with a 500 Hz high-pass, carrying action potentials from adjacent neurons; the LFP band at 2.5 kHz, carrying low-frequency fluctuations from a wider area.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="background/neuropixels-description.html">in this book</a></div>
-    </article>
-    <article class="acg-card" id="term-raster" data-cat="responses" data-hay="spike raster one row per trial, one tick per spike, aligned on an event. the plot to make before any model, because it shows trial-to-trial structure that an average hides. response properties &amp; analysis ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="rst-t"><title id="rst-t">Spike raster: one row per trial, one tick per spike</title><path d="M150,30 V166" stroke="var(--accent)" stroke-width="2.4"/><text x="150" y="24" text-anchor="middle" font-size="10" fill="var(--accent-ink)" font-weight="600">event</text><path d="M96,42v7M113,42v7M125,42v7M162,42v7M170,42v7M170,42v7M172,42v7M179,42v7M220,42v7M227,42v7M238,42v7M242,42v7M74,55v7M75,55v7M101,55v7M157,55v7M160,55v7M183,55v7M211,55v7M212,55v7M215,55v7M221,55v7M227,55v7M259,55v7M86,68v7M88,68v7M132,68v7M163,68v7M180,68v7M186,68v7M191,68v7M191,68v7M195,68v7M205,68v7M227,68v7M233,68v7M234,68v7M55,81v7M93,81v7M99,81v7M152,81v7M160,81v7M177,81v7M183,81v7M185,81v7M185,81v7M186,81v7M213,81v7M237,81v7M279,81v7M281,81v7M43,94v7M52,94v7M81,94v7M164,94v7M172,94v7M173,94v7M182,94v7M183,94v7M184,94v7M216,94v7M225,94v7M241,94v7M272,94v7M85,107v7M90,107v7M144,107v7M153,107v7M158,107v7M164,107v7M171,107v7M171,107v7M182,107v7M186,107v7M197,107v7M228,107v7M252,107v7M262,107v7M47,120v7M114,120v7M135,120v7M153,120v7M178,120v7M191,120v7M196,120v7M215,120v7M217,120v7M234,120v7M260,120v7M285,120v7M47,133v7M95,133v7M124,133v7M156,133v7M172,133v7M184,133v7M186,133v7M207,133v7M219,133v7M258,133v7M269,133v7M275,133v7M73,146v7M120,146v7M121,146v7M155,146v7M167,146v7M191,146v7M196,146v7M208,146v7M211,146v7M216,146v7M228,146v7M260,146v7M278,146v7" stroke="currentColor" stroke-opacity=".75" stroke-width="1.8" stroke-linecap="round"/><path d="M34,30 V166 M34,166 H292" fill="none" stroke="currentColor" stroke-opacity=".35" stroke-width="1.6"/><text x="26" y="100" text-anchor="middle" font-size="9.5" fill="var(--muted)" transform="rotate(-90 26 100)">trial</text><text x="292" y="182" text-anchor="end" font-size="9.5" fill="var(--faint)">time</text><text x="34" y="182" font-size="9.5" fill="var(--faint)">aligned on each trial</text></svg></div>
-    <div class="acg-eb" style="color:#9f1239">RESPONSE</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-raster" title="Link to this term">Spike raster</a></h3>
-    <p class="acg-def">One row per trial, one tick per spike, aligned on an event. The plot to make before any model, because it shows trial-to-trial structure that an average hides.</p>
-    </article>
-    <article class="acg-card" id="term-spike-sorting" data-cat="signals" data-hay="spike sorting assigning detected spikes to individual neurons — a blind source separation problem. detection, extraction, feature extraction, clustering, then validation against the refractory period. signals &amp; preprocessing ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="ssort-t"><title id="ssort-t">Spike sorting: waveforms to clusters to refractory check</title> <g fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"> <path d="M14,72 L28,72 L33,52 L40,98 L48,70 L64,72" stroke="currentColor" stroke-opacity=".5"/> <path d="M14,84 L28,84 L34,64 L42,106 L50,82 L64,84" stroke="var(--accent)" stroke-opacity=".6"/></g> <g stroke="currentColor" stroke-opacity=".5" stroke-width="1.8" stroke-linecap="round" fill="none"> <path d="M74,80 H96 M188,80 H210"/><path d="M90,75 L96,80 L90,85 M204,75 L210,80 L204,85"/></g> <path d="M112,112 V46 M112,112 H178" stroke="currentColor" stroke-opacity=".3" stroke-width="1.6" stroke-linecap="round"/> <path d="M128,94 h0 M135,100 h0 M123,101 h0 M140,96 h0" stroke="currentColor" stroke-opacity=".5" stroke-width="5.2" stroke-linecap="round"/> <path d="M160,62 h0 M166,70 h0 M154,69 h0 M163,57 h0" stroke="var(--accent)" stroke-width="5.2" stroke-linecap="round"/> <path d="M226,112 H308" stroke="currentColor" stroke-opacity=".3" stroke-width="1.6" stroke-linecap="round"/> <path d="M250,112 v-38 h9 v-12 h9 v8 h9 v16 h9 v26 Z" fill="currentColor" fill-opacity=".45"/> <rect x="228" y="100" width="20" height="12" rx="2" fill="var(--accent)" fill-opacity=".2" stroke="var(--accent)" stroke-width="1.6"/> <g text-anchor="middle" font-size="10" fill="var(--muted)"> <text x="39" y="130">waveforms</text><text x="145" y="130">features</text><text x="268" y="130">ISI check</text></g> <text x="238" y="52" text-anchor="middle" font-size="9" fill="var(--accent-ink)">refractory gap</text> <text x="160" y="168" text-anchor="middle" font-size="9.5" fill="var(--faint)">one cluster per neuron</text> </svg></div>
-    <div class="acg-eb" style="color:#0369a1">SIGNAL</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-spike-sorting" title="Link to this term">Spike sorting</a></h3>
-    <p class="acg-def">Assigning detected spikes to individual neurons — a blind source separation problem. Detection, extraction, feature extraction, clustering, then validation against the refractory period.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="background/Neuropixels-electrophysiology.html">in this book</a></div>
     </article>
     <article class="acg-card" id="term-split-errors" data-cat="proofreading" data-hay="split errors a process incorrectly appears to stop; they remove true connections. proofreading &amp; data quality ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="ps"><title id="ps">Split errors — false split</title>
@@ -1997,77 +1317,11 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-split-errors" title="Link to this term">Split errors</a></h3>
     <p class="acg-def">A process incorrectly appears to stop; they remove true connections.</p>
     </article>
-    <article class="acg-card" id="term-spontaneous-activity" data-cat="stimuli" data-hay="spontaneous activity an epoch of mean-luminance grey with no patterned stimulus, included in most sessions as a baseline for visually evoked activity. stimuli &amp; behavioural tasks ">
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-spontaneous-activity" title="Link to this term">Spontaneous activity</a></h3>
-    <p class="acg-def">An epoch of mean-luminance grey with no patterned stimulus, included in most sessions as a baseline for visually evoked activity.</p>
-    </article>
-    <article class="acg-card" id="term-standard-transform" data-cat="volume" data-hay="standard_transform package converting voxel/nm coordinates to pia-flattened micron coordinates (minnie_ds, v1dd_ds). volume, voxels &amp; coordinates ">
-    <div class="acg-eb" style="color:#2f6fd0">VOLUME</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-standard-transform" title="Link to this term">standard_transform</a></h3>
-    <p class="acg-def">Package converting voxel/nm coordinates to pia-flattened micron coordinates (<code>minnie_ds</code>, <code>v1dd_ds</code>).</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="https://github.com/ceesem/standard_transform" target="_blank" rel="noopener">standard_transform &#8599;</a></div>
-    </article>
-    <article class="acg-card" id="term-state" data-cat="dataorg" data-hay="state four unrelated meanings, two of which appear in the same workshop. datasets, sessions &amp; files ">
-    <div class="acg-eb" style="color:#3f3f46">DATA</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-state" title="Link to this term">State</a></h3>
-    <p class="acg-def">Four unrelated meanings, two of which appear in the same workshop.</p>
-    <div class="acg-meta"><span class="acg-chip acg-warn" title="This word means different things in different places">&#9888; ambiguous</span></div>
-    </article>
-    <article class="acg-card" id="term-static-gratings" data-cat="stimuli" data-hay="static gratings a stationary full-field sinusoidal grating flashed for 0.25 s. no temporal frequency; phase becomes a parameter instead. stimuli &amp; behavioural tasks ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="sgr-t"><title id="sgr-t">Static gratings: phase replaces temporal frequency</title><rect x="42" y="40" width="12" height="96" fill="currentColor" fill-opacity="0.06"/><rect x="54" y="40" width="12" height="96" fill="currentColor" fill-opacity="0.22"/><rect x="66" y="40" width="12" height="96" fill="currentColor" fill-opacity="0.44"/><rect x="78" y="40" width="12" height="96" fill="currentColor" fill-opacity="0.62"/><rect x="90" y="40" width="12" height="96" fill="currentColor" fill-opacity="0.44"/><rect x="102" y="40" width="12" height="96" fill="currentColor" fill-opacity="0.22"/><rect x="114" y="40" width="12" height="96" fill="currentColor" fill-opacity="0.06"/><rect x="42" y="40" width="96" height="96" rx="3" fill="none" stroke="currentColor" stroke-opacity=".4" stroke-width="1.6"/><rect x="182" y="40" width="12" height="96" fill="currentColor" fill-opacity="0.44"/><rect x="194" y="40" width="12" height="96" fill="currentColor" fill-opacity="0.22"/><rect x="206" y="40" width="12" height="96" fill="currentColor" fill-opacity="0.06"/><rect x="230" y="40" width="12" height="96" fill="currentColor" fill-opacity="0.06"/><rect x="242" y="40" width="12" height="96" fill="currentColor" fill-opacity="0.22"/><rect x="254" y="40" width="12" height="96" fill="currentColor" fill-opacity="0.44"/><rect x="266" y="40" width="12" height="96" fill="currentColor" fill-opacity="0.62"/><rect x="182" y="40" width="96" height="96" rx="3" fill="none" stroke="currentColor" stroke-opacity=".4" stroke-width="1.6"/><text x="90" y="156" text-anchor="middle" font-size="10.5" fill="var(--muted)">phase 0</text><text x="230" y="156" text-anchor="middle" font-size="10.5" fill="var(--accent-ink)" font-weight="600">phase shifted</text><text x="160" y="178" text-anchor="middle" font-size="9.5" class="mono" fill="var(--faint)">flashed 0.25 s</text><text x="160" y="194" text-anchor="middle" font-size="9.5" fill="var(--muted)">no temporal frequency</text></svg></div>
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-static-gratings" title="Link to this term">Static gratings</a></h3>
-    <p class="acg-def">A stationary full-field sinusoidal grating flashed for 0.25 s. No temporal frequency; phase becomes a parameter instead.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/stimuli/passive-visual-stimuli/visual-stimuli-list.html">in this book</a></div>
-    </article>
-    <article class="acg-card" id="term-status-flags" data-cat="proofreading" data-hay="status flags booleans status_axon/status_dendrite recording whether each arbor was proofread, plus valid_id (root id at assessment). proofreading &amp; data quality ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="psf"><title id="psf">Status flags — per-compartment badges</title>
-<circle cx="44" cy="100" r="10" fill="var(--neuron)" fill-opacity=".2" stroke="var(--neuron)" stroke-width="2.4"/>
-<g fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-<path d="M44,91 C40,78 38,68 34,54" stroke="var(--dendrite)"/>
-<path d="M38,66 C32,62 28,60 22,56" stroke="var(--dendrite)"/>
-<path d="M52,106 C66,120 76,130 88,142" stroke="var(--axon)"/>
-</g>
-<text x="44" y="164" text-anchor="middle" font-size="10" class="mono" fill="var(--muted)">cell</text>
-<text x="128" y="82" font-size="12" class="mono" fill="var(--muted)">status_axon</text>
-<rect x="250" y="64" width="46" height="28" rx="8" fill="var(--ok)" fill-opacity=".16" stroke="var(--ok)" stroke-width="2.2"/>
-<path d="M262,79 l5,6 l11,-13" fill="none" stroke="var(--ok)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="128" y="126" font-size="12" class="mono" fill="var(--muted)">status_dendrite</text>
-<rect x="250" y="108" width="46" height="28" rx="8" fill="var(--error)" fill-opacity=".14" stroke="var(--error)" stroke-width="2.2"/>
-<path d="M263,114 l20,16 M283,114 l-20,16" stroke="var(--error)" stroke-width="2.4" stroke-linecap="round"/>
-</svg></div>
-    <div class="acg-eb" style="color:#b8791a">PROOF</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-status-flags" title="Link to this term">Status flags</a></h3>
-    <p class="acg-def">Booleans <code>status_axon</code>/<code>status_dendrite</code> recording whether each arbor was proofread, plus <code>valid_id</code> (root id at assessment).</p>
-    </article>
-    <article class="acg-card" id="term-stimulus-template" data-cat="stimuli" data-hay="stimulus template the literal image shown, stored alongside the stimulus table for image and movie stimuli. often available both unwarped and warped — the warped version is what the monitor rendered. stimuli &amp; behavioural tasks ">
-    <div class="acg-eb" style="color:#a16207">STIMULUS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-stimulus-template" title="Link to this term">Stimulus template</a></h3>
-    <p class="acg-def">The literal image shown, stored alongside the stimulus table for image and movie stimuli. Often available both <code>unwarped</code> and <code>warped</code> — the warped version is what the monitor rendered.</p>
-    </article>
-    <article class="acg-card" id="term-strategy-values" data-cat="proofreading" data-hay="strategy values dendrite_clean, dendrite_extended, axon_partially_extended, axon_fully_extended, axon_interareal (microns only), axon_column_truncated, none. the truncated case matters: those axons were followed only within the column, so their outputs are spatially biased and cannot be compared with fully extended ones. proofreading &amp; data quality ">
-    <div class="acg-eb" style="color:#b8791a">PROOF</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-strategy-values" title="Link to this term">Strategy values</a></h3>
-    <p class="acg-def"><code>dendrite_clean</code>, <code>dendrite_extended</code>, <code>axon_partially_extended</code>, <code>axon_fully_extended</code>, <code>axon_interareal</code> (MICrONS only), <code>axon_column_truncated</code>, <code>none</code>. The truncated case matters: those axons were followed only within the column, so their outputs are spatially biased and cannot be compared with fully extended ones.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="https://alleninstitute.github.io/microns_tutorial/" target="_blank" rel="noopener">MICrONS tutorial &#8599;</a></div>
-    </article>
-    <article class="acg-card" id="term-structure-acronym" data-cat="dataorg" data-hay="structure acronym the ccf region label attached to a channel or unit — visp, mos, lsr. a unit with no ccf registration gets coordinates of [-1, -1, -1]. datasets, sessions &amp; files ">
-    <div class="acg-eb" style="color:#3f3f46">DATA</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-structure-acronym" title="Link to this term">Structure acronym</a></h3>
-    <p class="acg-def">The CCF region label attached to a channel or unit — <code>VISp</code>, <code>MOs</code>, <code>LSr</code>. A unit with no CCF registration gets coordinates of <code>[-1, -1, -1]</code>.</p>
-    </article>
     <article class="acg-card" id="term-supervoxel-pt-supervoxel-id" data-cat="segmentation" data-hay="supervoxel (pt_supervoxel_id) l1 grouping of voxels within a chunk; the stable internal id an annotation binds to. segmentation &amp; reconstruction ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="svox"><title id="svox">Supervoxel</title><rect x="40" y="46" width="224" height="112" fill="var(--scaffold)" fill-opacity=".08"/><g stroke="currentColor" stroke-opacity=".3" stroke-width="1.5"><path d="M68,46 V158 M96,46 V158 M124,46 V158 M152,46 V158 M180,46 V158 M208,46 V158 M236,46 V158"/><path d="M40,74 H264 M40,102 H264 M40,130 H264"/></g><rect x="40" y="46" width="224" height="112" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="2"/><rect x="45" y="51" width="46" height="46" rx="6" fill="var(--neuron)" fill-opacity=".28" stroke="var(--neuron)" stroke-width="2.4"/><polygon points="129,51 175,51 175,97 157,97 157,79 129,79" fill="var(--axon)" fill-opacity=".25" stroke="var(--axon)" stroke-width="2.4" stroke-linejoin="round"/><rect x="213" y="107" width="46" height="46" rx="6" fill="var(--dendrite)" fill-opacity=".28" stroke="var(--dendrite)" stroke-width="2.4"/><text x="68" y="78" text-anchor="middle" font-size="10" class="mono" fill="var(--surface)">sv1</text><text x="147" y="64" text-anchor="middle" font-size="10" class="mono" fill="var(--surface)">sv2</text><text x="236" y="134" text-anchor="middle" font-size="10" class="mono" fill="var(--surface)">sv3</text><text x="40" y="38" font-size="10" class="mono" fill="var(--muted)">voxel grid</text><text x="152" y="180" text-anchor="middle" font-size="10.5" fill="var(--muted)">voxels merged into supervoxels</text></svg></div>
     <div class="acg-eb" style="color:#6d55e0">SEGMENT</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-supervoxel-pt-supervoxel-id" title="Link to this term">Supervoxel (pt_supervoxel_id)</a></h3>
     <p class="acg-def">L1 grouping of voxels within a chunk; the stable internal id an annotation binds to.</p>
-    </article>
-    <article class="acg-card" id="term-surround-suppression" data-cat="responses" data-hay="surround suppression a stimulus extending beyond a cell's classical receptive field suppresses its response. stronger in superficial layers, and one of the questions v1dd's windowed and full-field gratings were designed to address. response properties &amp; analysis ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="sur-t"><title id="sur-t">Surround suppression by a large grating</title> <circle cx="62" cy="70" r="34" fill="none" stroke="currentColor" stroke-opacity=".35" stroke-width="1.6" stroke-dasharray="4 4"/> <clipPath id="sur-c1"><circle cx="62" cy="70" r="30"/></clipPath> <g clip-path="url(#sur-c1)" stroke="currentColor" stroke-opacity=".45" stroke-width="6"><path d="M36,40 v70 M50,40 v70 M64,40 v70 M78,40 v70"/></g> <clipPath id="sur-c2"><rect x="152" y="22" width="96" height="96" rx="6"/></clipPath> <g clip-path="url(#sur-c2)" stroke="currentColor" stroke-opacity=".45" stroke-width="6"><path d="M158,20 v104 M172,20 v104 M186,20 v104 M200,20 v104 M214,20 v104 M228,20 v104 M242,20 v104"/></g> <circle cx="200" cy="70" r="34" fill="none" stroke="currentColor" stroke-opacity=".35" stroke-width="1.6" stroke-dasharray="4 4"/> <text x="62" y="134" text-anchor="middle" font-size="10" fill="var(--muted)">within RF</text> <text x="200" y="134" text-anchor="middle" font-size="10" fill="var(--muted)">beyond RF</text> <path d="M282,152 V54" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/> <rect x="272" y="60" width="9" height="92" rx="2" fill="var(--accent)" fill-opacity=".55"/> <rect x="286" y="118" width="9" height="34" rx="2" fill="var(--accent)" fill-opacity=".55"/> <text x="284" y="170" text-anchor="middle" font-size="9.5" fill="var(--muted)">response</text> <text x="284" y="46" text-anchor="middle" font-size="9" fill="var(--accent-ink)">suppressed</text> <text x="131" y="176" text-anchor="middle" font-size="9" fill="var(--faint)">stronger in superficial layers</text> </svg></div>
-    <div class="acg-eb" style="color:#9f1239">RESPONSE</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-surround-suppression" title="Link to this term">Surround suppression</a></h3>
-    <p class="acg-def">A stimulus extending beyond a cell's classical receptive field suppresses its response. Stronger in superficial layers, and one of the questions V1DD's windowed and full-field gratings were designed to address.</p>
     </article>
     <article class="acg-card" id="term-swc-format" data-cat="morphology" data-hay="swc format standard skeleton file format (one of three: swc, meshwork-h5, precomputed). morphology — meshes &amp; skeletons ">
     <div class="acg-eb" style="color:#2a8f57">MORPH</div>
@@ -2081,83 +1335,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-synapse-size" title="Link to this term">Synapse size</a></h3>
     <p class="acg-def">Synapse size in voxels; correlates with surface area / strength.</p>
     </article>
-    <article class="acg-card" id="term-synapse-target-predictions-ssa" data-cat="connectivity" data-hay="synapse_target_predictions_ssa per-synapse postsynaptic-compartment prediction (soma / spine / shaft). connectivity &amp; synapses ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="stp-t"><title id="stp-t">synapse_target_predictions_ssa — soma, spine, shaft</title><text x="20" y="90" font-size="9.5" class="mono" fill="var(--axon)">axon</text><path d="M20,100 C58,98 96,100 126,100" fill="none" stroke="var(--axon)" stroke-width="2.6" stroke-linecap="round"/><path d="M126,100 C158,84 178,58 198,50" fill="none" stroke="var(--axon)" stroke-width="2.4" stroke-linecap="round"/><path d="M126,100 C156,100 176,100 196,100" fill="none" stroke="var(--axon)" stroke-width="2.4" stroke-linecap="round"/><path d="M126,100 C158,116 180,144 198,150" fill="none" stroke="var(--axon)" stroke-width="2.4" stroke-linecap="round"/><circle cx="224" cy="48" r="15" fill="var(--neuron)" fill-opacity=".18" stroke="var(--neuron)" stroke-width="2.4"/><circle cx="206" cy="49" r="6" fill="var(--synapse)"/><text x="244" y="52" font-size="10.5" fill="var(--muted)">soma</text><path d="M250,82 L250,118" fill="none" stroke="var(--dendrite)" stroke-width="2.6" stroke-linecap="round"/><path d="M250,100 L224,100" fill="none" stroke="var(--dendrite)" stroke-width="2.2" stroke-linecap="round"/><circle cx="220" cy="100" r="5" fill="var(--dendrite)"/><circle cx="204" cy="100" r="6" fill="var(--synapse)"/><text x="260" y="104" font-size="10.5" fill="var(--muted)">spine</text><path d="M250,138 L250,174" fill="none" stroke="var(--dendrite)" stroke-width="3.4" stroke-linecap="round"/><circle cx="238" cy="152" r="6" fill="var(--synapse)"/><text x="260" y="156" font-size="10.5" fill="var(--muted)">shaft</text></svg></div>
-    <div class="acg-eb" style="color:#d1462c">CONNECT</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-synapse-target-predictions-ssa" title="Link to this term">synapse_target_predictions_ssa</a></h3>
-    <p class="acg-def">Per-synapse postsynaptic-compartment prediction (soma / spine / shaft).</p>
-    </article>
-    <article class="acg-card" id="term-synapses-pni-2-synapses-v1dd" data-cat="connectivity" data-hay="synapses_pni_2 / synapses_v1dd the sole synapse tables (337m / 639m rows). connectivity &amp; synapses ">
-    <div class="acg-eb" style="color:#d1462c">CONNECT</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-synapses-pni-2-synapses-v1dd" title="Link to this term">synapses_pni_2 / synapses_v1dd</a></h3>
-    <p class="acg-def">The sole synapse tables (337M / 639M rows).</p>
-    </article>
-    <article class="acg-card" id="term-table-viewer" data-cat="tools" data-hay="table viewer dash app to query/filter one table and select rows in neuroglancer. visualisation tools ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="tv-t"><title id="tv-t">Table Viewer</title><rect x="16" y="16" width="288" height="168" rx="9" fill="var(--surface-2)" fill-opacity=".5" stroke="currentColor" stroke-opacity=".4" stroke-width="2"/><text x="30" y="37" font-size="9" class="mono" fill="var(--muted)">filters</text><rect x="72" y="28" width="60" height="18" rx="9" fill="none" stroke="currentColor" stroke-opacity=".5" stroke-width="1.8"/><text x="102" y="41" text-anchor="middle" font-size="9" class="mono" fill="var(--muted)">type</text><rect x="140" y="28" width="60" height="18" rx="9" fill="none" stroke="currentColor" stroke-opacity=".5" stroke-width="1.8"/><text x="170" y="41" text-anchor="middle" font-size="9" class="mono" fill="var(--muted)">layer</text><rect x="30" y="66" width="260" height="70" rx="4" fill="none" stroke="currentColor" stroke-opacity=".35" stroke-width="1.6"/><rect x="30" y="66" width="260" height="17" rx="4" fill="var(--accent)" fill-opacity=".16" stroke="none"/><line x1="30" y1="83" x2="290" y2="83" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/><line x1="30" y1="100" x2="290" y2="100" stroke="currentColor" stroke-opacity=".2" stroke-width="1.2"/><line x1="30" y1="118" x2="290" y2="118" stroke="currentColor" stroke-opacity=".2" stroke-width="1.2"/><line x1="118" y1="66" x2="118" y2="136" stroke="currentColor" stroke-opacity=".2" stroke-width="1.2"/><line x1="204" y1="66" x2="204" y2="136" stroke="currentColor" stroke-opacity=".2" stroke-width="1.2"/><line x1="42" y1="75" x2="96" y2="75" stroke="var(--accent-ink)" stroke-opacity=".7" stroke-width="2"/><line x1="130" y1="75" x2="184" y2="75" stroke="var(--accent-ink)" stroke-opacity=".7" stroke-width="2"/><line x1="216" y1="75" x2="270" y2="75" stroke="var(--accent-ink)" stroke-opacity=".7" stroke-width="2"/><line x1="42" y1="92" x2="94" y2="92" stroke="currentColor" stroke-opacity=".3" stroke-width="2"/><line x1="130" y1="92" x2="176" y2="92" stroke="currentColor" stroke-opacity=".3" stroke-width="2"/><line x1="216" y1="92" x2="256" y2="92" stroke="currentColor" stroke-opacity=".3" stroke-width="2"/><line x1="42" y1="109" x2="90" y2="109" stroke="currentColor" stroke-opacity=".3" stroke-width="2"/><line x1="130" y1="109" x2="180" y2="109" stroke="currentColor" stroke-opacity=".3" stroke-width="2"/><line x1="216" y1="109" x2="262" y2="109" stroke="currentColor" stroke-opacity=".3" stroke-width="2"/><line x1="42" y1="127" x2="96" y2="127" stroke="currentColor" stroke-opacity=".3" stroke-width="2"/><line x1="130" y1="127" x2="172" y2="127" stroke="currentColor" stroke-opacity=".3" stroke-width="2"/><line x1="216" y1="127" x2="258" y2="127" stroke="currentColor" stroke-opacity=".3" stroke-width="2"/><rect x="166" y="152" width="126" height="24" rx="12" fill="var(--accent)" fill-opacity=".18" stroke="var(--accent)" stroke-width="2"/><text x="229" y="168" text-anchor="middle" font-size="9.5" class="mono" fill="var(--accent-ink)">view in Neuroglancer</text></svg></div>
-    <div class="acg-eb" style="color:#526278">TOOLS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-table-viewer" title="Link to this term">Table Viewer</a></h3>
-    <p class="acg-def">Dash app to query/filter one table and select rows in Neuroglancer.</p>
-    </article>
-    <article class="acg-card" id="term-tables" data-cat="tables" data-hay="tables cave annotation tables (synapses, nuclei, cell types, proofreading, coregistration). annotation tables, ids &amp; queries ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="tbls-t">
-<title id="tbls-t">Tables</title>
-<g transform="translate(160,190) rotate(-24)">
-<rect x="-54" y="-152" width="108" height="94" rx="7" fill="var(--surface-2)" stroke="var(--border-strong)" stroke-width="1.6"/>
-<circle cx="-40" cy="-138" r="5" fill="var(--synapse)"/>
-<text x="-30" y="-134" font-size="10" fill="var(--synapse)" font-weight="600">synapses</text>
-<line x1="-42" y1="-118" x2="42" y2="-118" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/>
-<line x1="-42" y1="-102" x2="42" y2="-102" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/>
-<line x1="-42" y1="-86" x2="18" y2="-86" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/>
-</g>
-<g transform="translate(160,190) rotate(-12)">
-<rect x="-54" y="-152" width="108" height="94" rx="7" fill="var(--surface-2)" stroke="var(--border-strong)" stroke-width="1.6"/>
-<circle cx="-40" cy="-138" r="5" fill="var(--neuron)"/>
-<text x="-30" y="-134" font-size="10" fill="var(--neuron)" font-weight="600">nuclei</text>
-<line x1="-42" y1="-118" x2="42" y2="-118" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/>
-<line x1="-42" y1="-102" x2="42" y2="-102" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/>
-<line x1="-42" y1="-86" x2="18" y2="-86" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/>
-</g>
-<g transform="translate(160,190) rotate(0)">
-<rect x="-54" y="-152" width="108" height="94" rx="7" fill="var(--surface-2)" stroke="var(--border-strong)" stroke-width="1.6"/>
-<circle cx="-40" cy="-138" r="5" fill="var(--accent)"/>
-<text x="-30" y="-134" font-size="10" fill="var(--accent-ink)" font-weight="600">cell types</text>
-<line x1="-42" y1="-118" x2="42" y2="-118" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/>
-<line x1="-42" y1="-102" x2="42" y2="-102" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/>
-<line x1="-42" y1="-86" x2="18" y2="-86" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/>
-</g>
-<g transform="translate(160,190) rotate(12)">
-<rect x="-54" y="-152" width="108" height="94" rx="7" fill="var(--surface-2)" stroke="var(--border-strong)" stroke-width="1.6"/>
-<circle cx="-40" cy="-138" r="5" fill="var(--ok)"/>
-<text x="-30" y="-134" font-size="10" fill="var(--ok)" font-weight="600">proofread</text>
-<line x1="-42" y1="-118" x2="42" y2="-118" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/>
-<line x1="-42" y1="-102" x2="42" y2="-102" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/>
-<line x1="-42" y1="-86" x2="18" y2="-86" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/>
-</g>
-<g transform="translate(160,190) rotate(24)">
-<rect x="-54" y="-152" width="108" height="94" rx="7" fill="var(--surface-2)" stroke="var(--border-strong)" stroke-width="1.6"/>
-<circle cx="-40" cy="-138" r="5" fill="var(--scaffold)"/>
-<text x="-30" y="-134" font-size="10" fill="var(--muted)" font-weight="600">coreg</text>
-<line x1="-42" y1="-118" x2="42" y2="-118" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/>
-<line x1="-42" y1="-102" x2="42" y2="-102" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/>
-<line x1="-42" y1="-86" x2="18" y2="-86" stroke="currentColor" stroke-opacity=".3" stroke-width="1.4"/>
-</g>
-</svg></div>
-    <div class="acg-eb" style="color:#9333ea">TABLES</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-tables" title="Link to this term">Tables</a></h3>
-    <p class="acg-def">CAVE annotation tables (synapses, nuclei, cell types, proofreading, coregistration).</p>
-    </article>
-    <article class="acg-card" id="term-tags-shortcuts" data-cat="tools" data-hay="tags / shortcuts keyboard-driven annotation labels for fast bulk labeling in neuroglancer. visualisation tools ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="ts-t"><title id="ts-t">Tags and shortcuts</title><text x="49" y="30" text-anchor="middle" font-size="9" class="mono" fill="var(--faint)">key</text><text x="205" y="30" text-anchor="middle" font-size="9" class="mono" fill="var(--faint)">tag</text><rect x="34" y="44" width="30" height="30" rx="6" fill="var(--surface)" stroke="currentColor" stroke-opacity=".7" stroke-width="2.2"/><text x="49" y="64" text-anchor="middle" font-size="14" class="mono" fill="currentColor">s</text><rect x="34" y="98" width="30" height="30" rx="6" fill="var(--surface)" stroke="currentColor" stroke-opacity=".7" stroke-width="2.2"/><text x="49" y="118" text-anchor="middle" font-size="14" class="mono" fill="currentColor">a</text><rect x="34" y="152" width="30" height="30" rx="6" fill="var(--surface)" stroke="currentColor" stroke-opacity=".7" stroke-width="2.2"/><text x="49" y="172" text-anchor="middle" font-size="14" class="mono" fill="currentColor">d</text><line x1="70" y1="59" x2="140" y2="59" stroke="currentColor" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/><polygon points="140,54 150,59 140,64" fill="currentColor" fill-opacity=".5"/><line x1="70" y1="113" x2="140" y2="113" stroke="currentColor" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/><polygon points="140,108 150,113 140,118" fill="currentColor" fill-opacity=".5"/><line x1="70" y1="167" x2="140" y2="167" stroke="currentColor" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/><polygon points="140,162 150,167 140,172" fill="currentColor" fill-opacity=".5"/><rect x="156" y="46" width="128" height="26" rx="13" fill="var(--synapse)" fill-opacity=".18" stroke="var(--synapse)" stroke-width="2"/><circle cx="172" cy="59" r="4.5" fill="var(--synapse)"/><text x="186" y="63" font-size="12" class="mono" fill="var(--synapse)">synapse</text><rect x="156" y="100" width="128" height="26" rx="13" fill="var(--axon)" fill-opacity=".18" stroke="var(--axon)" stroke-width="2"/><circle cx="172" cy="113" r="4.5" fill="var(--axon)"/><text x="186" y="117" font-size="12" class="mono" fill="var(--axon)">axon</text><rect x="156" y="154" width="128" height="26" rx="13" fill="var(--dendrite)" fill-opacity=".18" stroke="var(--dendrite)" stroke-width="2"/><circle cx="172" cy="167" r="4.5" fill="var(--dendrite)"/><text x="186" y="171" font-size="12" class="mono" fill="var(--dendrite)">dendrite</text></svg></div>
-    <div class="acg-eb" style="color:#526278">TOOLS</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-tags-shortcuts" title="Link to this term">Tags / Shortcuts</a></h3>
-    <p class="acg-def">Keyboard-driven annotation labels for fast bulk labeling in Neuroglancer.</p>
-    </article>
-    <article class="acg-card" id="term-target" data-cat="tables" data-hay="target disambiguation: target_id (reference link) vs synaptic postsynaptic partner vs path target_index. annotation tables, ids &amp; queries ">
-    <div class="acg-eb" style="color:#9333ea">TABLES</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-target" title="Link to this term">Target</a></h3>
-    <p class="acg-def">Disambiguation: <code>target_id</code> (reference link) vs synaptic postsynaptic partner vs path <code>target_index</code>.</p>
-    <div class="acg-meta"><span class="acg-chip acg-warn" title="This word means different things in different places">&#9888; ambiguous</span></div>
-    </article>
     <article class="acg-card" id="term-target-postsynaptic" data-cat="connectivity" data-hay="target (postsynaptic) the postsynaptic partner of a synapse (post_pt_root_id). connectivity &amp; synapses ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="tgt-t"><title id="tgt-t">Target (postsynaptic)</title><text x="66" y="82" text-anchor="middle" font-size="9.5" fill="var(--faint)">pre</text><path d="M32,96 C82,96 128,96 168,96" fill="none" stroke="var(--axon)" stroke-width="2.6" stroke-linecap="round" stroke-opacity=".5"/><path d="M176,96 l-11,-5 M176,96 l-11,5" fill="none" stroke="var(--axon)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".5"/><circle cx="190" cy="96" r="6.5" fill="var(--synapse)"/><path d="M228,96 C214,96 206,96 200,96" fill="none" stroke="var(--dendrite)" stroke-width="2.6" stroke-linecap="round"/><path d="M250,76 C246,60 250,50 262,42" fill="none" stroke="var(--dendrite)" stroke-width="2.2" stroke-linecap="round"/><circle cx="250" cy="96" r="22" fill="var(--neuron)" fill-opacity=".2" stroke="var(--neuron)" stroke-width="2.8"/><text x="250" y="150" text-anchor="middle" font-size="13" class="mono" fill="var(--neuron)" font-weight="600">post</text><text x="250" y="166" text-anchor="middle" font-size="9.5" fill="var(--muted)">postsynaptic target</text></svg></div>
     <div class="acg-eb" style="color:#d1462c">CONNECT</div>
@@ -2168,11 +1345,6 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <div class="acg-eb" style="color:#3f3f46">DATA</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-targeted-structure" title="Link to this term">Targeted structure</a></h3>
     <p class="acg-def">The brain region where data was collected from.</p>
-    </article>
-    <article class="acg-card" id="term-teasar" data-cat="morphology" data-hay="teasar algorithm that turns the l2 graph into a skeleton tree. morphology — meshes &amp; skeletons ">
-    <div class="acg-eb" style="color:#2a8f57">MORPH</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-teasar" title="Link to this term">TEASAR</a></h3>
-    <p class="acg-def">Algorithm that turns the L2 graph into a skeleton tree.</p>
     </article>
     <article class="acg-card" id="term-tem" data-cat="imaging" data-hay="tem transmission em; microns/v1dd are serial-section tem-style (thin sections, anisotropic z). imaging &amp; ultrastructure ">
     <div class="acg-eb" style="color:#8a6f4a">IMAGING</div>
@@ -2185,87 +1357,16 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-temporal-frequency" title="Link to this term">Temporal frequency</a></h3>
     <p class="acg-def">How many complete periods the signal goes through for a given unit of time. Typically measured in Hertz.</p>
     </article>
-    <article class="acg-card" id="term-three-photon-imaging" data-cat="modalities" data-hay="three-photon (3p) imaging raises signal-to-noise for deep imaging of densely labelled tissue. used to extend the v1dd centre column to white matter, where 2p image quality has degraded. recording modalities &amp; instruments ">
-    <div class="acg-eb" style="color:#c2410c">MODALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-three-photon-imaging" title="Link to this term">Three-photon (3P) imaging</a></h3>
-    <p class="acg-def">Raises signal-to-noise for deep imaging of densely labelled tissue. Used to extend the V1DD centre column to white matter, where 2P image quality has degraded.</p>
-    </article>
-    <article class="acg-card" id="term-token-auth" data-cat="cave" data-hay="token / auth google-account credential required before any programmatic access, saved per server. cave — access &amp; versioning ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="cave-tk"><title id="cave-tk">Token and authentication</title>
-<circle cx="42" cy="100" r="15" fill="none" stroke="var(--accent-ink)" stroke-width="2.6"/>
-<circle cx="42" cy="100" r="5" fill="var(--surface)" stroke="var(--accent-ink)" stroke-width="2"/>
-<line x1="57" y1="100" x2="112" y2="100" stroke="var(--accent-ink)" stroke-width="2.6" stroke-linecap="round"/>
-<line x1="98" y1="100" x2="98" y2="111" stroke="var(--accent-ink)" stroke-width="2.6" stroke-linecap="round"/>
-<line x1="108" y1="100" x2="108" y2="108" stroke="var(--accent-ink)" stroke-width="2.6" stroke-linecap="round"/>
-<text x="42" y="134" text-anchor="middle" font-size="10" class="mono" fill="var(--muted)">key</text>
-<line x1="114" y1="100" x2="214" y2="100" stroke="currentColor" stroke-opacity=".45" stroke-width="2" stroke-dasharray="4 5" stroke-linecap="round"/>
-<text x="158" y="90" text-anchor="middle" font-size="10" class="mono" fill="var(--muted)">token</text>
-<rect x="176" y="94" width="20" height="18" rx="3" fill="var(--scaffold)" fill-opacity=".4" stroke="currentColor" stroke-opacity=".7" stroke-width="2"/>
-<path d="M181,94 v-4 a5,5 0 0 1 10,0 v4" fill="none" stroke="currentColor" stroke-opacity=".7" stroke-width="2" stroke-linecap="round"/>
-<rect x="214" y="60" width="76" height="80" rx="8" fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".65" stroke-width="2"/>
-<line x1="214" y1="87" x2="290" y2="87" stroke="currentColor" stroke-opacity=".3" stroke-width="1.5"/>
-<line x1="214" y1="114" x2="290" y2="114" stroke="currentColor" stroke-opacity=".3" stroke-width="1.5"/>
-<circle cx="224" cy="74" r="3" fill="currentColor" fill-opacity=".35"/>
-<circle cx="224" cy="100" r="3" fill="currentColor" fill-opacity=".35"/>
-<circle cx="224" cy="127" r="3" fill="currentColor" fill-opacity=".35"/>
-<text x="252" y="156" text-anchor="middle" font-size="10" class="mono" fill="var(--muted)">server</text>
-<circle cx="286" cy="62" r="10" fill="var(--ok)" stroke="var(--surface)" stroke-width="1.5"/>
-<path d="M281,62 l4,4 l7,-8" fill="none" stroke="var(--surface)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg></div>
-    <div class="acg-eb" style="color:#0f766e">CAVE</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-token-auth" title="Link to this term">Token / auth</a></h3>
-    <p class="acg-def">Google-account credential required before any programmatic access, saved per server.</p>
-    </article>
     <article class="acg-card" id="term-transgenic-line" data-cat="genetics" data-hay="transgenic line a mouse line whose genome has been altered by the introduction of one or more foreign dna sequences. for these contexts, this typical involves using cre lines to drive the expression of a reporter line within a specific subset of cells. genetic &amp; optical tools ">
     <div class="acg-eb" style="color:#15803d">GENETIC</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-transgenic-line" title="Link to this term">Transgenic line</a></h3>
     <p class="acg-def">A mouse line whose genome has been altered by the introduction of one or more foreign DNA sequences. For these contexts, this typical involves using Cre lines to drive the expression of a Reporter line within a specific subset of cells.</p>
-    </article>
-    <article class="acg-card" id="term-tuning-curve" data-cat="responses" data-hay="tuning curve mean response plotted against a stimulus parameter. the shape of the curve is what selectivity indices such as osi and dsi summarise in one number. response properties &amp; analysis ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="tune-t"><title id="tune-t">Tuning curve: mean response against a stimulus parameter</title><path d="M48,36 V150 H302" fill="none" stroke="currentColor" stroke-opacity=".4" stroke-width="1.6" stroke-linecap="round"/><path d="M52,140 C82,138 102,136 118,120 C134,102 140,60 156,60 C172,60 182,104 198,124 C220,148 252,142 298,140" fill="none" stroke="currentColor" stroke-opacity=".8" stroke-width="2.4" stroke-linecap="round"/><path d="M156,60 V150" stroke="var(--accent)" stroke-width="2" stroke-dasharray="4 3"/><g fill="currentColor" fill-opacity=".75"><circle cx="66" cy="139" r="3"/><circle cx="110" cy="128" r="3"/><circle cx="134" cy="86" r="3"/><circle cx="180" cy="94" r="3"/><circle cx="222" cy="143" r="3"/><circle cx="266" cy="141" r="3"/></g><g stroke="currentColor" stroke-opacity=".45" stroke-width="1.6" stroke-linecap="round"><path d="M66,132 V146 M110,120 V136 M134,76 V96 M180,84 V104 M222,136 V150 M266,134 V148"/></g><text x="156" y="50" text-anchor="middle" font-size="10.5" fill="var(--accent-ink)" font-weight="600">preferred</text><text x="52" y="166" font-size="9.5" class="mono" fill="var(--faint)">0</text><text x="298" y="166" text-anchor="end" font-size="9.5" class="mono" fill="var(--faint)">360</text><text x="176" y="182" text-anchor="middle" font-size="10.5" fill="var(--muted)">direction (°)</text><text x="44" y="30" font-size="10" fill="var(--muted)">mean response</text></svg></div>
-    <div class="acg-eb" style="color:#9f1239">RESPONSE</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-tuning-curve" title="Link to this term">Tuning curve</a></h3>
-    <p class="acg-def">Mean response plotted against a stimulus parameter. The shape of the curve is what selectivity indices such as OSI and DSI summarise in one number.</p>
     </article>
     <article class="acg-card" id="term-two-photon-calcium-imaging" data-cat="modalities" data-hay="two-photon calcium imaging a term for techniques which measure neural activity of neurons by measuring a fluorescent calcium indicator. these indicators are usually a protein expressed in a cell, such as gcamp, often using a specific combination of driver line and reporter lines to express gcamp in a specific subset of neurons. fluorescent dyes can also be used to perform calcium imaging. at rest a neuron has low levels of calcium, and when the neuron spikes calcium flows into the neuron and raises the level of calcium, which binds to the calcium indicator and increases the emitted fluorescence in a specific wavelength. see {cite:t}`svoboda2006` for a review of two-photon calcium imaging. recording modalities &amp; instruments ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="tpci-t"><title id="tpci-t">Two-photon calcium imaging: a spike raises indicator fluorescence</title><path d="M22,104 H84" stroke="currentColor" stroke-opacity=".3" stroke-width="1.6" stroke-linecap="round"/><path d="M46,104 L53,58 L60,104" fill="none" stroke="currentColor" stroke-opacity=".8" stroke-width="2.2" stroke-linejoin="round"/><circle cx="152" cy="88" r="26" fill="var(--neuron)" fill-opacity=".2" stroke="var(--neuron)" stroke-width="2.4"/><g fill="none" stroke="currentColor" stroke-opacity=".6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M104,58 L124,72"/><path d="M117,70 L124,72 L122,65"/><path d="M104,118 L124,104"/><path d="M122,111 L124,104 L117,106"/></g><text x="96" y="94" text-anchor="middle" font-size="10" fill="var(--muted)">Ca²⁺</text><path d="M184,88 H206" stroke="currentColor" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"/><path d="M200,84 L206,88 L200,92" fill="none" stroke="currentColor" stroke-opacity=".55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M216,120 H306" stroke="currentColor" stroke-opacity=".3" stroke-width="1.6" stroke-linecap="round"/><path d="M216,116 L240,116 C246,116 248,60 256,60 C266,60 270,100 284,110 C292,115 298,116 306,116" fill="none" stroke="var(--accent)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><text x="53" y="174" text-anchor="middle" font-size="10.5" fill="var(--muted)">spike</text><text x="152" y="174" text-anchor="middle" font-size="10.5" fill="var(--muted)">calcium influx</text><text x="262" y="174" text-anchor="middle" font-size="10.5" fill="var(--accent-ink)" font-weight="600">fluorescence</text></svg></div>
     <div class="acg-eb" style="color:#c2410c">MODALITY</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-two-photon-calcium-imaging" title="Link to this term">Two-photon calcium imaging</a></h3>
     <p class="acg-def">A term for techniques which measure neural activity of neurons by measuring a fluorescent calcium indicator. These indicators are usually a protein expressed in a cell, such as GCaMP, often using a specific combination of Driver line and reporter lines to express GCaMP in a specific subset of neurons. Fluorescent dyes can also be used to perform calcium imaging. At rest a neuron has low levels of calcium, and when the neuron spikes calcium flows into the neuron and raises the level of calcium, which binds to the calcium indicator and increases the emitted fluorescence in a specific wavelength. See {cite:t}`svoboda2006` for a review of two-photon calcium imaging.</p>
-    </article>
-    <article class="acg-card" id="term-two-photon-excitation" data-cat="modalities" data-hay="two-photon excitation two long-wavelength photons excite one fluorophore. absorption is non-linear in photon density, so only a single voxel is excited at a time — that is what gives optical sectioning in intact tissue. recording modalities &amp; instruments ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="tpe-t"><title id="tpe-t">Two-photon excitation is confined to the focal volume</title> <g fill="var(--accent)" fill-opacity=".16" stroke="currentColor" stroke-opacity=".45" stroke-width="1.8" stroke-linejoin="round"> <path d="M60,40 L88,102 L116,40 Z"/><path d="M60,164 L88,102 L116,164 Z"/></g> <circle cx="88" cy="102" r="6" fill="var(--accent)" fill-opacity=".9"/> <g fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="1.8" stroke-linejoin="round"> <path d="M204,40 L232,102 L260,40 Z"/><path d="M204,164 L232,102 L260,164 Z"/></g> <circle cx="232" cy="102" r="7" fill="var(--accent)" fill-opacity=".9"/> <text x="88" y="182" text-anchor="middle" font-size="11" fill="var(--muted)">one photon</text> <text x="232" y="182" text-anchor="middle" font-size="11" fill="var(--accent-ink)" font-weight="600">two photons</text> <text x="88" y="195" text-anchor="middle" font-size="9" fill="var(--faint)">excited along the cone</text> <text x="232" y="195" text-anchor="middle" font-size="9" fill="var(--faint)">excited at the focus only</text> <text x="88" y="24" text-anchor="middle" font-size="9.5" fill="var(--faint)">linear</text> <text x="232" y="24" text-anchor="middle" font-size="9.5" fill="var(--faint)">non-linear in photon density</text> </svg></div>
-    <div class="acg-eb" style="color:#c2410c">MODALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-two-photon-excitation" title="Link to this term">Two-photon excitation</a></h3>
-    <p class="acg-def">Two long-wavelength photons excite one fluorophore. Absorption is non-linear in photon density, so only a single voxel is excited at a time — that is what gives optical sectioning in intact tissue.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="background/Two-photon-calcium-imaging.html">in this book</a></div>
-    </article>
-    <article class="acg-card" id="term-types-of-errors-in-imagery" data-cat="imaging" data-hay="types of errors in imagery section/alignment artifacts (folds, cracks, missing sections) that propagate into segmentation. imaging &amp; ultrastructure ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="err-t"><title id="err-t">Types of errors in imagery</title>
-<rect x="16" y="44" width="84" height="94" rx="3" fill="var(--scaffold)" fill-opacity=".12" stroke="currentColor" stroke-opacity=".6" stroke-width="2"/>
-<ellipse cx="42" cy="100" rx="15" ry="10" fill="var(--scaffold)" fill-opacity=".28"/>
-<polygon points="60,44 100,44 100,84" fill="var(--scaffold)" fill-opacity=".4"/>
-<line x1="60" y1="44" x2="100" y2="84" stroke="var(--error)" stroke-width="2.4" stroke-linecap="round"/>
-<line x1="66" y1="48" x2="96" y2="78" stroke="var(--error)" stroke-width="1.6" stroke-linecap="round" stroke-opacity=".55"/>
-<text x="58" y="154" text-anchor="middle" font-size="10.5" fill="var(--error)" font-weight="600">fold</text>
-<rect x="118" y="44" width="84" height="94" rx="3" fill="var(--scaffold)" fill-opacity=".12" stroke="currentColor" stroke-opacity=".6" stroke-width="2"/>
-<circle cx="150" cy="70" r="9" fill="var(--scaffold)" fill-opacity=".3"/>
-<ellipse cx="176" cy="110" rx="13" ry="9" fill="var(--scaffold)" fill-opacity=".28"/>
-<path d="M156,44 l10,22 l-12,18 l14,20 l-8,16 l10,18" fill="none" stroke="var(--error)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="160" y="154" text-anchor="middle" font-size="10.5" fill="var(--error)" font-weight="600">crack</text>
-<rect x="220" y="44" width="84" height="94" rx="3" fill="var(--scaffold)" fill-opacity=".08" stroke="currentColor" stroke-opacity=".6" stroke-width="2"/>
-<line x1="220" y1="72" x2="248" y2="44" stroke="currentColor" stroke-opacity=".18" stroke-width="1.5"/>
-<line x1="220" y1="100" x2="276" y2="44" stroke="currentColor" stroke-opacity=".18" stroke-width="1.5"/>
-<line x1="220" y1="128" x2="304" y2="44" stroke="currentColor" stroke-opacity=".18" stroke-width="1.5"/>
-<line x1="248" y1="138" x2="304" y2="82" stroke="currentColor" stroke-opacity=".18" stroke-width="1.5"/>
-<line x1="276" y1="138" x2="304" y2="110" stroke="currentColor" stroke-opacity=".18" stroke-width="1.5"/>
-<circle cx="262" cy="91" r="14" fill="none" stroke="var(--error)" stroke-width="2.4"/>
-<line x1="252" y1="101" x2="272" y2="81" stroke="var(--error)" stroke-width="2.4" stroke-linecap="round"/>
-<text x="262" y="154" text-anchor="middle" font-size="10.5" fill="var(--error)" font-weight="600">dropped</text>
-</svg></div>
-    <div class="acg-eb" style="color:#8a6f4a">IMAGING</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-types-of-errors-in-imagery" title="Link to this term">Types of errors in imagery</a></h3>
-    <p class="acg-def">Section/alignment artifacts (folds, cracks, missing sections) that propagate into segmentation.</p>
     </article>
     <article class="acg-card" id="term-ultrastructure" data-cat="imaging" data-hay="ultrastructure fine sub-cellular em features: organelles, mitochondria, synapses, myelin. imaging &amp; ultrastructure ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="ult-t"><title id="ult-t">Ultrastructure</title>
@@ -2304,58 +1405,12 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <p class="acg-def">A putative neuron in extracellular electrophysiology, with varying degrees of confidence assigned to it. In extracellular electrophysiology, neurons are referred to as <i>units</i>, because we cannot guarantee that all the spikes assigned to one unit actually originate from a single cell. Unlike in two-photon imaging, where you can visualize each neuron throughout the entire experiment, with electrophysiology we can only “see” a neuron when it fires a spike. If a neuron moves relative to the probe, or if it’s far away from the probe, some of its spikes may get mixed together with those from other neurons. Because of this inherent ambiguity, quality metrics allow you to find the right units for your analysis. Even highly contaminated units can contain potentially valuable information about brain states, but certain types of analysis require more stringent quality thresholds to ensure that all of the included units are well isolated from their neighbors.</p>
     <div class="acg-meta"><span class="acg-chip acg-warn" title="This word means different things in different places">&#9888; ambiguous</span></div>
     </article>
-    <article class="acg-card" id="term-quality-metrics" data-cat="quality" data-hay="unit quality metrics per-unit numbers describing how badly spike sorting may have gone wrong for that unit — contamination from other neurons, spikes missed, or the unit drifting away. none is perfect; which thresholds apply depends on the analysis. quality metrics ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="qm-t"><title id="qm-t">Unit quality metrics: contamination, missed spikes, drift</title><g fill="var(--surface-2)" stroke="currentColor" stroke-opacity=".25" stroke-width="1.6"><rect x="16" y="40" width="88" height="82" rx="8"/><rect x="116" y="40" width="88" height="82" rx="8"/><rect x="216" y="40" width="88" height="82" rx="8"/></g><rect x="22" y="46" width="16" height="70" fill="var(--accent)" fill-opacity=".16"/><path d="M38,46 V116" stroke="var(--accent)" stroke-width="1.8" stroke-dasharray="4 3"/><path d="M22,114 L34,112 L44,88 L56,66 L70,74 L86,94 L98,108" fill="none" stroke="currentColor" stroke-opacity=".8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M122,114 C136,114 140,60 160,60 C180,60 184,114 198,114" fill="none" stroke="currentColor" stroke-opacity=".8" stroke-width="2.2" stroke-linecap="round"/><path d="M140,46 V116" stroke="var(--accent)" stroke-width="1.8" stroke-dasharray="4 3"/><path d="M222,96 C234,82 242,110 254,94 C266,78 274,102 286,72 C292,60 296,56 300,52" fill="none" stroke="currentColor" stroke-opacity=".8" stroke-width="2.2" stroke-linecap="round"/><path d="M222,110 H300" stroke="var(--accent)" stroke-width="1.8" stroke-dasharray="4 3"/><text x="60" y="144" text-anchor="middle" font-size="10.5" fill="var(--muted)">contamination</text><text x="160" y="144" text-anchor="middle" font-size="10.5" fill="var(--muted)">spikes missed</text><text x="260" y="144" text-anchor="middle" font-size="10.5" fill="var(--muted)">unit drifts away</text><text x="160" y="176" text-anchor="middle" font-size="9.5" fill="var(--faint)">thresholds depend on the analysis</text></svg></div>
-    <div class="acg-eb" style="color:#4338ca">QUALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-quality-metrics" title="Link to this term">Unit quality metrics</a></h3>
-    <p class="acg-def">Per-unit numbers describing how badly spike sorting may have gone wrong for that unit — contamination from other neurons, spikes missed, or the unit drifting away. None is perfect; which thresholds apply depends on the analysis.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/ephys/visual-coding/vcnp-quality-metrics.html">in this book</a></div>
-    </article>
-    <article class="acg-card" id="term-unproofread" data-cat="proofreading" data-hay="unproofread an arbor that has not been comprehensively corrected. it is truncated by split errors and may carry merged fragments of other cells, so its apparent partners are unreliable. proofreading &amp; data quality ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="pu"><title id="pu">Unproofread — proofreading status ladder</title>
-<circle cx="72" cy="108" r="10" fill="currentColor" fill-opacity=".08" stroke="currentColor" stroke-opacity=".45" stroke-width="2.2"/>
-<g fill="none" stroke="currentColor" stroke-opacity=".4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-<path d="M72,98 C68,86 66,78 64,66"/>
-<path d="M72,98 C80,86 86,80 92,72"/>
-<path d="M72,118 C72,132 70,142 68,154"/>
-</g>
-<path d="M92,72 C98,66 102,62 108,56" fill="none" stroke="currentColor" stroke-opacity=".22" stroke-width="2" stroke-dasharray="2 5"/>
-<g fill="var(--surface)" stroke="currentColor" stroke-opacity=".4" stroke-width="1.8">
-<circle cx="64" cy="66" r="3.2"/>
-<circle cx="92" cy="72" r="3.2"/>
-<circle cx="68" cy="154" r="3.2"/>
-</g>
-<rect x="170" y="42" width="132" height="30" rx="15" fill="none" stroke="currentColor" stroke-opacity=".3" stroke-width="1.8"/>
-<text x="236" y="61" text-anchor="middle" font-size="12" fill="var(--muted)">Extended</text>
-<rect x="170" y="87" width="132" height="30" rx="15" fill="none" stroke="currentColor" stroke-opacity=".3" stroke-width="1.8"/>
-<text x="236" y="106" text-anchor="middle" font-size="12" fill="var(--muted)">Clean</text>
-<rect x="170" y="132" width="132" height="30" rx="15" fill="var(--accent)" fill-opacity=".16" stroke="var(--accent)" stroke-width="2.4"/>
-<text x="236" y="151" text-anchor="middle" font-size="12" fill="var(--accent-ink)" font-weight="600">Unproofread</text>
-<path d="M228,82 L236,76 L244,82" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M228,127 L236,121 L244,127" fill="none" stroke="currentColor" stroke-opacity=".45" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="72" y="184" text-anchor="middle" font-size="9.5" fill="var(--muted)">incomplete arbor</text>
-</svg></div>
-    <div class="acg-eb" style="color:#b8791a">PROOF</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-unproofread" title="Link to this term">Unproofread</a></h3>
-    <p class="acg-def">An arbor that has not been comprehensively corrected. It is truncated by split errors and may carry merged fragments of other cells, so its apparent partners are unreliable.</p>
-    </article>
     <article class="acg-card" id="term-v1dd-v1-deep-dive" data-cat="datasets" data-hay="v1dd (v1 deep-dive) functional (2p/3p calcium) + em dataset of v1 across all layers in 4 mice (~50k neurons/mouse). datasets &amp; scope v1dd">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="d6"><title id="d6">V1DD (V1 Deep-Dive)</title><polygon points="95,55 215,55 250,32 130,32" fill="var(--scaffold)" fill-opacity=".26" stroke="currentColor" stroke-opacity=".6" stroke-width="1.8"/><polygon points="215,55 250,32 250,155 215,178" fill="var(--scaffold)" fill-opacity=".07" stroke="currentColor" stroke-opacity=".6" stroke-width="1.8"/><polygon points="95,55 215,55 215,178 95,178" fill="var(--scaffold)" fill-opacity=".14" stroke="currentColor" stroke-opacity=".6" stroke-width="1.8"/><text x="155" y="50" text-anchor="middle" font-size="9" class="mono" fill="var(--muted)">800 µm</text><text transform="translate(240,40) rotate(-33)" text-anchor="middle" font-size="9" class="mono" fill="var(--muted)">800 µm</text><g stroke="currentColor" stroke-opacity=".5" stroke-width="1.6" stroke-linecap="round"><line x1="88" y1="62" x2="88" y2="170"/></g><g fill="currentColor" fill-opacity=".5"><polygon points="88,58 85,64 91,64"/><polygon points="88,174 85,168 91,168"/></g><text x="88" y="50" text-anchor="middle" font-size="9" fill="var(--muted)">pia</text><text x="88" y="184" text-anchor="middle" font-size="9" fill="var(--muted)">WM</text><text transform="translate(76,116) rotate(-90)" text-anchor="middle" font-size="8.5" fill="var(--faint)">cortical depth</text><rect x="236" y="163" width="72" height="26" rx="6" fill="var(--accent)" fill-opacity=".18" stroke="var(--accent-ink)" stroke-width="1.8"/><text x="272" y="180" text-anchor="middle" font-size="12" fill="var(--accent-ink)" font-weight="700">×4 mice</text></svg></div>
     <div class="acg-eb" style="color:#0e7f8c">DATASETS</div>
     <h3 class="acg-h"><a class="acg-name" href="#term-v1dd-v1-deep-dive" title="Link to this term">V1DD (V1 Deep-Dive)</a></h3>
     <p class="acg-def">Functional (2p/3p calcium) + EM dataset of V1 across all layers in 4 mice (~50k neurons/mouse).</p>
     <div class="acg-meta"><span class="acg-chip acg-ds">V1DD only</span></div>
-    </article>
-    <article class="acg-card" id="term-v1dd-functional-index" data-cat="functional" data-hay="v1dd functional index v1dd's golden-mouse column/volume/plane/roi scheme, distinct from microns session/scan/unit. functional data &amp; coregistration v1dd">
-    <div class="acg-eb" style="color:#9a5b12">FUNCTION</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-v1dd-functional-index" title="Link to this term">V1DD functional index</a></h3>
-    <p class="acg-def">V1DD's Golden-Mouse <code>column/volume/plane/roi</code> scheme, distinct from MICrONS session/scan/unit.</p>
-    <div class="acg-meta"><span class="acg-chip acg-ds">V1DD only</span></div>
-    </article>
-    <article class="acg-card" id="term-valid-roi" data-cat="quality" data-hay="valid_roi the ophys equivalent of a unit quality flag: whether cell classification judged a segmented roi to be a real cell. only valid rois are released. quality metrics ">
-    <div class="acg-eb" style="color:#4338ca">QUALITY</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-valid-roi" title="Link to this term">valid_roi</a></h3>
-    <p class="acg-def">The ophys equivalent of a unit quality flag: whether cell classification judged a segmented ROI to be a real cell. Only valid ROIs are released.</p>
     </article>
     <article class="acg-card" id="term-vertex-vertices" data-cat="morphology" data-hay="vertex / vertices points in 3d (n×3, nanometers) that, connected, build meshes and skeletons. morphology — meshes &amp; skeletons ">
     <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="m-vert"><title id="m-vert">Vertices tracing a neuron outline</title><g fill="none" stroke="currentColor" stroke-opacity=".4" stroke-width="1.8" stroke-linecap="round"><path d="M55,120 L70,100 L88,112 M88,112 L105,100 L140,88 L180,80 L220,72 L255,66"/><path d="M255,66 L258,96"/><path d="M258,96 L226,104 L188,112 L148,120 L112,132 L78,138"/><path d="M78,138 L58,142 L55,120"/></g><g fill="var(--neuron)"><circle cx="55" cy="120" r="3.6"/><circle cx="70" cy="100" r="3.6"/><circle cx="88" cy="112" r="3.6"/><circle cx="105" cy="100" r="3.6"/><circle cx="180" cy="80" r="3.6"/><circle cx="220" cy="72" r="3.6"/><circle cx="255" cy="66" r="3.6"/><circle cx="258" cy="96" r="3.6"/><circle cx="226" cy="104" r="3.6"/><circle cx="188" cy="112" r="3.6"/><circle cx="148" cy="120" r="3.6"/><circle cx="112" cy="132" r="3.6"/><circle cx="78" cy="138" r="3.6"/><circle cx="58" cy="142" r="3.6"/></g><g fill="var(--neuron)" fill-opacity=".45"><circle cx="130" cy="58" r="3.2"/><circle cx="205" cy="145" r="3.2"/></g><circle cx="140" cy="88" r="6" fill="var(--neuron)" stroke="var(--accent-ink)" stroke-width="2"/><line x1="140" y1="80" x2="150" y2="60" stroke="var(--accent-ink)" stroke-width="1.5"/><text x="152" y="58" font-size="11" fill="var(--accent-ink)" font-weight="600">vertex</text><text x="150" y="184" text-anchor="middle" font-size="9.5" fill="var(--muted)">3D points sampling the surface</text></svg></div>
@@ -2422,20 +1477,13 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
     <h3 class="acg-h"><a class="acg-name" href="#term-waveform" title="Link to this term">Waveform</a></h3>
     <p class="acg-def">In a system neuroscience setting, this often refers to the voltage over time measured with an electrode when an individual neuron produces an action potential.</p>
     </article>
-    <article class="acg-card" id="term-df-f" data-cat="signals" data-hay="δf/f (df/f) change in fluorescence normalised by a baseline. the baseline is the median fluorescence in a 180 s window centred on each time point, so δf/f is a relative, unitless signal. signals &amp; preprocessing ">
-    <div class="acg-art"><svg viewBox="0 0 320 200" role="img" aria-labelledby="dff-t"><title id="dff-t">ΔF/F: fluorescence normalised by a rolling baseline</title><path d="M26,112 C42,112 48,110 58,110 C66,110 68,70 78,70 C90,70 94,104 106,106 C116,108 120,82 130,82 C142,82 146,106 158,106 C168,106 172,104 180,104" fill="none" stroke="currentColor" stroke-opacity=".8" stroke-width="2.2" stroke-linecap="round"/><path d="M26,110 H180" stroke="currentColor" stroke-opacity=".45" stroke-width="1.6" stroke-dasharray="5 4"/><text x="26" y="46" font-size="10.5" fill="var(--muted)">raw F</text><text x="180" y="124" text-anchor="end" font-size="9.5" class="mono" fill="var(--faint)">F₀</text><path d="M64,128 V136 H142 V128" fill="none" stroke="currentColor" stroke-opacity=".4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><text x="103" y="152" text-anchor="middle" font-size="9.5" class="mono" fill="var(--faint)">180 s window</text><path d="M190,92 H210" stroke="currentColor" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"/><path d="M204,88 L210,92 L204,96" fill="none" stroke="currentColor" stroke-opacity=".55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M220,116 H306" stroke="currentColor" stroke-opacity=".35" stroke-width="1.6"/><path d="M220,116 L234,116 C242,116 244,68 254,68 C264,68 266,114 276,114 C284,114 288,86 296,86 C302,86 304,114 306,114" fill="none" stroke="var(--accent)" stroke-width="2.4" stroke-linecap="round"/><text x="263" y="46" text-anchor="middle" font-size="11" fill="var(--accent-ink)" font-weight="600">ΔF/F</text><text x="263" y="152" text-anchor="middle" font-size="10" class="mono" fill="var(--muted)">(F − F₀) / F₀</text></svg></div>
-    <div class="acg-eb" style="color:#0369a1">SIGNAL</div>
-    <h3 class="acg-h"><a class="acg-name" href="#term-df-f" title="Link to this term">ΔF/F (dF/F)</a></h3>
-    <p class="acg-def">Change in fluorescence normalised by a baseline. The baseline is the median fluorescence in a 180 s window centred on each time point, so ΔF/F is a relative, unitless signal.</p>
-    <div class="acg-meta"><a class="acg-chip acg-src" href="physiology/ophys/visual-coding/vc2p-session-data.html">in this book</a></div>
-    </article>
   </div>
 
   <p class="acg-empty" hidden>Nothing matches that search.</p>
 
   <p class="acg-foot">
     Generated from the <a href="https://lappalainenj.github.io/allen-glossary/" target="_blank" rel="noopener">Allen Glossary</a>
-    (revision 2026-08), which is the source of truth for these definitions &#8212;
+    (revision 2026-08 · v0.2.0-beta), which is the source of truth for these definitions &#8212;
     corrections and new terms belong there, not on this page.<br>Further reading: <a href="https://www.microns-explorer.org/" target="_blank" rel="noopener">MICrONS Explorer</a> &middot; <a href="https://caveconnectome.github.io/CAVEclient/" target="_blank" rel="noopener">CAVEclient documentation</a> &middot; <a href="https://nwb.org/" target="_blank" rel="noopener">NWB</a> &middot; <a href="https://registry.opendata.aws/allen-nd-open-data/" target="_blank" rel="noopener">AIND open data on S3</a>
   </p>
 
@@ -2579,7 +1627,7 @@ html[data-theme="dark"] dl.glossary dd{color:#97a1af}
 
 ## Term index
 
-The same 256 terms as a plain list, A to Z. This is what the databook's own
+The same 139 terms as a plain list, A to Z. This is what the databook's own
 search box and any `{term}` cross-reference elsewhere in the book resolve against,
 so it is folded away rather than left out.
 
@@ -2592,34 +1640,19 @@ Action potential
 Spike
   A characteristic signal that appears in excitable cell membranes, which takes the form of an electric potential difference waveform that propagates down the length of the cell membrane. In neurons, these indicate neuron activation. See Spike. <a href="#term-action-potential">Go to the card</a>.
 
-AIND metadata schema
-  Six JSON classes describing a newer data asset: data description, subject, procedures, rig or instrument, session or acquisition, and processing. Where you look up which virus was injected, or what a capsule actually ran. <a href="#term-aind-metadata">Go to the card</a>.
-
-amplitude_cutoff
-  Estimated fraction of the unit's spikes that fell below the detection threshold and were never recorded — a false-negative rate. Default threshold 0.1. <a href="#term-amplitude-cutoff">Go to the card</a>.
-
 Annotation
   Labeled data (points/tables) bound to locations or cells in the volume. <a href="#term-annotation">Go to the card</a>.
 
 Astrocyte
   A glial cell whose fine processes tile the neuropil and wrap capillaries with endfeet, supporting synapses metabolically and regulating the extracellular environment. Its arbor is a dense thicket rather than a branching tree, which is why it is proofread to a different standard from a neuron. <a href="#term-astrocyte">Go to the card</a>.
 
-Baiting / coupled vs uncoupled
-  Baiting: a reward an unchosen side would have given is held and delivered on the next choice of that side. Coupled or uncoupled describes whether the two sides' probabilities change together or independently. <a href="#term-baiting">Go to the card</a>.
-
 Basket cell (BC)
 Basket cell
   A type of inhibitory neuron whose synaptic output targets the cell body and proximal dendrites of excitatory neurons. Many basket cells express the molecular marker parvalbumin (PV), but not all basket cells are PV+: some express molecules such as cholecystokinin (CCK). PV basket cells are typically fast spiking compared to other neurons and are thought to be important for gain control of network activity and setting the temporal precision of network activity. <a href="#term-basket-cell">Go to the card</a>.
 
-BCI task / conditioned neuron
-  A lickport moves toward the mouse at a speed set by the fluorescence of one chosen neuron. Reaching the near position within 10 s earns water. Mice usually learn to drive that neuron within about 30 trials. <a href="#term-bci-task">Go to the card</a>.
-
 Bipolar cell (BPC)
 Bipolar cell
   A subset of VIP cell with a bipolar dendritic arbor. See VIP cell. <a href="#term-bipolar-cell">Go to the card</a>.
-
-Blank sweep
-  A trial in which the stimulus is replaced by mean-luminance grey, interleaved among real trials so each stimulus has its own baseline. <a href="#term-blank-sweep">Go to the card</a>.
 
 Bound Spatial Point
   Binds an annotation to the cell at a location via the triad pt_position → pt_supervoxel_id → pt_root_id. <a href="#term-bound-spatial-point">Go to the card</a>.
@@ -2630,47 +1663,17 @@ Brain Computer Interface (BCI)
 Branch / End / Root point
   Named skeleton vertex types; the root is conventionally placed at the soma. <a href="#term-branch-end-root-point">Go to the card</a>.
 
-Catch trial / sham change
-  A change time is drawn but the image does not change. This conservative definition counts only presentations drawn from the change-time distribution; aborted trials are arguably catches too. <a href="#term-catch-trial">Go to the card</a>.
-
 CAVE
   Connectome Annotation Versioning Engine — the suite managing large dynamic connectomics data. <a href="#term-cave">Go to the card</a>.
-
-CAVEclient
-  The main Python client for programmatic access to CAVE services. Servers: MICrONS global.daf-apis.com, V1DD global.em.brain.allentech.org. <a href="#term-caveclient">Go to the card</a>.
-
-cc_abs / cc_max / cc_norm
-  Digital-twin model-performance columns. <a href="#term-cc-abs-cc-max-cc-norm">Go to the card</a>.
 
 Cell type
   Classification of a cell (e.g. 23P, BC) via several tables/methods, keyed on nucleus id. <a href="#term-cell-type">Go to the card</a>.
 
-cell_id / soma_id
-  The 6-digit nucleus id (from nucleus_detection_v0), static across versions; tracks a cell over time. <a href="#term-cell-id-soma-id">Go to the card</a>.
-
-cell_specimen_id
-  The identifier a cell keeps once it has been matched across sessions, so the same neuron carries it on every day it was imaged. Before matching, a segmented ROI has only a cell_roi_id, unique to one plane on one day — joining on that one instead silently drops the across-day link. <a href="#term-cell-specimen-id">Go to the card</a>.
-
 Chandelier cell (ChC)
   A parvalbumin interneuron that synapses exclusively onto the axon initial segments of pyramidal cells, placing it in unique control of whether they fire. Its output forms vertical strings of boutons — the cartridges the cell is named for. <a href="#term-chandelier-cell">Go to the card</a>.
 
-Change detection task
-  A go/no-go task: images are presented in a continuous stream and the mouse earns water by licking when the image identity changes. The 500 ms grey gap between images adds a working-memory component. <a href="#term-change-detection">Go to the card</a>.
-
 Channelrhodopsin (ChR2)
   A light-gated ion channel used in the field of optogenetics to control neuronal activity with light. <a href="#term-channelrhodopsin">Go to the card</a>.
-
-ChRmine
-  A red-shifted opsin, excited near 1080 nm. Because GCaMP is excited near 920 nm the two can be driven independently, which is what makes simultaneous imaging and single-cell photostimulation possible. <a href="#term-chrmine">Go to the card</a>.
-
-classification_system column
-  The E / I / non-neuron grouping column in cell-type tables. <a href="#term-classification-system-column">Go to the card</a>.
-
-Clean
-  Arbor proofread to remove all merge errors (synapses correct, but may be incomplete). <a href="#term-clean">Go to the card</a>.
-
-cloud-volume / ImageryClient
-  Serverless clients to read Precomputed imagery/segmentation and download aligned cutouts. <a href="#term-cloud-volume-imageryclient">Go to the card</a>.
 
 Column (MICrONS)
 Minnie column
@@ -2686,17 +1689,11 @@ CCF
 Compartment labels
   SWC integer codes: 0 undefined, 1 soma, 2 axon, 3 basal dendrite, 4 apical dendrite. <a href="#term-compartment-labels">Go to the card</a>.
 
-Connectivity Viewer
-  Dash app showing a cell's synaptic inputs/outputs grouped and colored by cell type. <a href="#term-connectivity-viewer">Go to the card</a>.
-
 Connectome
   A wiring map of neurons and the synaptic connections between them. <a href="#term-connectome">Go to the card</a>.
 
 Container
   There is no consistent use of this term Most often this refers to the set of recording sessions for a single ophys imaging plane, but can also refer to the set of sessions for an animal. <a href="#term-container">Go to the card</a>.
-
-Context block
-  A ten-minute stretch in which only one modality is rewarded, signalled by instruction trials at its start. Blocks alternate for six blocks in a session. <a href="#term-context-block">Go to the card</a>.
 
 Coordinate frames
   Three systems: voxel (annotations), nanometer (mesh/skeleton vertices), transformed (pia-flattened microns). <a href="#term-coordinate-frames">Go to the card</a>.
@@ -2710,35 +1707,11 @@ Cover paths
 Cre line
   The Cre-lox system is a site-specific recombinase technology. Cre-recombinase is a tyrosine site-specific recombinase that catalyzes the recombination of DNA between specific sites known as loxP sequences. As used in these experiments, Cre is used with loxP Reporter line in order to drive recombinase of the loxP sites and drive the expression of the reporter. As Cre is often expressed within a specific gene, this allows the reporter expression to be restricted to particular subset of cells. For specific lines used, see the section on transgenic tools. <a href="#term-cre-line">Go to the card</a>.
 
-ctr_pt_position
-  The synapse-junction center point (not root-id-bound). <a href="#term-ctr-pt-position">Go to the card</a>.
-
-Current source density (CSD)
-  The second spatial derivative of the LFP along the probe, which localises current sinks and sources and so the laminar position of synaptic input. <a href="#term-current-source-density">Go to the card</a>.
-
-d_prime (unit)
-  Separability of this unit's waveforms from its neighbours', by linear discriminant analysis. Higher is better. Not the behavioural d-prime. <a href="#term-d-prime-unit">Go to the card</a>.
-
-d-prime (behavioural)
-  Signal-detection sensitivity for the task: how far the hit rate exceeds the false-alarm rate. Not the unit quality metric of the same name. <a href="#term-d-prime-behavior">Go to the card</a>.
-
-Dash web apps
-  Plotly-Dash apps (Table Viewer, Connectivity Viewer) for fast querying + Neuroglancer-link generation. <a href="#term-dash-web-apps">Go to the card</a>.
-
 Dataset
   There is no consistent use of this term <a href="#term-dataset">Go to the card</a>.
 
 Datastack
   A named bundle of imagery + segmentation + annotation DB (minnie65_public, v1dd_public). <a href="#term-datastack">Go to the card</a>.
-
-decoder_label
-  The pipeline's automated call on what a unit is — sua for a single unit, and so on — with decoder_probability as its confidence. <a href="#term-decoder-label">Go to the card</a>.
-
-Default quality filtering
-  Visual Coding applies isi_violations, amplitude_cutoff and presence_ratio filters by default; Visual Behavior Neuropixels returns every unit unfiltered. Opposite defaults on the same kind of data — check which you are holding. <a href="#term-default-filters">Go to the card</a>.
-
-default_qc
-  A single pass/fail flag summarising the pipeline's quality criteria for a unit, in the AIND-packaged datasets. <a href="#term-default-qc">Go to the card</a>.
 
 Dendritic spine
   The small protrusion on a dendrite that receives most excitatory input, with a bulbous head on a thin neck. Spine density separates excitatory from inhibitory dendrites, and spine heads are among the fragments most often left disconnected by automated segmentation. <a href="#term-dendritic-spine">Go to the card</a>.
@@ -2749,29 +1722,11 @@ Depth / pia→WM axis
 Digital twin
   A DNN trained to predict a cell's response to arbitrary stimuli (source of derived functional properties). <a href="#term-digital-twin">Go to the card</a>.
 
-Direct vs indirect activation
-  The central pitfall of optotagging: a neuron may respond to the laser because it expresses the opsin, or because a neuron that does synapses onto it. Direct responses are short-latency (<10 ms), reliable across pulses, and tightly distributed in time. <a href="#term-direct-vs-indirect">Go to the card</a>.
-
-distance_to_root
-  Path length along the skeleton from a vertex back to the root, in nanometres. Many level-2 vertices collapse onto the single soma vertex, so the value flattens to zero across the cell body rather than varying smoothly. <a href="#term-distance-to-root">Go to the card</a>.
-
-Drift metrics
-  max_drift and cumulative_drift record how far, in µm, a unit's spikes moved along the probe during the session. Newer pipelines add activity_drift and drift_ptp. <a href="#term-drift-metrics">Go to the card</a>.
-
-Drifting gratings
-  A full-field sinusoidal grating moving orthogonal to its own orientation. Parameters: orientation and direction (degrees), temporal frequency (Hz), spatial frequency (cycles/deg), contrast. Typically 2 s on, 1 s grey. <a href="#term-drifting-gratings">Go to the card</a>.
-
 Driver line
   A general term for transgenic mouse lines that are engineered to label a specific cell type or cell population by expressing a specific gene under the control of the promoter for the cell type or cell population of interest. A Cre line is a common type of Driver line that allows specific genes to be expressed when crossed with a reporter line. The driver line determines what cell population is targeted, and the reporter line determines what will be expressed in that specific cell population (for example, GFP, GCaMP, or Channelrhodopsin). <a href="#term-driver-line">Go to the card</a>.
 
 DSI
   Direction selectivity index (0–1). <a href="#term-dsi">Go to the card</a>.
-
-Dynamic foraging task
-  Two choices, binary reward, and reward probabilities that change during the session. A go cue opens a short window in which the mouse licks left or right; the mouse must learn from recent outcomes to track the better side. <a href="#term-dynamic-foraging">Go to the card</a>.
-
-Dynamic Routing task
-  A context-dependent go/no-go task alternating visual and auditory blocks. The same stimulus is a target or not depending on the current block, so stimulus and meaning can be separated. <a href="#term-dynamic-routing">Go to the card</a>.
 
 Edges
   Pairs of connected vertices (mesh.edges, skeleton edges). <a href="#term-edges">Go to the card</a>.
@@ -2779,47 +1734,14 @@ Edges
 Electron microscopy (EM)
   Imaging that reaches nanometer resolution to reveal tissue ultrastructure. <a href="#term-electron-microscopy-em">Go to the card</a>.
 
-Encoding vs decoding
-  Encoding asks whether an event changes neural activity; decoding asks whether the event can be read back out of the activity. Same data, opposite direction. <a href="#term-encoding-vs-decoding">Go to the card</a>.
-
-Enhancer AAV
-  A virus carrying a cell-type-specific enhancer, used to restrict expression without breeding a transgenic line. <a href="#term-enhancer-aav">Go to the card</a>.
-
-Environment secrets
-  How the CAVE auth token is supplied when code runs on a shared or hosted machine: exported as environment variables named API_SECRET_<server> instead of being written to a credentials file in the home directory. <a href="#term-environment-secrets">Go to the card</a>.
-
 Ephys
   Shorthand for electrophysiology. <a href="#term-ephys">Go to the card</a>.
-
-Ephys selection bias
-  Spike sorting needs enough spikes to form a cluster, so sparsely active neurons are missed and large-spike, high-rate neurons — and layer 5 — are over-represented. Ophys sees many of the cells ephys does not. <a href="#term-selection-bias-ephys">Go to the card</a>.
-
-Epoch
-  A labelled stretch of time — but of what, and on whose clock, differs everywhere it appears. <a href="#term-epoch">Go to the card</a>.
-
-Error profiles
-  The characteristic ways automated segmentation fails, and how they differ by compartment: thin axons are dominated by split errors, thicker dendrites and somata by merges. This asymmetry is why proofreading status is tracked separately for axon and dendrite. <a href="#term-error-profiles">Go to the card</a>.
-
-Event detection
-  The events array that sits beside dff: ΔF/F deconvolved into discrete events, one value per frame per ROI. Small events are recovered unreliably, so it is a cleaner signal than ΔF/F but not a spike train. <a href="#term-event-detection">Go to the card</a>.
-
-Evoked vs spontaneous
-  Activity driven by a stimulus versus activity during the grey-screen epochs. The comparison that decides whether a response is a response at all. <a href="#term-evoked-vs-spontaneous">Go to the card</a>.
 
 Excitatory V1 cell types
   Pyramidal subclasses by layer/projection: 23P, 4P, 5P-IT/ET/NP, 6P-IT/CT (+ mtype clusters L2a…L6wm). <a href="#term-excitatory-v1-cell-types">Go to the card</a>.
 
-Experience level
-  Whether the image set in a session is the one the mouse trained on (Familiar) or a different one (Novel). The axis the Visual Behavior datasets were built to test. <a href="#term-experience-level">Go to the card</a>.
-
 Experiment
   There is no consistent use of this term It can refer to a stimulus protocol, an entire data collection campaign, or a single session. It is highly ambiguous. <a href="#term-experiment">Go to the card</a>.
-
-Extended
-  Arbor proofread to remove all merge AND split errors (correct and as-complete-as-possible). <a href="#term-extended">Go to the card</a>.
-
-Extracellular electrophysiology
-  Recording voltage from outside the cell membrane, which gives better access to intact brains than intracellular recording. Its two readouts are spikes and the local field potential. <a href="#term-electrophysiology">Go to the card</a>.
 
 Faces
   Triangles of connected vertex indices that tile a mesh surface (mesh.faces). <a href="#term-faces">Go to the card</a>.
@@ -2830,12 +1752,6 @@ Fast spiking neuron (FSN)
 FIBSEM
   Focused-ion-beam SEM; block-face EM that mills & images, giving near-isotropic voxels. <a href="#term-fibsem">Go to the card</a>.
 
-Field of view
-  The imaged extent of one plane, in pixels and in µm. Recorded per imaging plane as field_of_view_width/height. <a href="#term-field-of-view">Go to the card</a>.
-
-firing_rate
-  Mean spike rate over the whole session. Low values may mean a sparsely active neuron or a badly detected one. <a href="#term-firing-rate">Go to the card</a>.
-
 Fluorophore
   A type of molecule which absorb light and re-emit it at a longer wavelength in a process called fluorescence. As a result, fluorophores fluoresce only while exposed to a light source. <a href="#term-fluorophore">Go to the card</a>.
 
@@ -2844,9 +1760,6 @@ Functional connectome
 
 GABA
   Gamma-aminobutyric acid (GABA) is the main inhibitory neurotransmitter in the mammalian brain. In cortex, most GABAergic neurons are local interneurons. <a href="#term-gaba">Go to the card</a>.
-
-Gabor patches
-  Spatially restricted gratings. The receptive-field mapping stimulus in Visual Coding Neuropixels: 20° diameter, three orientations on a 9 × 9 grid of screen positions, identical in every session. <a href="#term-gabor-patches">Go to the card</a>.
 
 GCaMP
   A family of GECI. GCaMP was generated by a fusion of the calcium binding domain of the calmodulin protein with green fluorescent protein (GFP). In these data we use primarily GCaMP6f as well as some GCaMP6s, fast and slow variants respectively. These two variants differ in their sensitivity as well as their kinetics — primarily with regards to their decay. For more see {cite:t}`chen2013`. <a href="#term-gcamp">Go to the card</a>.
@@ -2861,9 +1774,6 @@ Geodesic distance
 GFP
   Green fluorescent protein. Discovered at FHL. <a href="#term-gfp">Go to the card</a>.
 
-Golden Mouse (409828)
-  The single V1DD mouse with functional coregistration. <a href="#term-golden-mouse-409828">Go to the card</a>.
-
 gOSI / gDSI
   Global orientation/direction selectivity indices (vector-sum variant). <a href="#term-gosi-gdsi">Go to the card</a>.
 
@@ -2876,33 +1786,15 @@ Graphene vs Precomputed
 Grids / Chunk
   The volume is partitioned into a 3D grid of chunks for the chunked-graph. <a href="#term-grids-chunk">Go to the card</a>.
 
-Head fixation / head bar
-  A surgically implanted bar clamps the mouse's head in a repeatable position — better than 10 µm across clamp cycles, which is what makes it possible to return to the same cells on a later day. <a href="#term-head-fixation">Go to the card</a>.
-
 Higher visual area (HVA)
 HVA
   A **higher visual area** is a term for cortical visual areas that receive input from the primary visual cortex, thus considered to be "higher" in the visual hierarchy. In primates, higher visual areas include V2, V3, V4, V5, MT, etc. In the mouse, higher visual areas include: VISl, VIsal, VISpm, VISam, VISrl among others. For more, see {cite:t}`glickfeld_higher-order_2017`. <a href="#term-higher-visual-area">Go to the card</a>.
 
-Hit / miss / false alarm / correct reject
-  Lick within the 750 ms window after a change = hit; no lick after a change = miss; lick after a sham change = false alarm; withholding on a sham change = correct reject. Licking before the scheduled change aborts the trial. <a href="#term-trial-outcomes">Go to the card</a>.
-
 Hyperparameter
   A free parameter that controls behaviors in machine learning algorithms. These are distinct from parameters which control behaviors of the models developed by the algorithms; hyperparameters affect how the algorithm finds the models in the first place. <a href="#term-hyperparameter">Go to the card</a>.
 
-Image set
-  Which eight natural images a session used (G or H, A or B). Two images are shared between sets, so novelty is a property of the other six. <a href="#term-image-set">Go to the card</a>.
-
 Imagery
   The 3D grayscale (0–255) array depicting EM ultrastructure. <a href="#term-imagery">Go to the card</a>.
-
-Imaging depth
-  Depth in µm below the cortical surface at which a plane was collected. Roughly: <250 layer 2/3, 250–350 layer 4, 350–500 layer 5, >500 layer 6 — but layer-specific Cre lines are the reliable way to get layer specificity. <a href="#term-imaging-depth">Go to the card</a>.
-
-Imaging plane
-  One two-photon focal plane. A single-plane microscope images one per session; the Multiscope/Mesoscope images up to eight. The plane, not the session, is the unit that quality control passes or fails. <a href="#term-imaging-plane">Go to the card</a>.
-
-Indicator sparsification
-  Calcium indicators respond non-linearly to firing rate: bursts are boosted, isolated spikes washed out. Tuning measured with ophys therefore looks sharper and sparser than the same tuning measured with ephys. <a href="#term-indicator-sparsification">Go to the card</a>.
 
 Inhibitory V1 cell types
   Interneuron subclasses: BC, BPC, MC, NGC (manual) and PTC/DTC/STC/ITC (targeting-based mtypes). <a href="#term-inhibitory-v1-cell-types">Go to the card</a>.
@@ -2914,17 +1806,8 @@ Intrinsic signal imaging (ISI)
 ISI
   Intrinsic signal imaging, also called ISI, is a method to measure changes in blood flow associated with neural activity using reflectance of red light on the brain's surface, measured using a standard CCD camera. The amount of red light reflected by the brain tissue increases when oxygenated hemoglobin perfuses the local region. The timecourse of the ISI signal is slow, and the magnitude of the reflectance changes are small. As a result, the use of periodic stimuli can aid in signal detection. A common use of ISI is to map retinotopy across the brain surface by moving a slowly drifting bar across the visual field then measuring the signal in each pixel at the frequency of the periodic drifting bar. ISI has also been used to identify orientation maps in species with organized orientation maps like cats and primates, as well as to map the location of the whisker barrels in somatosensory cortex of the mouse. For additional papers using ISI to map the organization of the mouse visual cortex see {cite:t}`kalatsky2003` and {cite:t}`garrett2014`. <a href="#term-intrinsic-signal-imaging">Go to the card</a>.
 
-isi_violations
-  Rate of inter-spike intervals shorter than the refractory period. A real neuron cannot fire that fast, so violations mean spikes from more than one cell were merged. Default threshold 0.5. <a href="#term-isi-violations">Go to the card</a>.
-
-isolation_distance
-  Distance in Mahalanobis space to the nearest other cluster of waveforms. Higher is better separated. <a href="#term-isolation-distance">Go to the card</a>.
-
 IT / ET / NP / CT / SP
   Projection categories: intratelencephalic, extratelencephalic, near-projecting, corticothalamic, subplate. <a href="#term-it-et-np-ct-sp">Go to the card</a>.
-
-l_ratio
-  Contamination measure related to isolation distance: the probability that nearby spikes belong to this cluster. Lower is better. <a href="#term-l-ratio">Go to the card</a>.
 
 Layer (cortical)
   L1–L6 along the pia→WM axis; drives cell-type naming. NOT the Neuroglancer layer. <a href="#term-layer-cortical">Go to the card</a>.
@@ -2940,9 +1823,6 @@ LFP
 Local field potential
   Transient electrical potential generated in nervous tissue by the summed activity of cells in that tissue. This is typically measured in a lower temporal-frequency band of less than 250 Hz. <a href="#term-local-field-potential">Go to the card</a>.
 
-Locally sparse noise
-  Black and white spots flashed on a grey screen, arranged so no two spots fall within 5 pixels of each other. The exclusion zone is what makes the average around any pixel structureless, so a receptive field can be recovered. <a href="#term-locally-sparse-noise">Go to the card</a>.
-
 Martinotti cell (MC)
 Martinotti cell
   A Martinotti cell is a particular subtype of SST cell that targets the apical dendrites of pyramidal cells in layer 1. Martinotti cells are found in layer 2/3 and layer 5. <a href="#term-martinotti-cell">Go to the card</a>.
@@ -2950,23 +1830,14 @@ Martinotti cell
 Materialization & Versioning
   Timestamped snapshots of the annotation DB; each version = a fixed timestamp (MICrONS v1507, V1DD v1196). <a href="#term-materialization-versioning">Go to the card</a>.
 
-Maximum / average projection
-  The imaging movie collapsed over time into one image — the standard way to see every cell in a plane at once. <a href="#term-maximum-projection">Go to the card</a>.
-
 Merge errors
   Two neurons' processes incorrectly joined; they add false connections. <a href="#term-merge-errors">Go to the card</a>.
 
 Meshes
   Vertices + triangular faces defining a neuron's 3D outer surface. <a href="#term-meshes">Go to the card</a>.
 
-MeshParty / Meshwork
-  Python package + object bundling the L2 mesh, skeleton, and anno annotations, kept in sync. <a href="#term-meshparty-meshwork">Go to the card</a>.
-
 Meshpoints
   Informal usage for mesh vertices. Not a formal term — say vertices, since “point” elsewhere means an annotation position. <a href="#term-meshpoints">Go to the card</a>.
-
-Meshwork annotation tables
-  The dataframes carried on nrn.anno, indexed to mesh and skeleton vertices: pre_syn, post_syn, is_axon, lvl2_ids, segment_properties, vol_prop. They are what places a synapse at a position along the arbor rather than merely in the volume. <a href="#term-meshwork-annotation-tables">Go to the card</a>.
 
 Meshwork mask
   A boolean array over mesh vertices restricting a meshwork to part of a cell, applied with apply_mask or mask_context so mesh, skeleton and annotations stay in step. Masking on anno.is_axon is how axonal and dendritic path length are measured separately. <a href="#term-meshwork-mask">Go to the card</a>.
@@ -2989,20 +1860,8 @@ mtypes
 Multifeature cell types
   A labelling scheme combining somatic, dendritic and spine features. Excitatory labels are layer plus projection class (L2IT…L6CT); inhibitory labels split more finely than the mtypes (NMC, ChC, PV, AltBasket, AltDTC, ITCperi, L1). <a href="#term-multifeature-cell-types">Go to the card</a>.
 
-Natural movies
-  Black and white film clips with natural spatial and temporal statistics — usually the opening shot of Touch of Evil, chosen because it is continuous, with no cuts and varied motion. <a href="#term-natural-movies">Go to the card</a>.
-
-Natural scenes
-  Black and white photographs with natural spatial statistics, flashed for 0.25 s with no gap. Visual Coding uses 118 images drawn from the Berkeley, van Hateren and McGill image sets. <a href="#term-natural-scenes">Go to the card</a>.
-
-NEURD
-  Decomposes a neuron mesh into an annotated graph of processes, spines and boutons, supporting automated proofreading and feature extraction. The Baylor cell-type tables are derived from it. <a href="#term-neurd">Go to the card</a>.
-
 Neuroglancer
   WebGL browser viewer for very large volumetric connectomics data (imagery, segmentation, meshes, annotations). <a href="#term-neuroglancer">Go to the card</a>.
-
-Neuroglancer forks
-  Neuroglancer is maintained as several diverging branches. Spelunker is the one CAVE datastacks link to; the Seung-lab and FlyWire branches are the other widely used ones. States are broadly compatible but not identical. <a href="#term-neuroglancer-forks">Go to the card</a>.
 
 Neuroglancer Layer (img/seg/ann)
   The data layers in a Neuroglancer state. NOT the cortical layer. <a href="#term-neuroglancer-layer-img-seg-ann">Go to the card</a>.
@@ -3019,17 +1878,8 @@ Neuromodulatory axon
 Neuronal process
   An axon or dendrite branch of a neuron (a process that splits at branch points). <a href="#term-neuronal-process">Go to the card</a>.
 
-Neuropil correction
-  An annulus around the ROI, excluding nearby cells, gives a local neuropil signal. It is subtracted from the raw trace after weighting by a per-cell r value. <a href="#term-neuropil-correction">Go to the card</a>.
-
 Neuropixels
   A family of devices for obtaining high channel count single unit extracellular recordings created through a collaborative open science project funded by Howard Hughes Medical Institute, Gatsby Charitable Trust, the Wellcome Trust, and the Allen Institute. These devices utilize modern integrated circuit design to miniaturize aspects of electrophysiology, enabling recordings of hundred of single units from a single probe with minimal brain damage. {cite:t}`jun2017` describes these probes; a summary can also be found here. <a href="#term-neuropixels">Go to the card</a>.
-
-nglui (statebuilder/parser)
-  Python package to generate and parse Neuroglancer states from dataframes. <a href="#term-nglui-statebuilder-parser">Go to the card</a>.
-
-nn_hit_rate / nn_miss_rate
-  Nearest-neighbour estimates of contamination and of missing spikes respectively. <a href="#term-nn-hit-miss">Go to the card</a>.
 
 Nodes
   Vertices in the skeleton / L2 graph. <a href="#term-nodes">Go to the card</a>.
@@ -3040,17 +1890,8 @@ Non-neuronal cell types
 NWB (Neurodata Without Borders)
   A standardized file format for physiology and behavior data. All of our physiology and behavior data is stored in NWB files. The Visual Coding and Visual Behavior data are in NWB files with a hdf backend, while the newer data (V1DD, BCI, Dynamic Foraging, NP Ultra & Psychedelics) have a Zarr backend - which is optimized for cloud access. More info can be found here <a href="#term-nwb">Go to the card</a>.
 
-Omission
-  5% of non-change presentations are dropped, interrupting the expected stimulus cadence so that expectation signals can be measured. Omissions occur during recording but not during training, and never at or just before a change. <a href="#term-omission">Go to the card</a>.
-
 Ophys
   Shorthand for optical physiology, often in reference to Two-photon calcium imaging, but can also include other methods such as fiber photometry. <a href="#term-ophys">Go to the card</a>.
-
-Ophys experiment
-  One imaging plane in one session — the narrowest unit in the hierarchy, with its own imaging_depth and targeted_structure. Quality control passes or fails each plane separately. <a href="#term-ophys-experiment">Go to the card</a>.
-
-Opsin
-  A light-gated ion channel. Illumination changes its conformation, letting ions cross the membrane and either forcing the cell to spike (excitatory opsin) or suppressing spiking (inhibitory). <a href="#term-opsin">Go to the card</a>.
 
 Optogenetics
   A method for controlling the activity of neurons by expressing light activated ion channels (using a reporter line ) in a specific subpopulation of cells (using a Driver line) to enable temporally precise control of neural spiking. Spiking can be suppressed or enhanced using different types of reporters. See {cite:t}`peron2011` for a review on optogenetics as a method. <a href="#term-optogenetics">Go to the card</a>.
@@ -3068,15 +1909,6 @@ Parvalbumin-positive (PV+) neuron
 Parvalbumin-positive interneuron
   Fast spiking neurons, also known as fast spiking interneurons, is a short-hand for parvalbumin positive GABA-ergic inhibitory interneurons found in many brain regions that have strong inhibitory effects on neighboring cells. In experimental preparations where the genetic identity of neurons can be paired with electrophysiological recordings, PV+ neurons have short action potentials, occasionally less than 400 µS. <a href="#term-pv-neuron">Go to the card</a>.
 
-Passive replay block
-  The same stimuli replayed with the lick spout retracted and no reward, so task-dependent modulation can be separated from stimulus drive. <a href="#term-passive-replay">Go to the card</a>.
-
-pcg_skel
-  Builds a skeleton for a root id directly from the level-2 chunked graph, optionally attaching synapses and volumetric properties. Because it never touches the full-resolution mesh it can skeletonise very large neurons quickly. <a href="#term-pcg-skel">Go to the card</a>.
-
-Peak channel
-  The channel on which a unit's mean waveform is largest. A unit carries no position of its own — joining peak_channel_id to the electrodes table at general/extracellular_ephys/electrodes is how it acquires a CCF location, a brain-region label and a depth. <a href="#term-peak-channel">Go to the card</a>.
-
 Physiology
   The activity side of a functional-connectomics dataset: the calcium-imaging responses recorded from the same neurons that were later reconstructed in EM. <a href="#term-physiology">Go to the card</a>.
 
@@ -3086,26 +1918,11 @@ Position
 Precomputed format
   Storage representation for arbitrarily large images/meshes/skeletons. <a href="#term-precomputed-format">Go to the card</a>.
 
-pref_dir
-  Preferred direction in degrees (0–360; 0 = vertical bar moving right, CCW+). <a href="#term-pref-dir">Go to the card</a>.
-
-pref_ori
-  Preferred orientation in degrees (0–180). <a href="#term-pref-ori">Go to the card</a>.
-
-presence_ratio
-  Fraction of the session in which the unit had spikes. A low value usually means the unit drifted away from the probe. Default threshold 0.9. <a href="#term-presence-ratio">Go to the card</a>.
-
 Primary visual cortex (V1 / VISp)
   The largest visual area in cortex that receives inputs from the Lateral geniculate nucleus of thalamus. Often referred to as V1 or VISp. <a href="#term-primary-visual-cortex">Go to the card</a>.
 
-Probe / shank / channel / site
-  The recording hierarchy: a probe carries one or more shanks, a shank is patterned with recording sites, and the subset wired out for recording at any moment are the channels. <a href="#term-probe-shank-channel">Go to the card</a>.
-
 Proofreading
   Manual correction of split/merge errors to make neurons biologically accurate/complete. <a href="#term-proofreading">Go to the card</a>.
-
-PSTH
-  Peri-stimulus time histogram: spikes binned relative to stimulus onset and averaged over trials, giving the time course of the response. <a href="#term-psth">Go to the card</a>.
 
 PyChunkedGraph (PCG) / L2 graph
   Hierarchical representation: L0 = voxels, L1 = supervoxels, L2 = supervoxels grouped within a chunk. <a href="#term-pychunkedgraph-pcg-l2-graph">Go to the card</a>.
@@ -3113,26 +1930,14 @@ PyChunkedGraph (PCG) / L2 graph
 Pyramidal cell
   A type of excitatory neuron with a characteristic cell body shape and apical dendrite. In visual cortex, pyramidal cells are by far the most common type of excitatory neuron. <a href="#term-pyramidal-cell">Go to the card</a>.
 
-Q value / RPE
-  Latent variables of a reinforcement-learning fit to foraging behaviour: the expected value of each choice, and the reward prediction error that updates it. Useful precisely because they can then be regressed against neural activity. <a href="#term-q-value-rpe">Go to the card</a>.
-
-query_table / synapse_query
-  The two query entry points + filter_in_dict; note the 200k-row cap, desired_resolution, select_columns, split_positions. <a href="#term-query-table-synapse-query">Go to the card</a>.
-
 Radial distance
   Depth measured along the local pia-to-white-matter streamline rather than along a straight line. Cortex curves, so two cells the same Euclidean distance apart can sit in different layers; following the streamline is what makes depth comparable across a volume. standard_transform.radial_distance computes it. <a href="#term-radial-distance">Go to the card</a>.
 
 Radius
   Half the cable thickness at a skeleton vertex (µm). <a href="#term-radius">Go to the card</a>.
 
-readout_loc_x/y
-  Approximate receptive-field center in stimulus space. <a href="#term-readout-loc-x-y">Go to the card</a>.
-
 Receptive field
   In a sensory context, the receptive field of a neuron is the region of the stimulus domain in which sensory stimulus needs to lie in order to evoke a response. For visual cortical cells, for example, the receptive field is the region of visual space in which stimuli can evoke neural responses. In a computational context, this notion is often generalized multiple dimensions (e.g. space, time, frequency, etc.) and thus equates to the necessary stimulus features that drive neural response (e.g. a localized grating of a specific orientation and frequency). <a href="#term-receptive-field">Go to the card</a>.
-
-Reference table
-  A table linked to another (usually nucleus_detection_v0) by shared annotation id, adding _ref columns. <a href="#term-reference-table">Go to the card</a>.
 
 Regular spiking neuron (RS)
   Neurons that, when injected with a long step of current in the context of intracellular recordings, show spike frequency adaptation where the rate of spiking decreases over time. These neurons also have longer (or wider) action potentials, and lower spike rates even when injected with large currents due to hyperpolarization after each action potential. These are the most common type of neurons in the mammalian cortex, and are often associated excitatory neurons. In extracellular recordings, neurons with longer action potentials are also sometimes referred to as regular spiking neurons, a feature which is used to associate these units with specific cell types, such as excitatory pyramidal neurons among others. <a href="#term-regular-spiking-neuron">Go to the card</a>.
@@ -3149,9 +1954,6 @@ Residual / Separation score
 Resolution
   Physical voxel size in nm/voxel (MICrONS 4×4×40; V1DD 9×9×45); set per query via desired_resolution. <a href="#term-resolution">Go to the card</a>.
 
-Response modulation index (RMI)
-  The normalised contrast between visual and auditory target response rates, collapsing two hit rates into one number that says which context the mouse is behaving in. <a href="#term-rmi">Go to the card</a>.
-
 Retinotopy
 retinotopic map
   retinotopy refers to the mapping of visual space on to neural space. Most visual areas of the brain contain an orderly map of visual space such that neighboring regions in space are represented by neighboring regions in the brain. Retinotopic maps are typically measured in terms of altitude (aka vertical retinotopy), referring to the axis from upper to lower visual field, and and azimuth (aka horizontal retinotopy), referring to the axis from left to right in space. <a href="#term-retinotopy">Go to the card</a>.
@@ -3162,9 +1964,6 @@ ROI
 
 Root_id (pt_root_id)
   Unique integer for a specific segmentation = a specific version of a cell (a.k.a. segment / object id). <a href="#term-root-id-pt-root-id">Go to the card</a>.
-
-Running speed
-  Speed on the running disc, temporally aligned to the activity traces. Same length as ΔF/F, so a stimulus epoch indexes into both. <a href="#term-running-speed">Go to the card</a>.
 
 Saccade
   A rapid and ballistic eye movement that shifts the visual field between two fixation points. Mice are not foveal animals, and their eye movements are different from foveal animals (such as humans). <a href="#term-saccade">Go to the card</a>.
@@ -3187,27 +1986,12 @@ Serial-section EM
 Session
   A physiological and/or behavioral recording that happens at one time. <a href="#term-session">Go to the card</a>.
 
-Share link / middleauth
-  Authenticated state-sharing mechanism. <a href="#term-share-link-middleauth">Go to the card</a>.
-
-Signal vs noise correlation
-  Signal correlation compares two cells' mean responses across stimulus conditions — do they like the same things. Noise correlation compares their trial-to-trial fluctuations to the same condition — do they vary together. <a href="#term-signal-noise-correlation">Go to the card</a>.
-
-Single unit vs multi-unit
-  Not two categories but a gradient, from complete and uncontaminated to incomplete and highly contaminated. Every analysis still has to draw a binary line somewhere; quality metrics are how you draw it deliberately. <a href="#term-single-vs-multi-unit">Go to the card</a>.
-
 Skeletons
   Tree-like linear representation of a neuron's branching (vertices + edges, radius, compartments). <a href="#term-skeletons">Go to the card</a>.
-
-snr
-  Waveform amplitude relative to background noise on the peak channel. <a href="#term-snr-unit">Go to the card</a>.
 
 Somatostatin (SST) cell
 Somatostatin cell
   A type of inhibitory interneuron expressing the molecular marker somatostatin (SST, or sometimes SOM). SST cells tend to target the distal dendrites of excitatory neurons, and have important roles in regulating the activity of excitatory neurons. <a href="#term-somatostatin-sst-cell">Go to the card</a>.
-
-Source
-  Disambiguation: image_source/segmentation_source, the Neuroglancer layer source, and skeleton path_between(source,…). <a href="#term-source">Go to the card</a>.
 
 Source (presynaptic)
   The presynaptic partner of a synapse (pre_pt_root_id). <a href="#term-source-presynaptic">Go to the card</a>.
@@ -3218,47 +2002,11 @@ Spatial frequency
 Spectral shape analysis (HKS)
   Shape descriptors computed from the heat kernel on a mesh, invariant to how the surface is bent. A classifier on these features drives the spine, shaft and soma predictions attached to synapses. <a href="#term-spectral-shape-analysis">Go to the card</a>.
 
-Spike band / LFP band
-  The two streams split off each channel: the spike band at 30 kHz with a 500 Hz high-pass, carrying action potentials from adjacent neurons; the LFP band at 2.5 kHz, carrying low-frequency fluctuations from a wider area. <a href="#term-spike-band-lfp-band">Go to the card</a>.
-
-Spike raster
-  One row per trial, one tick per spike, aligned on an event. The plot to make before any model, because it shows trial-to-trial structure that an average hides. <a href="#term-raster">Go to the card</a>.
-
-Spike sorting
-  Assigning detected spikes to individual neurons — a blind source separation problem. Detection, extraction, feature extraction, clustering, then validation against the refractory period. <a href="#term-spike-sorting">Go to the card</a>.
-
 Split errors
   A process incorrectly appears to stop; they remove true connections. <a href="#term-split-errors">Go to the card</a>.
 
-Spontaneous activity
-  An epoch of mean-luminance grey with no patterned stimulus, included in most sessions as a baseline for visually evoked activity. <a href="#term-spontaneous-activity">Go to the card</a>.
-
-standard_transform
-  Package converting voxel/nm coordinates to pia-flattened micron coordinates (minnie_ds, v1dd_ds). <a href="#term-standard-transform">Go to the card</a>.
-
-State
-  Four unrelated meanings, two of which appear in the same workshop. <a href="#term-state">Go to the card</a>.
-
-Static gratings
-  A stationary full-field sinusoidal grating flashed for 0.25 s. No temporal frequency; phase becomes a parameter instead. <a href="#term-static-gratings">Go to the card</a>.
-
-Status flags
-  Booleans status_axon/status_dendrite recording whether each arbor was proofread, plus valid_id (root id at assessment). <a href="#term-status-flags">Go to the card</a>.
-
-Stimulus template
-  The literal image shown, stored alongside the stimulus table for image and movie stimuli. Often available both unwarped and warped — the warped version is what the monitor rendered. <a href="#term-stimulus-template">Go to the card</a>.
-
-Strategy values
-  dendrite_clean, dendrite_extended, axon_partially_extended, axon_fully_extended, axon_interareal (MICrONS only), axon_column_truncated, none. The truncated case matters: those axons were followed only within the column, so their outputs are spatially biased and cannot be compared with fully extended ones. <a href="#term-strategy-values">Go to the card</a>.
-
-Structure acronym
-  The CCF region label attached to a channel or unit — VISp, MOs, LSr. A unit with no CCF registration gets coordinates of [-1, -1, -1]. <a href="#term-structure-acronym">Go to the card</a>.
-
 Supervoxel (pt_supervoxel_id)
   L1 grouping of voxels within a chunk; the stable internal id an annotation binds to. <a href="#term-supervoxel-pt-supervoxel-id">Go to the card</a>.
-
-Surround suppression
-  A stimulus extending beyond a cell's classical receptive field suppresses its response. Stronger in superficial layers, and one of the questions V1DD's windowed and full-field gratings were designed to address. <a href="#term-surround-suppression">Go to the card</a>.
 
 SWC format
   Standard skeleton file format (one of three: SWC, meshwork-h5, precomputed). <a href="#term-swc-format">Go to the card</a>.
@@ -3266,32 +2014,11 @@ SWC format
 Synapse size
   Synapse size in voxels; correlates with surface area / strength. <a href="#term-synapse-size">Go to the card</a>.
 
-synapse_target_predictions_ssa
-  Per-synapse postsynaptic-compartment prediction (soma / spine / shaft). <a href="#term-synapse-target-predictions-ssa">Go to the card</a>.
-
-synapses_pni_2 / synapses_v1dd
-  The sole synapse tables (337M / 639M rows). <a href="#term-synapses-pni-2-synapses-v1dd">Go to the card</a>.
-
-Table Viewer
-  Dash app to query/filter one table and select rows in Neuroglancer. <a href="#term-table-viewer">Go to the card</a>.
-
-Tables
-  CAVE annotation tables (synapses, nuclei, cell types, proofreading, coregistration). <a href="#term-tables">Go to the card</a>.
-
-Tags / Shortcuts
-  Keyboard-driven annotation labels for fast bulk labeling in Neuroglancer. <a href="#term-tags-shortcuts">Go to the card</a>.
-
-Target
-  Disambiguation: target_id (reference link) vs synaptic postsynaptic partner vs path target_index. <a href="#term-target">Go to the card</a>.
-
 Target (postsynaptic)
   The postsynaptic partner of a synapse (post_pt_root_id). <a href="#term-target-postsynaptic">Go to the card</a>.
 
 Targeted structure
   The brain region where data was collected from. <a href="#term-targeted-structure">Go to the card</a>.
-
-TEASAR
-  Algorithm that turns the L2 graph into a skeleton tree. <a href="#term-teasar">Go to the card</a>.
 
 TEM
   Transmission EM; MICrONS/V1DD are serial-section TEM-style (thin sections, anisotropic z). <a href="#term-tem">Go to the card</a>.
@@ -3299,26 +2026,11 @@ TEM
 Temporal frequency
   How many complete periods the signal goes through for a given unit of time. Typically measured in Hertz. <a href="#term-temporal-frequency">Go to the card</a>.
 
-Three-photon (3P) imaging
-  Raises signal-to-noise for deep imaging of densely labelled tissue. Used to extend the V1DD centre column to white matter, where 2P image quality has degraded. <a href="#term-three-photon-imaging">Go to the card</a>.
-
-Token / auth
-  Google-account credential required before any programmatic access, saved per server. <a href="#term-token-auth">Go to the card</a>.
-
 Transgenic line
   A mouse line whose genome has been altered by the introduction of one or more foreign DNA sequences. For these contexts, this typical involves using Cre lines to drive the expression of a Reporter line within a specific subset of cells. <a href="#term-transgenic-line">Go to the card</a>.
 
-Tuning curve
-  Mean response plotted against a stimulus parameter. The shape of the curve is what selectivity indices such as OSI and DSI summarise in one number. <a href="#term-tuning-curve">Go to the card</a>.
-
 Two-photon calcium imaging
   A term for techniques which measure neural activity of neurons by measuring a fluorescent calcium indicator. These indicators are usually a protein expressed in a cell, such as GCaMP, often using a specific combination of Driver line and reporter lines to express GCaMP in a specific subset of neurons. Fluorescent dyes can also be used to perform calcium imaging. At rest a neuron has low levels of calcium, and when the neuron spikes calcium flows into the neuron and raises the level of calcium, which binds to the calcium indicator and increases the emitted fluorescence in a specific wavelength. See {cite:t}`svoboda2006` for a review of two-photon calcium imaging. <a href="#term-two-photon-calcium-imaging">Go to the card</a>.
-
-Two-photon excitation
-  Two long-wavelength photons excite one fluorophore. Absorption is non-linear in photon density, so only a single voxel is excited at a time — that is what gives optical sectioning in intact tissue. <a href="#term-two-photon-excitation">Go to the card</a>.
-
-Types of errors in imagery
-  Section/alignment artifacts (folds, cracks, missing sections) that propagate into segmentation. <a href="#term-types-of-errors-in-imagery">Go to the card</a>.
 
 Ultrastructure
   Fine sub-cellular EM features: organelles, mitochondria, synapses, myelin. <a href="#term-ultrastructure">Go to the card</a>.
@@ -3326,20 +2038,8 @@ Ultrastructure
 Unit
   A putative neuron in extracellular electrophysiology, with varying degrees of confidence assigned to it. In extracellular electrophysiology, neurons are referred to as units, because we cannot guarantee that all the spikes assigned to one unit actually originate from a single cell. Unlike in two-photon imaging, where you can visualize each neuron throughout the entire experiment, with electrophysiology we can only “see” a neuron when it fires a spike. If a neuron moves relative to the probe, or if it’s far away from the probe, some of its spikes may get mixed together with those from other neurons. Because of this inherent ambiguity, quality metrics allow you to find the right units for your analysis. Even highly contaminated units can contain potentially valuable information about brain states, but certain types of analysis require more stringent quality thresholds to ensure that all of the included units are well isolated from their neighbors. <a href="#term-unit">Go to the card</a>.
 
-Unit quality metrics
-  Per-unit numbers describing how badly spike sorting may have gone wrong for that unit — contamination from other neurons, spikes missed, or the unit drifting away. None is perfect; which thresholds apply depends on the analysis. <a href="#term-quality-metrics">Go to the card</a>.
-
-Unproofread
-  An arbor that has not been comprehensively corrected. It is truncated by split errors and may carry merged fragments of other cells, so its apparent partners are unreliable. <a href="#term-unproofread">Go to the card</a>.
-
 V1DD (V1 Deep-Dive)
   Functional (2p/3p calcium) + EM dataset of V1 across all layers in 4 mice (~50k neurons/mouse). <a href="#term-v1dd-v1-deep-dive">Go to the card</a>.
-
-V1DD functional index
-  V1DD's Golden-Mouse column/volume/plane/roi scheme, distinct from MICrONS session/scan/unit. <a href="#term-v1dd-functional-index">Go to the card</a>.
-
-valid_roi
-  The ophys equivalent of a unit quality flag: whether cell classification judged a segmented ROI to be a real cell. Only valid ROIs are released. <a href="#term-valid-roi">Go to the card</a>.
 
 Vertex / Vertices
   Points in 3D (N×3, nanometers) that, connected, build meshes and skeletons. <a href="#term-vertex-vertices">Go to the card</a>.
@@ -3367,14 +2067,11 @@ Watertight
 
 Waveform
   In a system neuroscience setting, this often refers to the voltage over time measured with an electrode when an individual neuron produces an action potential. <a href="#term-waveform">Go to the card</a>.
-
-ΔF/F (dF/F)
-  Change in fluorescence normalised by a baseline. The baseline is the median fluorescence in a 180 s window centred on each time point, so ΔF/F is a relative, unitless signal. <a href="#term-df-f">Go to the card</a>.
 :::::
 ::::::
 
 :::{note}
-This page is generated from [`57e1a87`](https://github.com/lappalainenj/allen-glossary/commit/57e1a8726cbf58819c629e22daa0d14c0a09e570) of the
+This page is generated from [`1aa0c04`](https://github.com/lappalainenj/allen-glossary/commit/1aa0c040189adc824959263bfd31e79e4d6bed84) of the
 [Allen Glossary](https://github.com/lappalainenj/allen-glossary) repository.
 Do not edit it directly &mdash; edits are overwritten the next time it is regenerated.
 To fix a definition or add a term, open a pull request against that repository.
